@@ -15,6 +15,7 @@ $(function(){
 
 
 $(document).scroll(function(){
+	$("html").niceScroll();
 	scrollPosition=($(document).scrollTop());
 	console.log(scrollPosition);
 	
@@ -30,12 +31,23 @@ $(document).scroll(function(){
 		
 		$('#header').removeClass('fixed-header');
 	}
-	if(scrollPosition > 0)
+
+	// Main Logo
+	if(scrollPosition > 40)
 	{
 	
 	
 		$('#mainLogo').addClass('fadeOut animated');
+	}	
+	if(scrollPosition < 40)
+	{
+	
+	$('#mainLogo').removeClass('fadeOut animated');
+		$('#mainLogo').addClass('fadeIn animated');
 	}
+
+
+	//Settitle
 	if(scrollPosition > 300)
 	{
 	

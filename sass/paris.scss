@@ -15,6 +15,14 @@ h1,h2,h3,h4,h5,h6,ul{
 	padding:0;
 }
 
+
+.anim{
+	    -webkit-transition: all 500ms ease-out;
+    -moz-transition: all 500ms ease-out;
+    -o-transition: all 500ms ease-out;
+    transition: all 500ms ease-out;
+}
+
 #nav-bar{
   ul{
       li{
@@ -171,10 +179,15 @@ border-radius: 0;
 		#header{
 			#nav-bar{
 				ul{
-					li{
-						.selected{
-							border-bottom: 1px solid #fff;
-							padding: 2px 0;
+					li:not(.li-logo){
+
+						
+
+						.selected, a:hover{
+							@extend .anim;
+							border-bottom: 4px solid #fff;
+							padding-bottom:5px;
+
 						}
 					}
 				}
