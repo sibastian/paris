@@ -1,0 +1,489 @@
+/* line 6, ../sass/paris.scss */
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+}
+
+/* line 13, ../sass/paris.scss */
+h1, h2, h3, h4, h5, h6, ul {
+  margin: 0;
+  padding: 0;
+}
+
+/* line 20, ../sass/paris.scss */
+#nav-bar ul li, .page-wrapper #header ul li {
+  padding: 0 20px;
+}
+/* line 22, ../sass/paris.scss */
+#nav-bar ul li a, .page-wrapper #header ul li a {
+  color: #fff;
+  text-transform: uppercase;
+  font-family: 'montserrat';
+  font-size: 15px;
+  font-weight: bold;
+}
+/* line 28, ../sass/paris.scss */
+#nav-bar ul li a:hover, .page-wrapper #header ul li a:hover {
+  text-decoration: none;
+}
+/* line 32, ../sass/paris.scss */
+#nav-bar ul li .logo, .page-wrapper #header ul li .logo {
+  width: 44px;
+  display: inline-block;
+}
+/* line 35, ../sass/paris.scss */
+#nav-bar ul li .logo img, .page-wrapper #header ul li .logo img {
+  width: 100%;
+}
+
+/* line 43, ../sass/paris.scss */
+.btn-default {
+  border-radius: 0;
+  background: transparent;
+  color: #fff;
+  text-transform: uppercase;
+  font-family: 'montserrat';
+  font-size: 17px;
+  font-weight: 700;
+  padding: 14px 24px;
+  border: 1px solid rgba(255, 255, 255, 0.64);
+}
+/* line 53, ../sass/paris.scss */
+.btn-default:hover {
+  background: transparent;
+  color: #fff;
+  border: 1px solid rgba(255, 255, 255, 0.64);
+}
+
+/* line 60, ../sass/paris.scss */
+#light-color {
+  background: rgba(0, 0, 0, 0.4);
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  padding-top: 65px;
+}
+
+/* line 68, ../sass/paris.scss */
+.page-wrapper #light-color {
+  padding-top: 226px;
+}
+
+/* line 72, ../sass/paris.scss */
+.page-wrapper {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  /*heading-page*/
+}
+/* line 78, ../sass/paris.scss */
+.page-wrapper .logo {
+  width: 200px;
+  margin: 0 auto;
+}
+/* line 81, ../sass/paris.scss */
+.page-wrapper .logo img {
+  width: 100%;
+}
+/* line 85, ../sass/paris.scss */
+.page-wrapper .title {
+  text-align: center;
+}
+/* line 87, ../sass/paris.scss */
+.page-wrapper .title h1, .page-wrapper .title h2 {
+  color: #fff;
+  text-transform: uppercase;
+  font-family: "montserrat";
+  font-weight: 700;
+  font-size: 54px;
+  margin: 10px 0;
+}
+/* line 95, ../sass/paris.scss */
+.page-wrapper .title h2 {
+  font-size: 19px;
+  font-weight: 400;
+  text-transform: capitalize;
+}
+/* line 103, ../sass/paris.scss */
+.page-wrapper #header, .page-wrapper #footer {
+  position: absolute;
+  height: auto;
+  display: block;
+  width: 100%;
+  background: url(../img/bg-ux.jpg) no-repeat;
+  background-size: cover;
+  z-index: 9;
+  text-align: center;
+  color: #f2f2f2;
+  padding: 12px 0;
+}
+/* line 116, ../sass/paris.scss */
+.page-wrapper #footer {
+  bottom: 163px;
+  background: transparent;
+}
+/* line 120, ../sass/paris.scss */
+.page-wrapper #header {
+  top: 0px;
+}
+/* line 124, ../sass/paris.scss */
+.page-wrapper.start-page {
+  background: url(../img/bg-start.jpg) no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+}
+/* line 129, ../sass/paris.scss */
+.page-wrapper.start-page #light-color {
+  padding-top: 68px;
+}
+/* line 132, ../sass/paris.scss */
+.page-wrapper.start-page #light-color .title h2 {
+  width: 36%;
+  margin-left: 50%;
+  transform: translateX(-50%);
+}
+/* line 141, ../sass/paris.scss */
+.page-wrapper .arrow-down {
+  position: absolute;
+  bottom: 0px;
+  margin: 0 auto;
+  text-align: center;
+  width: 100%;
+}
+/* line 147, ../sass/paris.scss */
+.page-wrapper .arrow-down i {
+  color: #fff;
+  font-size: 26px;
+}
+
+/*inner-page*/
+/* line 157, ../sass/paris.scss */
+.page-wrapper .title strong {
+  color: #fff;
+  font-family: "montserrat";
+  text-transform: uppercase;
+  font-size: 18px;
+  border-top: 3px solid #fff;
+  border-bottom: 3px solid #fff;
+}
+/* line 166, ../sass/paris.scss */
+.page-wrapper.s-bg, .page-wrapper.w-bg, .page-wrapper.c-bg, .page-wrapper.co-bg {
+  background: url(../img/bg-inner-first.jpg) no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+}
+/* line 175, ../sass/paris.scss */
+.page-wrapper.s-bg #header #nav-bar ul li .selected, .page-wrapper.w-bg #header #nav-bar ul li .selected, .page-wrapper.c-bg #header #nav-bar ul li .selected, .page-wrapper.co-bg #header #nav-bar ul li .selected, .page-wrapper.s-bg #header #header ul li .selected, .page-wrapper.w-bg #header #header ul li .selected, .page-wrapper.c-bg #header #header ul li .selected, .page-wrapper.co-bg #header #header ul li .selected {
+  border-bottom: 1px solid #fff;
+  padding: 2px 0;
+}
+/* line 183, ../sass/paris.scss */
+.page-wrapper.s-bg.e-page, .page-wrapper.s-bg.e-page.m-page, .page-wrapper.e-page.m-page.w-bg, .page-wrapper.e-page.m-page.c-bg, .page-wrapper.e-page.m-page.co-bg, .page-wrapper.e-page.w-bg, .page-wrapper.e-page.c-bg, .page-wrapper.e-page.co-bg {
+  background: url(../img/bg-design.jpg) no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+}
+/* line 188, ../sass/paris.scss */
+.page-wrapper.s-bg.e-page #light-color, .page-wrapper.e-page.w-bg #light-color, .page-wrapper.e-page.c-bg #light-color, .page-wrapper.e-page.co-bg #light-color {
+  padding: 0;
+}
+/* line 191, ../sass/paris.scss */
+.page-wrapper.s-bg.e-page .title, .page-wrapper.e-page.w-bg .title, .page-wrapper.e-page.c-bg .title, .page-wrapper.e-page.co-bg .title {
+  text-align: left;
+  padding-top: 45px;
+}
+/* line 194, ../sass/paris.scss */
+.page-wrapper.s-bg.e-page .title strong, .page-wrapper.e-page.w-bg .title strong, .page-wrapper.e-page.c-bg .title strong, .page-wrapper.e-page.co-bg .title strong {
+  display: inline-block;
+}
+/* line 197, ../sass/paris.scss */
+.page-wrapper.s-bg.e-page .title h1, .page-wrapper.e-page.w-bg .title h1, .page-wrapper.e-page.c-bg .title h1, .page-wrapper.e-page.co-bg .title h1 {
+  display: inline-block;
+  font-size: 24px;
+  padding: 0 10px;
+}
+/* line 203, ../sass/paris.scss */
+.page-wrapper.s-bg.e-page .heading, .page-wrapper.e-page.w-bg .heading, .page-wrapper.e-page.c-bg .heading, .page-wrapper.e-page.co-bg .heading {
+  text-align: center;
+  padding-top: 130px;
+}
+/* line 206, ../sass/paris.scss */
+.page-wrapper.s-bg.e-page .heading h1, .page-wrapper.e-page.w-bg .heading h1, .page-wrapper.e-page.c-bg .heading h1, .page-wrapper.e-page.co-bg .heading h1 {
+  text-transform: uppercase;
+  font-family: "montserrat";
+  font-weight: 700;
+  color: #fff;
+  font-size: 60px;
+}
+/* line 213, ../sass/paris.scss */
+.page-wrapper.s-bg.e-page .heading strong, .page-wrapper.e-page.w-bg .heading strong, .page-wrapper.e-page.c-bg .heading strong, .page-wrapper.e-page.co-bg .heading strong {
+  text-transform: uppercase;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 300;
+  font-size: 28px;
+  color: #fff;
+}
+/* line 222, ../sass/paris.scss */
+.page-wrapper.s-bg.e-page.e-content, .page-wrapper.e-page.e-content.w-bg, .page-wrapper.e-page.e-content.c-bg, .page-wrapper.e-page.e-content.co-bg {
+  background: url(../img/bg-ux.jpg) no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+}
+/* line 227, ../sass/paris.scss */
+.page-wrapper.s-bg.e-page.e-content .heading, .page-wrapper.e-page.e-content.w-bg .heading, .page-wrapper.e-page.e-content.c-bg .heading, .page-wrapper.e-page.e-content.co-bg .heading {
+  text-align: center;
+  padding: 0;
+}
+/* line 230, ../sass/paris.scss */
+.page-wrapper.s-bg.e-page.e-content .heading strong, .page-wrapper.e-page.e-content.w-bg .heading strong, .page-wrapper.e-page.e-content.c-bg .heading strong, .page-wrapper.e-page.e-content.co-bg .heading strong {
+  font-size: 16px;
+}
+/* line 233, ../sass/paris.scss */
+.page-wrapper.s-bg.e-page.e-content .heading h1, .page-wrapper.e-page.e-content.w-bg .heading h1, .page-wrapper.e-page.e-content.c-bg .heading h1, .page-wrapper.e-page.e-content.co-bg .heading h1 {
+  font-size: 30px;
+}
+/* line 237, ../sass/paris.scss */
+.page-wrapper.s-bg.e-page.e-content .c-content-max, .page-wrapper.e-page.e-content.w-bg .c-content-max, .page-wrapper.e-page.e-content.c-bg .c-content-max, .page-wrapper.e-page.e-content.co-bg .c-content-max, .page-wrapper.s-bg.e-page.e-content .c-content-mini, .page-wrapper.e-page.e-content.w-bg .c-content-mini, .page-wrapper.e-page.e-content.c-bg .c-content-mini, .page-wrapper.e-page.e-content.co-bg .c-content-mini, .page-wrapper.s-bg.e-page.e-content .c-content-mini-second, .page-wrapper.e-page.e-content.w-bg .c-content-mini-second, .page-wrapper.e-page.e-content.c-bg .c-content-mini-second, .page-wrapper.e-page.e-content.co-bg .c-content-mini-second {
+  margin: 0;
+}
+/* line 239, ../sass/paris.scss */
+.page-wrapper.s-bg.e-page.e-content .c-content-max .pics, .page-wrapper.e-page.e-content.w-bg .c-content-max .pics, .page-wrapper.e-page.e-content.c-bg .c-content-max .pics, .page-wrapper.e-page.e-content.co-bg .c-content-max .pics, .page-wrapper.s-bg.e-page.e-content .c-content-mini .pics, .page-wrapper.e-page.e-content.w-bg .c-content-mini .pics, .page-wrapper.e-page.e-content.c-bg .c-content-mini .pics, .page-wrapper.e-page.e-content.co-bg .c-content-mini .pics, .page-wrapper.s-bg.e-page.e-content .c-content-mini-second .pics, .page-wrapper.e-page.e-content.w-bg .c-content-mini-second .pics, .page-wrapper.e-page.e-content.c-bg .c-content-mini-second .pics, .page-wrapper.e-page.e-content.co-bg .c-content-mini-second .pics {
+  text-align: center;
+}
+/* line 241, ../sass/paris.scss */
+.page-wrapper.s-bg.e-page.e-content .c-content-max .pics img, .page-wrapper.e-page.e-content.w-bg .c-content-max .pics img, .page-wrapper.e-page.e-content.c-bg .c-content-max .pics img, .page-wrapper.e-page.e-content.co-bg .c-content-max .pics img, .page-wrapper.s-bg.e-page.e-content .c-content-mini .pics img, .page-wrapper.e-page.e-content.w-bg .c-content-mini .pics img, .page-wrapper.e-page.e-content.c-bg .c-content-mini .pics img, .page-wrapper.e-page.e-content.co-bg .c-content-mini .pics img, .page-wrapper.s-bg.e-page.e-content .c-content-mini-second .pics img, .page-wrapper.e-page.e-content.w-bg .c-content-mini-second .pics img, .page-wrapper.e-page.e-content.c-bg .c-content-mini-second .pics img, .page-wrapper.e-page.e-content.co-bg .c-content-mini-second .pics img {
+  width: 18%;
+  border-radius: 100%;
+  display: inline-block;
+  border: 2px solid #fff;
+}
+/* line 247, ../sass/paris.scss */
+.page-wrapper.s-bg.e-page.e-content .c-content-max .pics .c-title, .page-wrapper.e-page.e-content.w-bg .c-content-max .pics .c-title, .page-wrapper.e-page.e-content.c-bg .c-content-max .pics .c-title, .page-wrapper.e-page.e-content.co-bg .c-content-max .pics .c-title, .page-wrapper.s-bg.e-page.e-content .c-content-mini .pics .c-title, .page-wrapper.e-page.e-content.w-bg .c-content-mini .pics .c-title, .page-wrapper.e-page.e-content.c-bg .c-content-mini .pics .c-title, .page-wrapper.e-page.e-content.co-bg .c-content-mini .pics .c-title, .page-wrapper.s-bg.e-page.e-content .c-content-mini-second .pics .c-title, .page-wrapper.e-page.e-content.w-bg .c-content-mini-second .pics .c-title, .page-wrapper.e-page.e-content.c-bg .c-content-mini-second .pics .c-title, .page-wrapper.e-page.e-content.co-bg .c-content-mini-second .pics .c-title {
+  text-align: center;
+  display: block;
+  margin: 12px 0;
+}
+/* line 251, ../sass/paris.scss */
+.page-wrapper.s-bg.e-page.e-content .c-content-max .pics .c-title h1, .page-wrapper.e-page.e-content.w-bg .c-content-max .pics .c-title h1, .page-wrapper.e-page.e-content.c-bg .c-content-max .pics .c-title h1, .page-wrapper.e-page.e-content.co-bg .c-content-max .pics .c-title h1, .page-wrapper.s-bg.e-page.e-content .c-content-mini .pics .c-title h1, .page-wrapper.e-page.e-content.w-bg .c-content-mini .pics .c-title h1, .page-wrapper.e-page.e-content.c-bg .c-content-mini .pics .c-title h1, .page-wrapper.e-page.e-content.co-bg .c-content-mini .pics .c-title h1, .page-wrapper.s-bg.e-page.e-content .c-content-mini-second .pics .c-title h1, .page-wrapper.e-page.e-content.w-bg .c-content-mini-second .pics .c-title h1, .page-wrapper.e-page.e-content.c-bg .c-content-mini-second .pics .c-title h1, .page-wrapper.e-page.e-content.co-bg .c-content-mini-second .pics .c-title h1 {
+  color: #fff;
+  font-family: "montserrat";
+  font-size: 35px;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+/* line 262, ../sass/paris.scss */
+.page-wrapper.s-bg.e-page.e-content #fst-max, .page-wrapper.e-page.e-content.w-bg #fst-max, .page-wrapper.e-page.e-content.c-bg #fst-max, .page-wrapper.e-page.e-content.co-bg #fst-max {
+  margin-top: 60px;
+}
+/* line 265, ../sass/paris.scss */
+.page-wrapper.s-bg.e-page.e-content .c-content-mini, .page-wrapper.e-page.e-content.w-bg .c-content-mini, .page-wrapper.e-page.e-content.c-bg .c-content-mini, .page-wrapper.e-page.e-content.co-bg .c-content-mini, .page-wrapper.s-bg.e-page.e-content .c-content-mini-second, .page-wrapper.e-page.e-content.w-bg .c-content-mini-second, .page-wrapper.e-page.e-content.c-bg .c-content-mini-second, .page-wrapper.e-page.e-content.co-bg .c-content-mini-second {
+  margin-top: 20px;
+}
+/* line 269, ../sass/paris.scss */
+.page-wrapper.s-bg.e-page.e-content .c-content-mini .pics img, .page-wrapper.e-page.e-content.w-bg .c-content-mini .pics img, .page-wrapper.e-page.e-content.c-bg .c-content-mini .pics img, .page-wrapper.e-page.e-content.co-bg .c-content-mini .pics img, .page-wrapper.s-bg.e-page.e-content .c-content-mini-second .pics img, .page-wrapper.e-page.e-content.w-bg .c-content-mini-second .pics img, .page-wrapper.e-page.e-content.c-bg .c-content-mini-second .pics img, .page-wrapper.e-page.e-content.co-bg .c-content-mini-second .pics img {
+  width: 18%;
+}
+/* line 272, ../sass/paris.scss */
+.page-wrapper.s-bg.e-page.e-content .c-content-mini .pics .c-title, .page-wrapper.e-page.e-content.w-bg .c-content-mini .pics .c-title, .page-wrapper.e-page.e-content.c-bg .c-content-mini .pics .c-title, .page-wrapper.e-page.e-content.co-bg .c-content-mini .pics .c-title, .page-wrapper.s-bg.e-page.e-content .c-content-mini-second .pics .c-title, .page-wrapper.e-page.e-content.w-bg .c-content-mini-second .pics .c-title, .page-wrapper.e-page.e-content.c-bg .c-content-mini-second .pics .c-title, .page-wrapper.e-page.e-content.co-bg .c-content-mini-second .pics .c-title {
+  text-align: center;
+  margin: 10px 0;
+}
+/* line 275, ../sass/paris.scss */
+.page-wrapper.s-bg.e-page.e-content .c-content-mini .pics .c-title h1, .page-wrapper.e-page.e-content.w-bg .c-content-mini .pics .c-title h1, .page-wrapper.e-page.e-content.c-bg .c-content-mini .pics .c-title h1, .page-wrapper.e-page.e-content.co-bg .c-content-mini .pics .c-title h1, .page-wrapper.s-bg.e-page.e-content .c-content-mini-second .pics .c-title h1, .page-wrapper.e-page.e-content.w-bg .c-content-mini-second .pics .c-title h1, .page-wrapper.e-page.e-content.c-bg .c-content-mini-second .pics .c-title h1, .page-wrapper.e-page.e-content.co-bg .c-content-mini-second .pics .c-title h1 {
+  font-size: 20px;
+}
+/* line 284, ../sass/paris.scss */
+.page-wrapper.s-bg.e-page.e-content #lst-mini .pics, .page-wrapper.e-page.e-content.w-bg #lst-mini .pics, .page-wrapper.e-page.e-content.c-bg #lst-mini .pics, .page-wrapper.e-page.e-content.co-bg #lst-mini .pics {
+  margin: 22px 0;
+}
+/* line 286, ../sass/paris.scss */
+.page-wrapper.s-bg.e-page.e-content #lst-mini .pics img, .page-wrapper.e-page.e-content.w-bg #lst-mini .pics img, .page-wrapper.e-page.e-content.c-bg #lst-mini .pics img, .page-wrapper.e-page.e-content.co-bg #lst-mini .pics img {
+  width: 26%;
+}
+/* line 290, ../sass/paris.scss */
+.page-wrapper.s-bg.e-page.e-content #lst-mini .pics .c-title h1, .page-wrapper.e-page.e-content.w-bg #lst-mini .pics .c-title h1, .page-wrapper.e-page.e-content.c-bg #lst-mini .pics .c-title h1, .page-wrapper.e-page.e-content.co-bg #lst-mini .pics .c-title h1 {
+  font-size: 19px;
+}
+/* line 301, ../sass/paris.scss */
+.page-wrapper.s-bg.e-page.m-page, .page-wrapper.m-page.e-page.w-bg, .page-wrapper.m-page.e-page.c-bg, .page-wrapper.m-page.e-page.co-bg {
+  background: url(../img/mobile-dev.jpg) no-repeat;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+}
+/* line 307, ../sass/paris.scss */
+.page-wrapper.s-bg.e-page.m-page.e-content, .page-wrapper.m-page.e-content.e-page.w-bg, .page-wrapper.m-page.e-content.e-page.c-bg, .page-wrapper.m-page.e-content.e-page.co-bg {
+  background: url(../img/mac-andr.jpg) no-repeat;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+}
+/* line 313, ../sass/paris.scss */
+.page-wrapper.s-bg.e-page.m-page.e-content .pics img, .page-wrapper.m-page.e-content.e-page.w-bg .pics img, .page-wrapper.m-page.e-content.e-page.c-bg .pics img, .page-wrapper.m-page.e-content.e-page.co-bg .pics img {
+  padding: 20px;
+}
+/* line 319, ../sass/paris.scss */
+.page-wrapper.s-bg.e-page.m-page.e-content #lst-mini .pics, .page-wrapper.m-page.e-content.e-page.w-bg #lst-mini .pics, .page-wrapper.m-page.e-content.e-page.c-bg #lst-mini .pics, .page-wrapper.m-page.e-content.e-page.co-bg #lst-mini .pics {
+  margin: 136px 0;
+}
+/* line 321, ../sass/paris.scss */
+.page-wrapper.s-bg.e-page.m-page.e-content #lst-mini .pics img, .page-wrapper.m-page.e-content.e-page.w-bg #lst-mini .pics img, .page-wrapper.m-page.e-content.e-page.c-bg #lst-mini .pics img, .page-wrapper.m-page.e-content.e-page.co-bg #lst-mini .pics img {
+  width: 35%;
+}
+/* line 325, ../sass/paris.scss */
+.page-wrapper.s-bg.e-page.m-page.e-content #lst-mini .pics .c-title h1, .page-wrapper.m-page.e-content.e-page.w-bg #lst-mini .pics .c-title h1, .page-wrapper.m-page.e-content.e-page.c-bg #lst-mini .pics .c-title h1, .page-wrapper.m-page.e-content.e-page.co-bg #lst-mini .pics .c-title h1 {
+  font-size: 30px;
+}
+
+/* line 344, ../sass/paris.scss */
+.page-wrapper.w-bg.e-page.e-content #lst-mini .pics {
+  margin: 20px 0;
+}
+/* line 348, ../sass/paris.scss */
+.page-wrapper.w-bg.e-page.e-content .click-btn {
+  text-align: center;
+  margin-top: 100px;
+}
+/* line 351, ../sass/paris.scss */
+.page-wrapper.w-bg.e-page.e-content .click-btn.re-btn {
+  margin-top: 200px;
+}
+/* line 355, ../sass/paris.scss */
+.page-wrapper.w-bg.e-page.e-content .project-name {
+  text-align: center;
+  margin-top: 113px;
+}
+/* line 358, ../sass/paris.scss */
+.page-wrapper.w-bg.e-page.e-content .project-name h1 {
+  font-family: "montserrat";
+  font-size: 30px;
+  color: #fff;
+  font-weight: 700;
+  text-transform: capitalize;
+}
+/* line 365, ../sass/paris.scss */
+.page-wrapper.w-bg.e-page.e-content .project-name p {
+  font-family: 'montserrat';
+  font-size: 20px;
+  color: #fff;
+  width: 30%;
+  margin-left: 50%;
+  transform: translateX(-50%);
+}
+/* line 380, ../sass/paris.scss */
+.page-wrapper.c-bg .c-logo-part {
+  text-align: center;
+}
+/* line 382, ../sass/paris.scss */
+.page-wrapper.c-bg .c-logo-part .logo-wrapper {
+  text-align: center;
+  border: 4px solid #fff;
+  width: 250px;
+  border-radius: 100%;
+  height: 250px;
+  margin-left: 50%;
+  transform: translateX(-50%);
+}
+/* line 390, ../sass/paris.scss */
+.page-wrapper.c-bg .c-logo-part .logo-wrapper img {
+  width: 39%;
+}
+/* line 393, ../sass/paris.scss */
+.page-wrapper.c-bg .c-logo-part .logo-wrapper h1, .page-wrapper.c-bg .c-logo-part .logo-wrapper p {
+  color: #fff;
+  font-family: "montserrat";
+  font-weight: 700;
+  font-size: 22px;
+  text-transform: capitalize;
+  margin-top: 112px;
+}
+/* line 402, ../sass/paris.scss */
+.page-wrapper.c-bg .c-logo-part .logo-wrapper p {
+  font-size: 20px;
+  display: none;
+}
+/* line 409, ../sass/paris.scss */
+.page-wrapper.co-bg {
+  background: url(../img/map.jpg) no-repeat;
+  background-size: cover;
+}
+/* line 413, ../sass/paris.scss */
+.page-wrapper.co-bg.e-page, .page-wrapper.co-bg.e-page.m-page {
+  background: url(../img/map.jpg) no-repeat;
+  background-size: cover;
+}
+/* line 418, ../sass/paris.scss */
+.page-wrapper.co-bg .t-area {
+  margin-top: 20px;
+  position: relative;
+  width: 50%;
+  margin-left: 50%;
+  transform: translateX(-50%);
+}
+/* line 424, ../sass/paris.scss */
+.page-wrapper.co-bg .t-area textarea {
+  width: 100%;
+  height: 289px;
+  font-family: "montserrat";
+  font-size: 14px;
+  display: block;
+  resize: none;
+}
+/* line 434, ../sass/paris.scss */
+.page-wrapper.co-bg .click-btn {
+  text-align: center;
+  margin: 27px 0;
+}
+/* line 437, ../sass/paris.scss */
+.page-wrapper.co-bg .click-btn .btn-default {
+  padding: 10px 22px;
+}
+/* line 441, ../sass/paris.scss */
+.page-wrapper.co-bg #Email {
+  display: none;
+}
+/* line 443, ../sass/paris.scss */
+.page-wrapper.co-bg #Email .form-control {
+  width: 26%;
+  border-radius: 0;
+  margin-left: 50%;
+  transform: translateX(-50%);
+  padding: 20px 8px;
+  font-family: "montserrat";
+  font-size: 14px;
+}
+/* line 452, ../sass/paris.scss */
+.page-wrapper.co-bg #Email .click-btn {
+  margin: 20px 0;
+}
+/* line 456, ../sass/paris.scss */
+.page-wrapper.co-bg #footer {
+  bottom: 0px;
+  padding: 0;
+  background: transparent;
+}
+/* line 462, ../sass/paris.scss */
+.page-wrapper.co-bg #footer #nav-bar ul li, .page-wrapper.co-bg #footer #header ul li {
+  padding: 0 10px;
+}
+/* line 467, ../sass/paris.scss */
+.page-wrapper.co-bg #footer span {
+  display: inline-block;
+  font-family: 'montserrat';
+  font-size: 20px;
+  text-transform: capitalize;
+  padding-top: 8px;
+}
+
+/*jquery start*/
+/* line 479, ../sass/paris.scss */
+.fixed-header {
+  position: fixed !important;
+  top: 0 !important;
+}
