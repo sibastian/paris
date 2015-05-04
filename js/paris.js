@@ -1,5 +1,19 @@
 var scrollPosition = 0;
 
+
+function motion() {
+	$('#fstMax').show();
+	$('#fstMax').addClass('zoomIn animated');
+	$('.pics1').fadeIn(200);
+
+	// setTimeout(motion2(), 1000);
+}
+
+function motion2() {
+	$('.pics2').fadeIn(200);
+}
+
+
 $(function(){
 	$('.logo-wrapper .content h1').mouseover(function(){
 		$(this).fadeToggle(400);
@@ -11,6 +25,7 @@ $(function(){
 	$('#showEmail').on('click', function(){
 		$('#Email').toggle();
 	});
+	$('.title').fadeToggle(200);
 
 
 
@@ -26,20 +41,19 @@ $(document).scroll(function(){
 	{
 		$('#header').addClass('fixed-header');
 	}
-	if(scrollPosition < 600)
+	if(scrollPosition < 620)
 	{
 		
 		$('#header').removeClass('fixed-header');
 	}
 
 	// Main Logo
-	if(scrollPosition > 40)
+	if(scrollPosition > 108)
 	{
-	
 	
 		$('#mainLogo').addClass('fadeOut animated');
 	}	
-	if(scrollPosition < 40)
+	if(scrollPosition < 108)
 	{
 	
 	$('#mainLogo').removeClass('fadeOut animated');
@@ -48,63 +62,94 @@ $(document).scroll(function(){
 
 
 	//Settitle
-	if(scrollPosition > 300)
+	if(scrollPosition > 273)
 	{
 	
-		$('#SeTitle').addClass('rubberBand animated');
+		$('#SeTitle').addClass('fadeInUp animated');
 	}
 
-
-	if(scrollPosition > 7400)
+// services
+	if(scrollPosition > 890)
 	{
 	
-		$('#WoTitle').addClass('rubberBand animated');
-	}
-
-	if(scrollPosition > 1000)
-	{
-	
-		$('#DeSol').addClass('rubberBand animated');
+		$('#DeSol').addClass('fadeInUp animated');
 	}
 
 	if(scrollPosition > 700)
 	{
 	
-		$('#sideTitle').addClass('bounceInRight animated');
+		$('#sideTitle').addClass('fadeInRight animated');
 	}
 
+// works
 
-	if(scrollPosition > 1400)
+	if(scrollPosition > 7400)
 	{
 	
-		$('#sideTitle1').addClass('bounceInRight animated');
+		$('#WoTitle').addClass('fadeInUp animated');
 	}
 
 
-	if(scrollPosition > 1500)
+	if(scrollPosition > 1383)
 	{
 	
-		$('#head1').addClass('bounceInRight animated');
+		$('#sideTitle1').addClass('fadeInRight animated');
 	}
 
-	if(scrollPosition > 4800)
+	if(scrollPosition > 1390)
 	{
 	
-		$('#MoDev').addClass('rubberBand animated');
-	}
-
-	if(scrollPosition > 11300)
-	{
-	
-		$('#CuTitle').addClass('rubberBand animated');
+		$('#head1').addClass('fadeInRight animated');
 	}
 
 
-	if(scrollPosition > 12600)
-	{
-	
-		$('#CoTitle').addClass('rubberBand animated');
-	}
+
+// mobile ux
+
+
+	// if(scrollPosition > 1688)
+	// {
+	// 	$('#fstMax').show();
+	// 	$('#fstMax').addClass('zoomIn animated');
+	// }
+
+	// if(scrollPosition > 1960)
+	//  {
+	// 	$('#fstMax').removeClass('zoomIn animated');
+	// 	$('#fstMax').addClass('zoomOut animated');
+	// 	$('#miniContent').show();
+	// 	$('#miniContent').addClass('zoomIn animated');
+	//  }
+	 
+	//  if(scrollPosition > 1970)
+	//  {
+		
+	// 	$('#miniContent').addClass('drag-to-side');
+	//  }
+
+
+	 // if(scrollPosition > 1982)
+	 // {	
+	 // 	$('.miniContent').show();
+	 // 	$('.miniContent').addClass('zoomIn animated');
+	 // }
+
+	 // if(scrollPosition > 1800)
+	 // {
+	 // 	$('#fstMax').addClass('zoomIn animated');
+
+	 // }
+	 if(scrollPosition > 1800)
+	 {
+		setTimeout(motion(), 1000);
+	 }
+
+	 if(scrollPosition > 2488)
+	 {	
+	 	$('#lst-mini').show();
+	 	$('#lst-mini').addClass('zoomIn animated');
+	 }
+
 })
 
 
