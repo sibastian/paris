@@ -1,159 +1,129 @@
-var scrollPosition = 0;
+var numPages;
+var scrollNumber = 1;
+
+var wh = $(window).height();
+var ww = $(window).width();
 
 
-function motion() {
-	$('#fstMax').show();
-	$('#fstMax').addClass('zoomIn animated');
-	$('.pics1').fadeIn(200);
-
-	// setTimeout(motion2(), 1000);
-}
-
-function motion2() {
-	$('.pics2').fadeIn(200);
-}
-
-
+// onready
 $(function(){
-	$('.logo-wrapper .content h1').mouseover(function(){
-		$(this).fadeToggle(400);
-	});
-	$('.logo-wrapper .content p').mouseover(function(){
-		$(this).show();
-	});
+$('body').scrollTop(0);
 
-	$('#showEmail').on('click', function(){
-		$('#Email').toggle();
-	});
-	$('.title').fadeToggle(200);
+numPages = $('.pg').length;
 
 
-
-$(document).scroll(function(){
-	$("html").niceScroll();
-	scrollPosition=($(document).scrollTop());
-	console.log(scrollPosition);
-	
+initLayout();
 
 
-
-	if(scrollPosition > 600)
-	{
-		$('#header').addClass('fixed-header');
-	}
-	if(scrollPosition < 620)
-	{
-		
-		$('#header').removeClass('fixed-header');
-	}
-
-	// Main Logo
-	if(scrollPosition > 108)
-	{
-	
-		$('#mainLogo').addClass('fadeOut animated');
-	}	
-	if(scrollPosition < 108)
-	{
-	
-	$('#mainLogo').removeClass('fadeOut animated');
-		$('#mainLogo').addClass('fadeIn animated');
-	}
-
-
-	//Settitle
-	if(scrollPosition > 273)
-	{
-	
-		$('#SeTitle').addClass('fadeInUp animated');
-	}
-
-// services
-	if(scrollPosition > 890)
-	{
-	
-		$('#DeSol').addClass('fadeInUp animated');
-	}
-
-	if(scrollPosition > 700)
-	{
-	
-		$('#sideTitle').addClass('fadeInRight animated');
-	}
-
-// works
-
-	if(scrollPosition > 7400)
-	{
-	
-		$('#WoTitle').addClass('fadeInUp animated');
-	}
-
-
-	if(scrollPosition > 1383)
-	{
-	
-		$('#sideTitle1').addClass('fadeInRight animated');
-	}
-
-	if(scrollPosition > 1390)
-	{
-	
-		$('#head1').addClass('fadeInRight animated');
-	}
-
-
-
-// mobile ux
-
-
-	// if(scrollPosition > 1688)
-	// {
-	// 	$('#fstMax').show();
-	// 	$('#fstMax').addClass('zoomIn animated');
-	// }
-
-	// if(scrollPosition > 1960)
-	//  {
-	// 	$('#fstMax').removeClass('zoomIn animated');
-	// 	$('#fstMax').addClass('zoomOut animated');
-	// 	$('#miniContent').show();
-	// 	$('#miniContent').addClass('zoomIn animated');
-	//  }
-	 
-	//  if(scrollPosition > 1970)
-	//  {
-		
-	// 	$('#miniContent').addClass('drag-to-side');
-	//  }
-
-
-	 // if(scrollPosition > 1982)
-	 // {	
-	 // 	$('.miniContent').show();
-	 // 	$('.miniContent').addClass('zoomIn animated');
-	 // }
-
-	 // if(scrollPosition > 1800)
-	 // {
-	 // 	$('#fstMax').addClass('zoomIn animated');
-
-	 // }
-	 if(scrollPosition > 1800)
-	 {
-		setTimeout(motion(), 1000);
-	 }
-
-	 if(scrollPosition > 2488)
-	 {	
-	 	$('#lst-mini').show();
-	 	$('#lst-mini').addClass('zoomIn animated');
-	 }
+$('.pg1').fadeIn();
 
 })
 
 
+// onscroll
+$('body').on({
+    'mousewheel': function(e) {
+		
+		// e.preventDefault();
+  //       e.stopPropagation();
+//Scroll timeOut Check
+// clearTimeout($.data(this, 'scrollTimer'));
+//     $.data(this, 'scrollTimer', setTimeout(function() {
+        
+
+// //Stoping window srolle event
+
+//    if (e.target.id == 'el') return;
+        
 
 
+//     	if(e.originalEvent.wheelDelta / 120 > 0) {
+//         // console.log('up');
+//         prevPage();
+//     } else {
+//         // console.log('down');
+//         nextPage();
+//     }
+
+
+
+// console.log("Scroll Paused");
+        //console.log("Haven't scrolled in 250ms!");
+    // }, 100));
+
+
+
+      
+
+
+
+}
 
 });
+
+
+
+
+
+function nextPage(){
+	console.log(scrollNumber)
+
+
+	if(scrollNumber < numPages)
+		scrollNumber++ 
+	else
+		scrollNumber = numPages;
+	
+	
+	showPage(scrollNumber);
+
+
+}
+
+function prevPage(){
+	console.log(scrollNumber)
+
+	if(scrollNumber > 1)
+		scrollNumber--
+	else
+		scrollNumber = 1;
+	
+	
+	showPage(scrollNumber);
+}
+
+
+
+
+
+function initLayout(){
+
+$('.pg').width(ww);
+$('.pg').height(wh);
+$('.page-wrap').width(numPages * ww)
+// for each
+
+}
+
+function showPage(pageNo){
+
+// var num = (parseInt(pageNo) - 1 ) ;
+console.log("====");
+console.log(pageNo);
+console.log(wh);
+console.log ((pageNo - 1) * wh);
+
+$('.pg'+pageNo).animate({
+
+
+
+// $('body').scrollTop(no);
+
+  }, 500, function() {
+    
+    console.log('animation Complete!')
+
+  });
+
+
+}

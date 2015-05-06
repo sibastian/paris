@@ -13,7 +13,7 @@ h1, h2, h3, h4, h5, h6, ul {
 }
 
 /* line 20, ../sass/paris.scss */
-.anim, #nav-bar ul li a:hover, .page-wrapper #header ul li a:hover, .page-wrapper.s-bg #header #nav-bar ul li:not(.li-logo) .selected, .page-wrapper.w-bg #header #nav-bar ul li:not(.li-logo) .selected, .page-wrapper.c-bg #header #nav-bar ul li:not(.li-logo) .selected, .page-wrapper.co-bg #header #nav-bar ul li:not(.li-logo) .selected, .page-wrapper.s-bg #header #header ul li:not(.li-logo) .selected, .page-wrapper.w-bg #header #header ul li:not(.li-logo) .selected, .page-wrapper.c-bg #header #header ul li:not(.li-logo) .selected, .page-wrapper.co-bg #header #header ul li:not(.li-logo) .selected {
+.anim, #nav-bar ul li a:hover, .page-wrapper #header ul li a:hover, .page-wrapper.s-bg #header #nav-bar ul li:not(.li-logo) .selected, .page-wrapper.w-bg #header #nav-bar ul li:not(.li-logo) .selected, .page-wrapper.c-bg #header #nav-bar ul li:not(.li-logo) .selected, .page-wrapper.co-bg #header #nav-bar ul li:not(.li-logo) .selected, .page-wrapper.s-bg #header #header ul li:not(.li-logo) .selected, .page-wrapper.w-bg #header #header ul li:not(.li-logo) .selected, .page-wrapper.c-bg #header #header ul li:not(.li-logo) .selected, .page-wrapper.co-bg #header #header ul li:not(.li-logo) .selected, .pg {
   -webkit-transition: all 500ms ease-out;
   -moz-transition: all 500ms ease-out;
   -o-transition: all 500ms ease-out;
@@ -111,7 +111,7 @@ h1, h2, h3, h4, h5, h6, ul {
 /* line 106, ../sass/paris.scss */
 .page-wrapper .title {
   text-align: center;
-  display: none;
+  /*#### display: none;*/
 }
 /* line 109, ../sass/paris.scss */
 .page-wrapper .title h1, .page-wrapper .title h2 {
@@ -159,7 +159,7 @@ h1, h2, h3, h4, h5, h6, ul {
 }
 /* line 151, ../sass/paris.scss */
 .page-wrapper.start-page #light-color {
-  padding-top: 68px;
+  /*padding-top: 68px;*/
 }
 /* line 154, ../sass/paris.scss */
 .page-wrapper.start-page #light-color .title h2 {
@@ -307,7 +307,7 @@ h1, h2, h3, h4, h5, h6, ul {
 }
 /* line 292, ../sass/paris.scss */
 .page-wrapper.s-bg.e-page.e-content #fstMax, .page-wrapper.e-page.e-content.w-bg #fstMax, .page-wrapper.e-page.e-content.c-bg #fstMax, .page-wrapper.e-page.e-content.co-bg #fstMax {
-  display: none;
+  /*#### display: none;*/
   position: relative;
   margin-top: 60px;
 }
@@ -402,7 +402,7 @@ h1, h2, h3, h4, h5, h6, ul {
 }
 /* line 386, ../sass/paris.scss */
 .page-wrapper.s-bg.e-page.e-content #miniContent, .page-wrapper.e-page.e-content.w-bg #miniContent, .page-wrapper.e-page.e-content.c-bg #miniContent, .page-wrapper.e-page.e-content.co-bg #miniContent {
-  display: none;
+  /*#### display: none;*/
 }
 /* line 389, ../sass/paris.scss */
 .page-wrapper.s-bg.e-page.e-content #miniContent .pics, .page-wrapper.e-page.e-content.w-bg #miniContent .pics, .page-wrapper.e-page.e-content.c-bg #miniContent .pics, .page-wrapper.e-page.e-content.co-bg #miniContent .pics {
@@ -423,7 +423,7 @@ h1, h2, h3, h4, h5, h6, ul {
 }
 /* line 404, ../sass/paris.scss */
 .page-wrapper.s-bg.e-page.e-content #lst-mini, .page-wrapper.e-page.e-content.w-bg #lst-mini, .page-wrapper.e-page.e-content.c-bg #lst-mini, .page-wrapper.e-page.e-content.co-bg #lst-mini {
-  display: none;
+  /*#### display: none;*/
 }
 /* line 406, ../sass/paris.scss */
 .page-wrapper.s-bg.e-page.e-content #lst-mini .pics, .page-wrapper.e-page.e-content.w-bg #lst-mini .pics, .page-wrapper.e-page.e-content.c-bg #lst-mini .pics, .page-wrapper.e-page.e-content.co-bg #lst-mini .pics {
@@ -533,7 +533,7 @@ h1, h2, h3, h4, h5, h6, ul {
 /* line 524, ../sass/paris.scss */
 .page-wrapper.c-bg .c-logo-part .logo-wrapper p {
   font-size: 20px;
-  display: none;
+  /*#### display: none;*/
 }
 /* line 531, ../sass/paris.scss */
 .page-wrapper.co-bg {
@@ -573,7 +573,7 @@ h1, h2, h3, h4, h5, h6, ul {
 }
 /* line 563, ../sass/paris.scss */
 .page-wrapper.co-bg #Email {
-  display: none;
+  /*#### display: none;*/
 }
 /* line 565, ../sass/paris.scss */
 .page-wrapper.co-bg #Email .form-control {
@@ -631,4 +631,37 @@ h1, h2, h3, h4, h5, h6, ul {
 /* line 616, ../sass/paris.scss */
 .drag-to-side .pics .c-title h1 {
   font-size: 20px !important;
+}
+
+/*.page-wrapper{display: none}*/
+/* line 627, ../sass/paris.scss */
+.pg {
+  position: relative;
+  display: inline-block;
+}
+
+/* line 634, ../sass/paris.scss */
+.page-wrap {
+  width: 100%;
+  height: 100%;
+}
+
+/* line 638, ../sass/paris.scss */
+.mask {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+/* line 644, ../sass/paris.scss */
+.arrow-left, .arrow-right {
+  background: #F00;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+/* line 651, ../sass/paris.scss */
+.arrow-right {
+  right: 0;
 }
