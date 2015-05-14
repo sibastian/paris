@@ -1,3 +1,4 @@
+@import 'compass/css3';
 
 $mont : 'montserrat';
 $open : 'Open Sans', sans-serif;
@@ -86,7 +87,7 @@ border-radius: 0;
     }
     .page-wrapper{
     	#light-color{
-    		padding-top: 226px;
+    		padding-top: 120px;
     	}
     }
 .page-wrapper{
@@ -136,14 +137,14 @@ border-radius: 0;
     }
 
     #footer{
-        bottom:163px;
+        bottom:0px;
         background: transparent;
     }
     #header{
     	top: 0px;
     	@extend #nav-bar;
     }
-    &.start-page{
+    &.pg-start{
     	background:url(../img/bg-start.jpg) no-repeat;
     	background-size: cover;
     	width: 100%;
@@ -625,9 +626,10 @@ p{
 /*.page-wrapper{display: none}*/
 
 			.pg{
-				position: relative;
+				position: absolute;
 				display: inline-block;
-				@extend .anim;
+				display: none;
+				/*@extend .anim;*/
 
 			}
 
@@ -641,16 +643,48 @@ p{
 				overflow: hidden;
 			}
 
-.arrow-left{
-	background: #F00;
+.pg-arrow{
+	font-size: 32px;
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
+	a{color:#FFF;
+		&:hover{
+			text-decoration:none;
+			}
+		}
+
 }
 
 .arrow-right{
-	@extend .arrow-left;
+
 	right:0;
+}
+
+.the-second-arrow{
+	display: none;
+	opacity: .5
+}
+
+.pg-arrow{
+	margin:20px;
+	cursor:pointer;
+	&.arrow-left i:nth-child(2)
+	{
+		@extend .the-second-arrow;
+	}
+
+
+	&.arrow-right i:nth-child(1)
+	{
+		@extend .the-second-arrow;
+	}
+
+	&:hover{
+		.the-second-arrow{
+			display: inline-block;	
+		}
+	}
 }
 
 

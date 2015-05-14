@@ -1,4 +1,4 @@
-/* line 6, ../sass/paris.scss */
+/* line 7, ../sass/paris.scss */
 html, body {
   margin: 0;
   padding: 0;
@@ -6,21 +6,21 @@ html, body {
   height: 100%;
 }
 
-/* line 14, ../sass/paris.scss */
+/* line 15, ../sass/paris.scss */
 h1, h2, h3, h4, h5, h6, ul {
   margin: 0;
   padding: 0;
 }
 
-/* line 20, ../sass/paris.scss */
-.anim, #nav-bar ul li a:hover, .page-wrapper #header ul li a:hover, .page-wrapper.s-bg #header #nav-bar ul li:not(.li-logo) .selected, .page-wrapper.w-bg #header #nav-bar ul li:not(.li-logo) .selected, .page-wrapper.c-bg #header #nav-bar ul li:not(.li-logo) .selected, .page-wrapper.co-bg #header #nav-bar ul li:not(.li-logo) .selected, .page-wrapper.s-bg #header #header ul li:not(.li-logo) .selected, .page-wrapper.w-bg #header #header ul li:not(.li-logo) .selected, .page-wrapper.c-bg #header #header ul li:not(.li-logo) .selected, .page-wrapper.co-bg #header #header ul li:not(.li-logo) .selected, .pg {
+/* line 21, ../sass/paris.scss */
+.anim, #nav-bar ul li a:hover, .page-wrapper #header ul li a:hover, .page-wrapper.s-bg #header #nav-bar ul li:not(.li-logo) .selected, .page-wrapper.w-bg #header #nav-bar ul li:not(.li-logo) .selected, .page-wrapper.c-bg #header #nav-bar ul li:not(.li-logo) .selected, .page-wrapper.co-bg #header #nav-bar ul li:not(.li-logo) .selected, .page-wrapper.s-bg #header #header ul li:not(.li-logo) .selected, .page-wrapper.w-bg #header #header ul li:not(.li-logo) .selected, .page-wrapper.c-bg #header #header ul li:not(.li-logo) .selected, .page-wrapper.co-bg #header #header ul li:not(.li-logo) .selected {
   -webkit-transition: all 500ms ease-out;
   -moz-transition: all 500ms ease-out;
   -o-transition: all 500ms ease-out;
   transition: all 500ms ease-out;
 }
 
-/* line 26, ../sass/paris.scss */
+/* line 27, ../sass/paris.scss */
 .key-anim, .page-wrapper.s-bg.e-page.e-content #fstMax .pics.animate, .page-wrapper.e-page.e-content.w-bg #fstMax .pics.animate, .page-wrapper.e-page.e-content.c-bg #fstMax .pics.animate, .page-wrapper.e-page.e-content.co-bg #fstMax .pics.animate {
   -webkit-animation-timing-function: ease;
   -webkit-animation-iteration-count: 1;
@@ -30,11 +30,11 @@ h1, h2, h3, h4, h5, h6, ul {
   -webkit-animation-fill-mode: forwards;
 }
 
-/* line 37, ../sass/paris.scss */
+/* line 38, ../sass/paris.scss */
 #nav-bar ul li, .page-wrapper #header ul li {
   padding: 0 20px;
 }
-/* line 39, ../sass/paris.scss */
+/* line 40, ../sass/paris.scss */
 #nav-bar ul li a, .page-wrapper #header ul li a {
   color: #fff;
   text-transform: uppercase;
@@ -42,23 +42,23 @@ h1, h2, h3, h4, h5, h6, ul {
   font-size: 15px;
   font-weight: bold;
 }
-/* line 45, ../sass/paris.scss */
+/* line 46, ../sass/paris.scss */
 #nav-bar ul li a:hover, .page-wrapper #header ul li a:hover {
   text-decoration: none;
   border-bottom: 4px solid #fff;
   padding-bottom: 5px;
 }
-/* line 52, ../sass/paris.scss */
+/* line 53, ../sass/paris.scss */
 #nav-bar ul li .logo, .page-wrapper #header ul li .logo {
   width: 44px;
   display: inline-block;
 }
-/* line 55, ../sass/paris.scss */
+/* line 56, ../sass/paris.scss */
 #nav-bar ul li .logo img, .page-wrapper #header ul li .logo img {
   width: 100%;
 }
 
-/* line 63, ../sass/paris.scss */
+/* line 64, ../sass/paris.scss */
 .btn-default {
   border-radius: 0;
   background: transparent;
@@ -70,14 +70,14 @@ h1, h2, h3, h4, h5, h6, ul {
   padding: 14px 24px;
   border: 1px solid rgba(255, 255, 255, 0.64);
 }
-/* line 73, ../sass/paris.scss */
+/* line 74, ../sass/paris.scss */
 .btn-default:hover {
   background: transparent;
   color: #fff;
   border: 1px solid rgba(255, 255, 255, 0.64);
 }
 
-/* line 80, ../sass/paris.scss */
+/* line 81, ../sass/paris.scss */
 #light-color {
   background: rgba(0, 0, 0, 0.4);
   width: 100%;
@@ -86,12 +86,12 @@ h1, h2, h3, h4, h5, h6, ul {
   padding-top: 65px;
 }
 
-/* line 88, ../sass/paris.scss */
+/* line 89, ../sass/paris.scss */
 .page-wrapper #light-color {
-  padding-top: 226px;
+  padding-top: 120px;
 }
 
-/* line 92, ../sass/paris.scss */
+/* line 93, ../sass/paris.scss */
 .page-wrapper {
   width: 100%;
   height: 100%;
@@ -99,21 +99,21 @@ h1, h2, h3, h4, h5, h6, ul {
   overflow: hidden;
   /*heading-page*/
 }
-/* line 99, ../sass/paris.scss */
+/* line 100, ../sass/paris.scss */
 .page-wrapper .logo {
   width: 200px;
   margin: 0 auto;
 }
-/* line 102, ../sass/paris.scss */
+/* line 103, ../sass/paris.scss */
 .page-wrapper .logo img {
   width: 100%;
 }
-/* line 106, ../sass/paris.scss */
+/* line 107, ../sass/paris.scss */
 .page-wrapper .title {
   text-align: center;
   /*#### display: none;*/
 }
-/* line 109, ../sass/paris.scss */
+/* line 110, ../sass/paris.scss */
 .page-wrapper .title h1, .page-wrapper .title h2 {
   color: #fff;
   text-transform: uppercase;
@@ -122,13 +122,13 @@ h1, h2, h3, h4, h5, h6, ul {
   font-size: 54px;
   margin: 10px 0;
 }
-/* line 117, ../sass/paris.scss */
+/* line 118, ../sass/paris.scss */
 .page-wrapper .title h2 {
   font-size: 19px;
   font-weight: 400;
   text-transform: capitalize;
 }
-/* line 125, ../sass/paris.scss */
+/* line 126, ../sass/paris.scss */
 .page-wrapper #header, .page-wrapper #footer {
   position: absolute;
   height: auto;
@@ -141,33 +141,33 @@ h1, h2, h3, h4, h5, h6, ul {
   color: #f2f2f2;
   padding: 12px 0;
 }
-/* line 138, ../sass/paris.scss */
+/* line 139, ../sass/paris.scss */
 .page-wrapper #footer {
-  bottom: 163px;
+  bottom: 0px;
   background: transparent;
 }
-/* line 142, ../sass/paris.scss */
+/* line 143, ../sass/paris.scss */
 .page-wrapper #header {
   top: 0px;
 }
-/* line 146, ../sass/paris.scss */
-.page-wrapper.start-page {
+/* line 147, ../sass/paris.scss */
+.page-wrapper.pg-start {
   background: url(../img/bg-start.jpg) no-repeat;
   background-size: cover;
   width: 100%;
   height: 100%;
 }
-/* line 151, ../sass/paris.scss */
-.page-wrapper.start-page #light-color {
+/* line 152, ../sass/paris.scss */
+.page-wrapper.pg-start #light-color {
   /*padding-top: 68px;*/
 }
-/* line 154, ../sass/paris.scss */
-.page-wrapper.start-page #light-color .title h2 {
+/* line 155, ../sass/paris.scss */
+.page-wrapper.pg-start #light-color .title h2 {
   width: 36%;
   margin-left: 50%;
   transform: translateX(-50%);
 }
-/* line 163, ../sass/paris.scss */
+/* line 164, ../sass/paris.scss */
 .page-wrapper .arrow-down {
   position: absolute;
   bottom: 0px;
@@ -175,14 +175,14 @@ h1, h2, h3, h4, h5, h6, ul {
   text-align: center;
   width: 100%;
 }
-/* line 169, ../sass/paris.scss */
+/* line 170, ../sass/paris.scss */
 .page-wrapper .arrow-down i {
   color: #fff;
   font-size: 26px;
 }
 
 /*inner-page*/
-/* line 179, ../sass/paris.scss */
+/* line 180, ../sass/paris.scss */
 .page-wrapper .title strong {
   color: #fff;
   font-family: "montserrat";
@@ -191,50 +191,50 @@ h1, h2, h3, h4, h5, h6, ul {
   border-top: 3px solid #fff;
   border-bottom: 3px solid #fff;
 }
-/* line 188, ../sass/paris.scss */
+/* line 189, ../sass/paris.scss */
 .page-wrapper.s-bg, .page-wrapper.w-bg, .page-wrapper.c-bg, .page-wrapper.co-bg {
   background: url(../img/bg-inner-first.jpg) no-repeat;
   background-size: cover;
   width: 100%;
   height: 100%;
 }
-/* line 197, ../sass/paris.scss */
+/* line 198, ../sass/paris.scss */
 .page-wrapper.s-bg #header #nav-bar ul li:not(.li-logo) .selected, .page-wrapper.w-bg #header #nav-bar ul li:not(.li-logo) .selected, .page-wrapper.c-bg #header #nav-bar ul li:not(.li-logo) .selected, .page-wrapper.co-bg #header #nav-bar ul li:not(.li-logo) .selected, .page-wrapper.s-bg #header #header ul li:not(.li-logo) .selected, .page-wrapper.w-bg #header #header ul li:not(.li-logo) .selected, .page-wrapper.c-bg #header #header ul li:not(.li-logo) .selected, .page-wrapper.co-bg #header #header ul li:not(.li-logo) .selected {
   border-bottom: 4px solid #fff;
   padding-bottom: 5px;
 }
-/* line 207, ../sass/paris.scss */
+/* line 208, ../sass/paris.scss */
 .page-wrapper.s-bg.e-page, .page-wrapper.s-bg.e-page.m-page, .page-wrapper.e-page.m-page.w-bg, .page-wrapper.e-page.m-page.c-bg, .page-wrapper.e-page.m-page.co-bg, .page-wrapper.e-page.w-bg, .page-wrapper.e-page.c-bg, .page-wrapper.e-page.co-bg {
   background: url(../img/bg-design.jpg) no-repeat;
   background-size: cover;
   width: 100%;
   height: 100%;
 }
-/* line 212, ../sass/paris.scss */
+/* line 213, ../sass/paris.scss */
 .page-wrapper.s-bg.e-page #light-color, .page-wrapper.e-page.w-bg #light-color, .page-wrapper.e-page.c-bg #light-color, .page-wrapper.e-page.co-bg #light-color {
   padding: 0;
 }
-/* line 215, ../sass/paris.scss */
+/* line 216, ../sass/paris.scss */
 .page-wrapper.s-bg.e-page .title, .page-wrapper.e-page.w-bg .title, .page-wrapper.e-page.c-bg .title, .page-wrapper.e-page.co-bg .title {
   text-align: left;
   padding-top: 45px;
 }
-/* line 218, ../sass/paris.scss */
+/* line 219, ../sass/paris.scss */
 .page-wrapper.s-bg.e-page .title strong, .page-wrapper.e-page.w-bg .title strong, .page-wrapper.e-page.c-bg .title strong, .page-wrapper.e-page.co-bg .title strong {
   display: inline-block;
 }
-/* line 221, ../sass/paris.scss */
+/* line 222, ../sass/paris.scss */
 .page-wrapper.s-bg.e-page .title h1, .page-wrapper.e-page.w-bg .title h1, .page-wrapper.e-page.c-bg .title h1, .page-wrapper.e-page.co-bg .title h1 {
   display: inline-block;
   font-size: 24px;
   padding: 0 10px;
 }
-/* line 227, ../sass/paris.scss */
+/* line 228, ../sass/paris.scss */
 .page-wrapper.s-bg.e-page .heading, .page-wrapper.e-page.w-bg .heading, .page-wrapper.e-page.c-bg .heading, .page-wrapper.e-page.co-bg .heading {
   text-align: center;
   padding-top: 130px;
 }
-/* line 230, ../sass/paris.scss */
+/* line 231, ../sass/paris.scss */
 .page-wrapper.s-bg.e-page .heading h1, .page-wrapper.e-page.w-bg .heading h1, .page-wrapper.e-page.c-bg .heading h1, .page-wrapper.e-page.co-bg .heading h1 {
   text-transform: uppercase;
   font-family: "montserrat";
@@ -242,7 +242,7 @@ h1, h2, h3, h4, h5, h6, ul {
   color: #fff;
   font-size: 60px;
 }
-/* line 237, ../sass/paris.scss */
+/* line 238, ../sass/paris.scss */
 .page-wrapper.s-bg.e-page .heading strong, .page-wrapper.e-page.w-bg .heading strong, .page-wrapper.e-page.c-bg .heading strong, .page-wrapper.e-page.co-bg .heading strong {
   text-transform: uppercase;
   font-family: "Open Sans", sans-serif;
@@ -250,7 +250,7 @@ h1, h2, h3, h4, h5, h6, ul {
   font-size: 28px;
   color: #fff;
 }
-/* line 246, ../sass/paris.scss */
+/* line 247, ../sass/paris.scss */
 .page-wrapper.s-bg.e-page.e-content, .page-wrapper.e-page.e-content.w-bg, .page-wrapper.e-page.e-content.c-bg, .page-wrapper.e-page.e-content.co-bg {
   background: url(../img/bg-ux.jpg) no-repeat;
   background-size: cover;
@@ -260,41 +260,41 @@ h1, h2, h3, h4, h5, h6, ul {
   	margin-top: 60px;
   }*/
 }
-/* line 251, ../sass/paris.scss */
+/* line 252, ../sass/paris.scss */
 .page-wrapper.s-bg.e-page.e-content .heading, .page-wrapper.e-page.e-content.w-bg .heading, .page-wrapper.e-page.e-content.c-bg .heading, .page-wrapper.e-page.e-content.co-bg .heading {
   text-align: center;
   padding: 0;
 }
-/* line 254, ../sass/paris.scss */
+/* line 255, ../sass/paris.scss */
 .page-wrapper.s-bg.e-page.e-content .heading strong, .page-wrapper.e-page.e-content.w-bg .heading strong, .page-wrapper.e-page.e-content.c-bg .heading strong, .page-wrapper.e-page.e-content.co-bg .heading strong {
   font-size: 16px;
 }
-/* line 257, ../sass/paris.scss */
+/* line 258, ../sass/paris.scss */
 .page-wrapper.s-bg.e-page.e-content .heading h1, .page-wrapper.e-page.e-content.w-bg .heading h1, .page-wrapper.e-page.e-content.c-bg .heading h1, .page-wrapper.e-page.e-content.co-bg .heading h1 {
   font-size: 30px;
 }
-/* line 261, ../sass/paris.scss */
+/* line 262, ../sass/paris.scss */
 .page-wrapper.s-bg.e-page.e-content .c-content-max, .page-wrapper.s-bg.e-content.e-page.m-page .c-content-max, .page-wrapper.e-content.e-page.m-page.w-bg .c-content-max, .page-wrapper.e-content.e-page.m-page.c-bg .c-content-max, .page-wrapper.e-content.e-page.m-page.co-bg .c-content-max, .page-wrapper.e-page.e-content.w-bg .c-content-max, .page-wrapper.e-page.e-content.c-bg .c-content-max, .page-wrapper.e-page.e-content.co-bg .c-content-max, .page-wrapper.s-bg.e-page.e-content .c-content-mini, .page-wrapper.s-bg.e-content.e-page.m-page .c-content-mini, .page-wrapper.e-content.e-page.m-page.w-bg .page-wrapper.s-bg.e-page.e-content .c-content-mini, .page-wrapper.s-bg.e-page.e-content .page-wrapper.e-content.e-page.m-page.w-bg .c-content-mini, .page-wrapper.e-content.e-page.m-page.c-bg .page-wrapper.s-bg.e-page.e-content .c-content-mini, .page-wrapper.s-bg.e-page.e-content .page-wrapper.e-content.e-page.m-page.c-bg .c-content-mini, .page-wrapper.e-content.e-page.m-page.co-bg .page-wrapper.s-bg.e-page.e-content .c-content-mini, .page-wrapper.s-bg.e-page.e-content .page-wrapper.e-content.e-page.m-page.co-bg .c-content-mini, .page-wrapper.e-page.e-content.w-bg .page-wrapper.s-bg.e-page.e-content .c-content-mini, .page-wrapper.s-bg.e-page.e-content .page-wrapper.e-page.e-content.w-bg .c-content-mini, .page-wrapper.e-page.e-content.c-bg .page-wrapper.s-bg.e-page.e-content .c-content-mini, .page-wrapper.s-bg.e-page.e-content .page-wrapper.e-page.e-content.c-bg .c-content-mini, .page-wrapper.e-page.e-content.co-bg .page-wrapper.s-bg.e-page.e-content .c-content-mini, .page-wrapper.s-bg.e-page.e-content .page-wrapper.e-page.e-content.co-bg .c-content-mini, .page-wrapper.s-bg.e-page.e-content .page-wrapper.e-page.e-content.w-bg .c-content-mini, .page-wrapper.e-page.e-content.w-bg .page-wrapper.s-bg.e-page.e-content .c-content-mini, .page-wrapper.s-bg.e-content.e-page.m-page .page-wrapper.e-page.e-content.w-bg .c-content-mini, .page-wrapper.e-page.e-content.w-bg .page-wrapper.s-bg.e-content.e-page.m-page .c-content-mini, .page-wrapper.e-content.e-page.m-page.w-bg .c-content-mini, .page-wrapper.e-content.e-page.m-page.c-bg .page-wrapper.e-page.e-content.w-bg .c-content-mini, .page-wrapper.e-page.e-content.w-bg .page-wrapper.e-content.e-page.m-page.c-bg .c-content-mini, .page-wrapper.e-content.e-page.m-page.co-bg .page-wrapper.e-page.e-content.w-bg .c-content-mini, .page-wrapper.e-page.e-content.w-bg .page-wrapper.e-content.e-page.m-page.co-bg .c-content-mini, .page-wrapper.e-page.e-content.w-bg .c-content-mini, .page-wrapper.e-page.e-content.c-bg .page-wrapper.e-page.e-content.w-bg .c-content-mini, .page-wrapper.e-page.e-content.w-bg .page-wrapper.e-page.e-content.c-bg .c-content-mini, .page-wrapper.e-page.e-content.co-bg .page-wrapper.e-page.e-content.w-bg .c-content-mini, .page-wrapper.e-page.e-content.w-bg .page-wrapper.e-page.e-content.co-bg .c-content-mini, .page-wrapper.s-bg.e-page.e-content .page-wrapper.e-page.e-content.c-bg .c-content-mini, .page-wrapper.e-page.e-content.c-bg .page-wrapper.s-bg.e-page.e-content .c-content-mini, .page-wrapper.s-bg.e-content.e-page.m-page .page-wrapper.e-page.e-content.c-bg .c-content-mini, .page-wrapper.e-page.e-content.c-bg .page-wrapper.s-bg.e-content.e-page.m-page .c-content-mini, .page-wrapper.e-content.e-page.m-page.w-bg .page-wrapper.e-page.e-content.c-bg .c-content-mini, .page-wrapper.e-page.e-content.c-bg .page-wrapper.e-content.e-page.m-page.w-bg .c-content-mini, .page-wrapper.e-content.e-page.m-page.c-bg .c-content-mini, .page-wrapper.e-content.e-page.m-page.co-bg .page-wrapper.e-page.e-content.c-bg .c-content-mini, .page-wrapper.e-page.e-content.c-bg .page-wrapper.e-content.e-page.m-page.co-bg .c-content-mini, .page-wrapper.e-page.e-content.w-bg .page-wrapper.e-page.e-content.c-bg .c-content-mini, .page-wrapper.e-page.e-content.c-bg .page-wrapper.e-page.e-content.w-bg .c-content-mini, .page-wrapper.e-page.e-content.c-bg .c-content-mini, .page-wrapper.e-page.e-content.co-bg .page-wrapper.e-page.e-content.c-bg .c-content-mini, .page-wrapper.e-page.e-content.c-bg .page-wrapper.e-page.e-content.co-bg .c-content-mini, .page-wrapper.s-bg.e-page.e-content .page-wrapper.e-page.e-content.co-bg .c-content-mini, .page-wrapper.e-page.e-content.co-bg .page-wrapper.s-bg.e-page.e-content .c-content-mini, .page-wrapper.s-bg.e-content.e-page.m-page .page-wrapper.e-page.e-content.co-bg .c-content-mini, .page-wrapper.e-page.e-content.co-bg .page-wrapper.s-bg.e-content.e-page.m-page .c-content-mini, .page-wrapper.e-content.e-page.m-page.w-bg .page-wrapper.e-page.e-content.co-bg .c-content-mini, .page-wrapper.e-page.e-content.co-bg .page-wrapper.e-content.e-page.m-page.w-bg .c-content-mini, .page-wrapper.e-content.e-page.m-page.c-bg .page-wrapper.e-page.e-content.co-bg .c-content-mini, .page-wrapper.e-page.e-content.co-bg .page-wrapper.e-content.e-page.m-page.c-bg .c-content-mini, .page-wrapper.e-content.e-page.m-page.co-bg .c-content-mini, .page-wrapper.e-page.e-content.w-bg .page-wrapper.e-page.e-content.co-bg .c-content-mini, .page-wrapper.e-page.e-content.co-bg .page-wrapper.e-page.e-content.w-bg .c-content-mini, .page-wrapper.e-page.e-content.c-bg .page-wrapper.e-page.e-content.co-bg .c-content-mini, .page-wrapper.e-page.e-content.co-bg .page-wrapper.e-page.e-content.c-bg .c-content-mini, .page-wrapper.e-page.e-content.co-bg .c-content-mini, .page-wrapper.s-bg.e-page.e-content .c-content-mini-second, .page-wrapper.s-bg.e-content.e-page.m-page .c-content-mini-second, .page-wrapper.e-content.e-page.m-page.w-bg .page-wrapper.s-bg.e-page.e-content .c-content-mini-second, .page-wrapper.s-bg.e-page.e-content .page-wrapper.e-content.e-page.m-page.w-bg .c-content-mini-second, .page-wrapper.e-content.e-page.m-page.c-bg .page-wrapper.s-bg.e-page.e-content .c-content-mini-second, .page-wrapper.s-bg.e-page.e-content .page-wrapper.e-content.e-page.m-page.c-bg .c-content-mini-second, .page-wrapper.e-content.e-page.m-page.co-bg .page-wrapper.s-bg.e-page.e-content .c-content-mini-second, .page-wrapper.s-bg.e-page.e-content .page-wrapper.e-content.e-page.m-page.co-bg .c-content-mini-second, .page-wrapper.e-page.e-content.w-bg .page-wrapper.s-bg.e-page.e-content .c-content-mini-second, .page-wrapper.s-bg.e-page.e-content .page-wrapper.e-page.e-content.w-bg .c-content-mini-second, .page-wrapper.e-page.e-content.c-bg .page-wrapper.s-bg.e-page.e-content .c-content-mini-second, .page-wrapper.s-bg.e-page.e-content .page-wrapper.e-page.e-content.c-bg .c-content-mini-second, .page-wrapper.e-page.e-content.co-bg .page-wrapper.s-bg.e-page.e-content .c-content-mini-second, .page-wrapper.s-bg.e-page.e-content .page-wrapper.e-page.e-content.co-bg .c-content-mini-second, .page-wrapper.s-bg.e-page.e-content .page-wrapper.e-page.e-content.w-bg .c-content-mini-second, .page-wrapper.e-page.e-content.w-bg .page-wrapper.s-bg.e-page.e-content .c-content-mini-second, .page-wrapper.s-bg.e-content.e-page.m-page .page-wrapper.e-page.e-content.w-bg .c-content-mini-second, .page-wrapper.e-page.e-content.w-bg .page-wrapper.s-bg.e-content.e-page.m-page .c-content-mini-second, .page-wrapper.e-content.e-page.m-page.w-bg .c-content-mini-second, .page-wrapper.e-content.e-page.m-page.c-bg .page-wrapper.e-page.e-content.w-bg .c-content-mini-second, .page-wrapper.e-page.e-content.w-bg .page-wrapper.e-content.e-page.m-page.c-bg .c-content-mini-second, .page-wrapper.e-content.e-page.m-page.co-bg .page-wrapper.e-page.e-content.w-bg .c-content-mini-second, .page-wrapper.e-page.e-content.w-bg .page-wrapper.e-content.e-page.m-page.co-bg .c-content-mini-second, .page-wrapper.e-page.e-content.w-bg .c-content-mini-second, .page-wrapper.e-page.e-content.c-bg .page-wrapper.e-page.e-content.w-bg .c-content-mini-second, .page-wrapper.e-page.e-content.w-bg .page-wrapper.e-page.e-content.c-bg .c-content-mini-second, .page-wrapper.e-page.e-content.co-bg .page-wrapper.e-page.e-content.w-bg .c-content-mini-second, .page-wrapper.e-page.e-content.w-bg .page-wrapper.e-page.e-content.co-bg .c-content-mini-second, .page-wrapper.s-bg.e-page.e-content .page-wrapper.e-page.e-content.c-bg .c-content-mini-second, .page-wrapper.e-page.e-content.c-bg .page-wrapper.s-bg.e-page.e-content .c-content-mini-second, .page-wrapper.s-bg.e-content.e-page.m-page .page-wrapper.e-page.e-content.c-bg .c-content-mini-second, .page-wrapper.e-page.e-content.c-bg .page-wrapper.s-bg.e-content.e-page.m-page .c-content-mini-second, .page-wrapper.e-content.e-page.m-page.w-bg .page-wrapper.e-page.e-content.c-bg .c-content-mini-second, .page-wrapper.e-page.e-content.c-bg .page-wrapper.e-content.e-page.m-page.w-bg .c-content-mini-second, .page-wrapper.e-content.e-page.m-page.c-bg .c-content-mini-second, .page-wrapper.e-content.e-page.m-page.co-bg .page-wrapper.e-page.e-content.c-bg .c-content-mini-second, .page-wrapper.e-page.e-content.c-bg .page-wrapper.e-content.e-page.m-page.co-bg .c-content-mini-second, .page-wrapper.e-page.e-content.w-bg .page-wrapper.e-page.e-content.c-bg .c-content-mini-second, .page-wrapper.e-page.e-content.c-bg .page-wrapper.e-page.e-content.w-bg .c-content-mini-second, .page-wrapper.e-page.e-content.c-bg .c-content-mini-second, .page-wrapper.e-page.e-content.co-bg .page-wrapper.e-page.e-content.c-bg .c-content-mini-second, .page-wrapper.e-page.e-content.c-bg .page-wrapper.e-page.e-content.co-bg .c-content-mini-second, .page-wrapper.s-bg.e-page.e-content .page-wrapper.e-page.e-content.co-bg .c-content-mini-second, .page-wrapper.e-page.e-content.co-bg .page-wrapper.s-bg.e-page.e-content .c-content-mini-second, .page-wrapper.s-bg.e-content.e-page.m-page .page-wrapper.e-page.e-content.co-bg .c-content-mini-second, .page-wrapper.e-page.e-content.co-bg .page-wrapper.s-bg.e-content.e-page.m-page .c-content-mini-second, .page-wrapper.e-content.e-page.m-page.w-bg .page-wrapper.e-page.e-content.co-bg .c-content-mini-second, .page-wrapper.e-page.e-content.co-bg .page-wrapper.e-content.e-page.m-page.w-bg .c-content-mini-second, .page-wrapper.e-content.e-page.m-page.c-bg .page-wrapper.e-page.e-content.co-bg .c-content-mini-second, .page-wrapper.e-page.e-content.co-bg .page-wrapper.e-content.e-page.m-page.c-bg .c-content-mini-second, .page-wrapper.e-content.e-page.m-page.co-bg .c-content-mini-second, .page-wrapper.e-page.e-content.w-bg .page-wrapper.e-page.e-content.co-bg .c-content-mini-second, .page-wrapper.e-page.e-content.co-bg .page-wrapper.e-page.e-content.w-bg .c-content-mini-second, .page-wrapper.e-page.e-content.c-bg .page-wrapper.e-page.e-content.co-bg .c-content-mini-second, .page-wrapper.e-page.e-content.co-bg .page-wrapper.e-page.e-content.c-bg .c-content-mini-second, .page-wrapper.e-page.e-content.co-bg .c-content-mini-second, .page-wrapper.s-bg.e-page.e-content #miniContent, .page-wrapper.s-bg.e-content.e-page.m-page #miniContent, .page-wrapper.e-content.e-page.m-page.w-bg .page-wrapper.s-bg.e-page.e-content #miniContent, .page-wrapper.s-bg.e-page.e-content .page-wrapper.e-content.e-page.m-page.w-bg #miniContent, .page-wrapper.e-content.e-page.m-page.c-bg .page-wrapper.s-bg.e-page.e-content #miniContent, .page-wrapper.s-bg.e-page.e-content .page-wrapper.e-content.e-page.m-page.c-bg #miniContent, .page-wrapper.e-content.e-page.m-page.co-bg .page-wrapper.s-bg.e-page.e-content #miniContent, .page-wrapper.s-bg.e-page.e-content .page-wrapper.e-content.e-page.m-page.co-bg #miniContent, .page-wrapper.e-page.e-content.w-bg .page-wrapper.s-bg.e-page.e-content #miniContent, .page-wrapper.s-bg.e-page.e-content .page-wrapper.e-page.e-content.w-bg #miniContent, .page-wrapper.e-page.e-content.c-bg .page-wrapper.s-bg.e-page.e-content #miniContent, .page-wrapper.s-bg.e-page.e-content .page-wrapper.e-page.e-content.c-bg #miniContent, .page-wrapper.e-page.e-content.co-bg .page-wrapper.s-bg.e-page.e-content #miniContent, .page-wrapper.s-bg.e-page.e-content .page-wrapper.e-page.e-content.co-bg #miniContent, .page-wrapper.s-bg.e-page.e-content .page-wrapper.e-page.e-content.w-bg #miniContent, .page-wrapper.e-page.e-content.w-bg .page-wrapper.s-bg.e-page.e-content #miniContent, .page-wrapper.s-bg.e-content.e-page.m-page .page-wrapper.e-page.e-content.w-bg #miniContent, .page-wrapper.e-page.e-content.w-bg .page-wrapper.s-bg.e-content.e-page.m-page #miniContent, .page-wrapper.e-content.e-page.m-page.w-bg #miniContent, .page-wrapper.e-content.e-page.m-page.c-bg .page-wrapper.e-page.e-content.w-bg #miniContent, .page-wrapper.e-page.e-content.w-bg .page-wrapper.e-content.e-page.m-page.c-bg #miniContent, .page-wrapper.e-content.e-page.m-page.co-bg .page-wrapper.e-page.e-content.w-bg #miniContent, .page-wrapper.e-page.e-content.w-bg .page-wrapper.e-content.e-page.m-page.co-bg #miniContent, .page-wrapper.e-page.e-content.w-bg #miniContent, .page-wrapper.e-page.e-content.c-bg .page-wrapper.e-page.e-content.w-bg #miniContent, .page-wrapper.e-page.e-content.w-bg .page-wrapper.e-page.e-content.c-bg #miniContent, .page-wrapper.e-page.e-content.co-bg .page-wrapper.e-page.e-content.w-bg #miniContent, .page-wrapper.e-page.e-content.w-bg .page-wrapper.e-page.e-content.co-bg #miniContent, .page-wrapper.s-bg.e-page.e-content .page-wrapper.e-page.e-content.c-bg #miniContent, .page-wrapper.e-page.e-content.c-bg .page-wrapper.s-bg.e-page.e-content #miniContent, .page-wrapper.s-bg.e-content.e-page.m-page .page-wrapper.e-page.e-content.c-bg #miniContent, .page-wrapper.e-page.e-content.c-bg .page-wrapper.s-bg.e-content.e-page.m-page #miniContent, .page-wrapper.e-content.e-page.m-page.w-bg .page-wrapper.e-page.e-content.c-bg #miniContent, .page-wrapper.e-page.e-content.c-bg .page-wrapper.e-content.e-page.m-page.w-bg #miniContent, .page-wrapper.e-content.e-page.m-page.c-bg #miniContent, .page-wrapper.e-content.e-page.m-page.co-bg .page-wrapper.e-page.e-content.c-bg #miniContent, .page-wrapper.e-page.e-content.c-bg .page-wrapper.e-content.e-page.m-page.co-bg #miniContent, .page-wrapper.e-page.e-content.w-bg .page-wrapper.e-page.e-content.c-bg #miniContent, .page-wrapper.e-page.e-content.c-bg .page-wrapper.e-page.e-content.w-bg #miniContent, .page-wrapper.e-page.e-content.c-bg #miniContent, .page-wrapper.e-page.e-content.co-bg .page-wrapper.e-page.e-content.c-bg #miniContent, .page-wrapper.e-page.e-content.c-bg .page-wrapper.e-page.e-content.co-bg #miniContent, .page-wrapper.s-bg.e-page.e-content .page-wrapper.e-page.e-content.co-bg #miniContent, .page-wrapper.e-page.e-content.co-bg .page-wrapper.s-bg.e-page.e-content #miniContent, .page-wrapper.s-bg.e-content.e-page.m-page .page-wrapper.e-page.e-content.co-bg #miniContent, .page-wrapper.e-page.e-content.co-bg .page-wrapper.s-bg.e-content.e-page.m-page #miniContent, .page-wrapper.e-content.e-page.m-page.w-bg .page-wrapper.e-page.e-content.co-bg #miniContent, .page-wrapper.e-page.e-content.co-bg .page-wrapper.e-content.e-page.m-page.w-bg #miniContent, .page-wrapper.e-content.e-page.m-page.c-bg .page-wrapper.e-page.e-content.co-bg #miniContent, .page-wrapper.e-page.e-content.co-bg .page-wrapper.e-content.e-page.m-page.c-bg #miniContent, .page-wrapper.e-content.e-page.m-page.co-bg #miniContent, .page-wrapper.e-page.e-content.w-bg .page-wrapper.e-page.e-content.co-bg #miniContent, .page-wrapper.e-page.e-content.co-bg .page-wrapper.e-page.e-content.w-bg #miniContent, .page-wrapper.e-page.e-content.c-bg .page-wrapper.e-page.e-content.co-bg #miniContent, .page-wrapper.e-page.e-content.co-bg .page-wrapper.e-page.e-content.c-bg #miniContent, .page-wrapper.e-page.e-content.co-bg #miniContent {
   margin: 0;
 }
-/* line 263, ../sass/paris.scss */
+/* line 264, ../sass/paris.scss */
 .page-wrapper.s-bg.e-page.e-content .c-content-max .pics, .page-wrapper.s-bg.e-content.e-page.m-page .c-content-max .pics, .page-wrapper.e-content.e-page.m-page.w-bg .c-content-max .pics, .page-wrapper.e-content.e-page.m-page.c-bg .c-content-max .pics, .page-wrapper.e-content.e-page.m-page.co-bg .c-content-max .pics, .page-wrapper.e-page.e-content.w-bg .c-content-max .pics, .page-wrapper.e-page.e-content.c-bg .c-content-max .pics, .page-wrapper.e-page.e-content.co-bg .c-content-max .pics, .page-wrapper.s-bg.e-page.e-content .c-content-mini .pics, .page-wrapper.s-bg.e-content.e-page.m-page .c-content-mini .pics, .page-wrapper.e-content.e-page.m-page.w-bg .page-wrapper.s-bg.e-page.e-content .c-content-mini .pics, .page-wrapper.s-bg.e-page.e-content .page-wrapper.e-content.e-page.m-page.w-bg .c-content-mini .pics, .page-wrapper.e-content.e-page.m-page.c-bg .page-wrapper.s-bg.e-page.e-content .c-content-mini .pics, .page-wrapper.s-bg.e-page.e-content .page-wrapper.e-content.e-page.m-page.c-bg .c-content-mini .pics, .page-wrapper.e-content.e-page.m-page.co-bg .page-wrapper.s-bg.e-page.e-content .c-content-mini .pics, .page-wrapper.s-bg.e-page.e-content .page-wrapper.e-content.e-page.m-page.co-bg .c-content-mini .pics, .page-wrapper.e-page.e-content.w-bg .page-wrapper.s-bg.e-page.e-content .c-content-mini .pics, .page-wrapper.s-bg.e-page.e-content .page-wrapper.e-page.e-content.w-bg .c-content-mini .pics, .page-wrapper.e-page.e-content.c-bg .page-wrapper.s-bg.e-page.e-content .c-content-mini .pics, .page-wrapper.s-bg.e-page.e-content .page-wrapper.e-page.e-content.c-bg .c-content-mini .pics, .page-wrapper.e-page.e-content.co-bg .page-wrapper.s-bg.e-page.e-content .c-content-mini .pics, .page-wrapper.s-bg.e-page.e-content .page-wrapper.e-page.e-content.co-bg .c-content-mini .pics, .page-wrapper.s-bg.e-page.e-content .page-wrapper.e-page.e-content.w-bg .c-content-mini .pics, .page-wrapper.e-page.e-content.w-bg .page-wrapper.s-bg.e-page.e-content .c-content-mini .pics, .page-wrapper.s-bg.e-content.e-page.m-page .page-wrapper.e-page.e-content.w-bg .c-content-mini .pics, .page-wrapper.e-page.e-content.w-bg .page-wrapper.s-bg.e-content.e-page.m-page .c-content-mini .pics, .page-wrapper.e-content.e-page.m-page.w-bg .c-content-mini .pics, .page-wrapper.e-content.e-page.m-page.c-bg .page-wrapper.e-page.e-content.w-bg .c-content-mini .pics, .page-wrapper.e-page.e-content.w-bg .page-wrapper.e-content.e-page.m-page.c-bg .c-content-mini .pics, .page-wrapper.e-content.e-page.m-page.co-bg .page-wrapper.e-page.e-content.w-bg .c-content-mini .pics, .page-wrapper.e-page.e-content.w-bg .page-wrapper.e-content.e-page.m-page.co-bg .c-content-mini .pics, .page-wrapper.e-page.e-content.w-bg .c-content-mini .pics, .page-wrapper.e-page.e-content.c-bg .page-wrapper.e-page.e-content.w-bg .c-content-mini .pics, .page-wrapper.e-page.e-content.w-bg .page-wrapper.e-page.e-content.c-bg .c-content-mini .pics, .page-wrapper.e-page.e-content.co-bg .page-wrapper.e-page.e-content.w-bg .c-content-mini .pics, .page-wrapper.e-page.e-content.w-bg .page-wrapper.e-page.e-content.co-bg .c-content-mini .pics, .page-wrapper.s-bg.e-page.e-content .page-wrapper.e-page.e-content.c-bg .c-content-mini .pics, .page-wrapper.e-page.e-content.c-bg .page-wrapper.s-bg.e-page.e-content .c-content-mini .pics, .page-wrapper.s-bg.e-content.e-page.m-page .page-wrapper.e-page.e-content.c-bg .c-content-mini .pics, .page-wrapper.e-page.e-content.c-bg .page-wrapper.s-bg.e-content.e-page.m-page .c-content-mini .pics, .page-wrapper.e-content.e-page.m-page.w-bg .page-wrapper.e-page.e-content.c-bg .c-content-mini .pics, .page-wrapper.e-page.e-content.c-bg .page-wrapper.e-content.e-page.m-page.w-bg .c-content-mini .pics, .page-wrapper.e-content.e-page.m-page.c-bg .c-content-mini .pics, .page-wrapper.e-content.e-page.m-page.co-bg .page-wrapper.e-page.e-content.c-bg .c-content-mini .pics, .page-wrapper.e-page.e-content.c-bg .page-wrapper.e-content.e-page.m-page.co-bg .c-content-mini .pics, .page-wrapper.e-page.e-content.w-bg .page-wrapper.e-page.e-content.c-bg .c-content-mini .pics, .page-wrapper.e-page.e-content.c-bg .page-wrapper.e-page.e-content.w-bg .c-content-mini .pics, .page-wrapper.e-page.e-content.c-bg .c-content-mini .pics, .page-wrapper.e-page.e-content.co-bg .page-wrapper.e-page.e-content.c-bg .c-content-mini .pics, .page-wrapper.e-page.e-content.c-bg .page-wrapper.e-page.e-content.co-bg .c-content-mini .pics, .page-wrapper.s-bg.e-page.e-content .page-wrapper.e-page.e-content.co-bg .c-content-mini .pics, .page-wrapper.e-page.e-content.co-bg .page-wrapper.s-bg.e-page.e-content .c-content-mini .pics, .page-wrapper.s-bg.e-content.e-page.m-page .page-wrapper.e-page.e-content.co-bg .c-content-mini .pics, .page-wrapper.e-page.e-content.co-bg .page-wrapper.s-bg.e-content.e-page.m-page .c-content-mini .pics, .page-wrapper.e-content.e-page.m-page.w-bg .page-wrapper.e-page.e-content.co-bg .c-content-mini .pics, .page-wrapper.e-page.e-content.co-bg .page-wrapper.e-content.e-page.m-page.w-bg .c-content-mini .pics, .page-wrapper.e-content.e-page.m-page.c-bg .page-wrapper.e-page.e-content.co-bg .c-content-mini .pics, .page-wrapper.e-page.e-content.co-bg .page-wrapper.e-content.e-page.m-page.c-bg .c-content-mini .pics, .page-wrapper.e-content.e-page.m-page.co-bg .c-content-mini .pics, .page-wrapper.e-page.e-content.w-bg .page-wrapper.e-page.e-content.co-bg .c-content-mini .pics, .page-wrapper.e-page.e-content.co-bg .page-wrapper.e-page.e-content.w-bg .c-content-mini .pics, .page-wrapper.e-page.e-content.c-bg .page-wrapper.e-page.e-content.co-bg .c-content-mini .pics, .page-wrapper.e-page.e-content.co-bg .page-wrapper.e-page.e-content.c-bg .c-content-mini .pics, .page-wrapper.e-page.e-content.co-bg .c-content-mini .pics, .page-wrapper.s-bg.e-page.e-content .c-content-mini-second .pics, .page-wrapper.s-bg.e-content.e-page.m-page .c-content-mini-second .pics, .page-wrapper.e-content.e-page.m-page.w-bg .page-wrapper.s-bg.e-page.e-content .c-content-mini-second .pics, .page-wrapper.s-bg.e-page.e-content .page-wrapper.e-content.e-page.m-page.w-bg .c-content-mini-second .pics, .page-wrapper.e-content.e-page.m-page.c-bg .page-wrapper.s-bg.e-page.e-content .c-content-mini-second .pics, .page-wrapper.s-bg.e-page.e-content .page-wrapper.e-content.e-page.m-page.c-bg .c-content-mini-second .pics, .page-wrapper.e-content.e-page.m-page.co-bg .page-wrapper.s-bg.e-page.e-content .c-content-mini-second .pics, .page-wrapper.s-bg.e-page.e-content .page-wrapper.e-content.e-page.m-page.co-bg .c-content-mini-second .pics, .page-wrapper.e-page.e-content.w-bg .page-wrapper.s-bg.e-page.e-content .c-content-mini-second .pics, .page-wrapper.s-bg.e-page.e-content .page-wrapper.e-page.e-content.w-bg .c-content-mini-second .pics, .page-wrapper.e-page.e-content.c-bg .page-wrapper.s-bg.e-page.e-content .c-content-mini-second .pics, .page-wrapper.s-bg.e-page.e-content .page-wrapper.e-page.e-content.c-bg .c-content-mini-second .pics, .page-wrapper.e-page.e-content.co-bg .page-wrapper.s-bg.e-page.e-content .c-content-mini-second .pics, .page-wrapper.s-bg.e-page.e-content .page-wrapper.e-page.e-content.co-bg .c-content-mini-second .pics, .page-wrapper.s-bg.e-page.e-content .page-wrapper.e-page.e-content.w-bg .c-content-mini-second .pics, .page-wrapper.e-page.e-content.w-bg .page-wrapper.s-bg.e-page.e-content .c-content-mini-second .pics, .page-wrapper.s-bg.e-content.e-page.m-page .page-wrapper.e-page.e-content.w-bg .c-content-mini-second .pics, .page-wrapper.e-page.e-content.w-bg .page-wrapper.s-bg.e-content.e-page.m-page .c-content-mini-second .pics, .page-wrapper.e-content.e-page.m-page.w-bg .c-content-mini-second .pics, .page-wrapper.e-content.e-page.m-page.c-bg .page-wrapper.e-page.e-content.w-bg .c-content-mini-second .pics, .page-wrapper.e-page.e-content.w-bg .page-wrapper.e-content.e-page.m-page.c-bg .c-content-mini-second .pics, .page-wrapper.e-content.e-page.m-page.co-bg .page-wrapper.e-page.e-content.w-bg .c-content-mini-second .pics, .page-wrapper.e-page.e-content.w-bg .page-wrapper.e-content.e-page.m-page.co-bg .c-content-mini-second .pics, .page-wrapper.e-page.e-content.w-bg .c-content-mini-second .pics, .page-wrapper.e-page.e-content.c-bg .page-wrapper.e-page.e-content.w-bg .c-content-mini-second .pics, .page-wrapper.e-page.e-content.w-bg .page-wrapper.e-page.e-content.c-bg .c-content-mini-second .pics, .page-wrapper.e-page.e-content.co-bg .page-wrapper.e-page.e-content.w-bg .c-content-mini-second .pics, .page-wrapper.e-page.e-content.w-bg .page-wrapper.e-page.e-content.co-bg .c-content-mini-second .pics, .page-wrapper.s-bg.e-page.e-content .page-wrapper.e-page.e-content.c-bg .c-content-mini-second .pics, .page-wrapper.e-page.e-content.c-bg .page-wrapper.s-bg.e-page.e-content .c-content-mini-second .pics, .page-wrapper.s-bg.e-content.e-page.m-page .page-wrapper.e-page.e-content.c-bg .c-content-mini-second .pics, .page-wrapper.e-page.e-content.c-bg .page-wrapper.s-bg.e-content.e-page.m-page .c-content-mini-second .pics, .page-wrapper.e-content.e-page.m-page.w-bg .page-wrapper.e-page.e-content.c-bg .c-content-mini-second .pics, .page-wrapper.e-page.e-content.c-bg .page-wrapper.e-content.e-page.m-page.w-bg .c-content-mini-second .pics, .page-wrapper.e-content.e-page.m-page.c-bg .c-content-mini-second .pics, .page-wrapper.e-content.e-page.m-page.co-bg .page-wrapper.e-page.e-content.c-bg .c-content-mini-second .pics, .page-wrapper.e-page.e-content.c-bg .page-wrapper.e-content.e-page.m-page.co-bg .c-content-mini-second .pics, .page-wrapper.e-page.e-content.w-bg .page-wrapper.e-page.e-content.c-bg .c-content-mini-second .pics, .page-wrapper.e-page.e-content.c-bg .page-wrapper.e-page.e-content.w-bg .c-content-mini-second .pics, .page-wrapper.e-page.e-content.c-bg .c-content-mini-second .pics, .page-wrapper.e-page.e-content.co-bg .page-wrapper.e-page.e-content.c-bg .c-content-mini-second .pics, .page-wrapper.e-page.e-content.c-bg .page-wrapper.e-page.e-content.co-bg .c-content-mini-second .pics, .page-wrapper.s-bg.e-page.e-content .page-wrapper.e-page.e-content.co-bg .c-content-mini-second .pics, .page-wrapper.e-page.e-content.co-bg .page-wrapper.s-bg.e-page.e-content .c-content-mini-second .pics, .page-wrapper.s-bg.e-content.e-page.m-page .page-wrapper.e-page.e-content.co-bg .c-content-mini-second .pics, .page-wrapper.e-page.e-content.co-bg .page-wrapper.s-bg.e-content.e-page.m-page .c-content-mini-second .pics, .page-wrapper.e-content.e-page.m-page.w-bg .page-wrapper.e-page.e-content.co-bg .c-content-mini-second .pics, .page-wrapper.e-page.e-content.co-bg .page-wrapper.e-content.e-page.m-page.w-bg .c-content-mini-second .pics, .page-wrapper.e-content.e-page.m-page.c-bg .page-wrapper.e-page.e-content.co-bg .c-content-mini-second .pics, .page-wrapper.e-page.e-content.co-bg .page-wrapper.e-content.e-page.m-page.c-bg .c-content-mini-second .pics, .page-wrapper.e-content.e-page.m-page.co-bg .c-content-mini-second .pics, .page-wrapper.e-page.e-content.w-bg .page-wrapper.e-page.e-content.co-bg .c-content-mini-second .pics, .page-wrapper.e-page.e-content.co-bg .page-wrapper.e-page.e-content.w-bg .c-content-mini-second .pics, .page-wrapper.e-page.e-content.c-bg .page-wrapper.e-page.e-content.co-bg .c-content-mini-second .pics, .page-wrapper.e-page.e-content.co-bg .page-wrapper.e-page.e-content.c-bg .c-content-mini-second .pics, .page-wrapper.e-page.e-content.co-bg .c-content-mini-second .pics, .page-wrapper.s-bg.e-page.e-content #miniContent .pics, .page-wrapper.s-bg.e-content.e-page.m-page #miniContent .pics, .page-wrapper.e-content.e-page.m-page.w-bg .page-wrapper.s-bg.e-page.e-content #miniContent .pics, .page-wrapper.s-bg.e-page.e-content .page-wrapper.e-content.e-page.m-page.w-bg #miniContent .pics, .page-wrapper.e-content.e-page.m-page.c-bg .page-wrapper.s-bg.e-page.e-content #miniContent .pics, .page-wrapper.s-bg.e-page.e-content .page-wrapper.e-content.e-page.m-page.c-bg #miniContent .pics, .page-wrapper.e-content.e-page.m-page.co-bg .page-wrapper.s-bg.e-page.e-content #miniContent .pics, .page-wrapper.s-bg.e-page.e-content .page-wrapper.e-content.e-page.m-page.co-bg #miniContent .pics, .page-wrapper.e-page.e-content.w-bg .page-wrapper.s-bg.e-page.e-content #miniContent .pics, .page-wrapper.s-bg.e-page.e-content .page-wrapper.e-page.e-content.w-bg #miniContent .pics, .page-wrapper.e-page.e-content.c-bg .page-wrapper.s-bg.e-page.e-content #miniContent .pics, .page-wrapper.s-bg.e-page.e-content .page-wrapper.e-page.e-content.c-bg #miniContent .pics, .page-wrapper.e-page.e-content.co-bg .page-wrapper.s-bg.e-page.e-content #miniContent .pics, .page-wrapper.s-bg.e-page.e-content .page-wrapper.e-page.e-content.co-bg #miniContent .pics, .page-wrapper.s-bg.e-page.e-content .page-wrapper.e-page.e-content.w-bg #miniContent .pics, .page-wrapper.e-page.e-content.w-bg .page-wrapper.s-bg.e-page.e-content #miniContent .pics, .page-wrapper.s-bg.e-content.e-page.m-page .page-wrapper.e-page.e-content.w-bg #miniContent .pics, .page-wrapper.e-page.e-content.w-bg .page-wrapper.s-bg.e-content.e-page.m-page #miniContent .pics, .page-wrapper.e-content.e-page.m-page.w-bg #miniContent .pics, .page-wrapper.e-content.e-page.m-page.c-bg .page-wrapper.e-page.e-content.w-bg #miniContent .pics, .page-wrapper.e-page.e-content.w-bg .page-wrapper.e-content.e-page.m-page.c-bg #miniContent .pics, .page-wrapper.e-content.e-page.m-page.co-bg .page-wrapper.e-page.e-content.w-bg #miniContent .pics, .page-wrapper.e-page.e-content.w-bg .page-wrapper.e-content.e-page.m-page.co-bg #miniContent .pics, .page-wrapper.e-page.e-content.w-bg #miniContent .pics, .page-wrapper.e-page.e-content.c-bg .page-wrapper.e-page.e-content.w-bg #miniContent .pics, .page-wrapper.e-page.e-content.w-bg .page-wrapper.e-page.e-content.c-bg #miniContent .pics, .page-wrapper.e-page.e-content.co-bg .page-wrapper.e-page.e-content.w-bg #miniContent .pics, .page-wrapper.e-page.e-content.w-bg .page-wrapper.e-page.e-content.co-bg #miniContent .pics, .page-wrapper.s-bg.e-page.e-content .page-wrapper.e-page.e-content.c-bg #miniContent .pics, .page-wrapper.e-page.e-content.c-bg .page-wrapper.s-bg.e-page.e-content #miniContent .pics, .page-wrapper.s-bg.e-content.e-page.m-page .page-wrapper.e-page.e-content.c-bg #miniContent .pics, .page-wrapper.e-page.e-content.c-bg .page-wrapper.s-bg.e-content.e-page.m-page #miniContent .pics, .page-wrapper.e-content.e-page.m-page.w-bg .page-wrapper.e-page.e-content.c-bg #miniContent .pics, .page-wrapper.e-page.e-content.c-bg .page-wrapper.e-content.e-page.m-page.w-bg #miniContent .pics, .page-wrapper.e-content.e-page.m-page.c-bg #miniContent .pics, .page-wrapper.e-content.e-page.m-page.co-bg .page-wrapper.e-page.e-content.c-bg #miniContent .pics, .page-wrapper.e-page.e-content.c-bg .page-wrapper.e-content.e-page.m-page.co-bg #miniContent .pics, .page-wrapper.e-page.e-content.w-bg .page-wrapper.e-page.e-content.c-bg #miniContent .pics, .page-wrapper.e-page.e-content.c-bg .page-wrapper.e-page.e-content.w-bg #miniContent .pics, .page-wrapper.e-page.e-content.c-bg #miniContent .pics, .page-wrapper.e-page.e-content.co-bg .page-wrapper.e-page.e-content.c-bg #miniContent .pics, .page-wrapper.e-page.e-content.c-bg .page-wrapper.e-page.e-content.co-bg #miniContent .pics, .page-wrapper.s-bg.e-page.e-content .page-wrapper.e-page.e-content.co-bg #miniContent .pics, .page-wrapper.e-page.e-content.co-bg .page-wrapper.s-bg.e-page.e-content #miniContent .pics, .page-wrapper.s-bg.e-content.e-page.m-page .page-wrapper.e-page.e-content.co-bg #miniContent .pics, .page-wrapper.e-page.e-content.co-bg .page-wrapper.s-bg.e-content.e-page.m-page #miniContent .pics, .page-wrapper.e-content.e-page.m-page.w-bg .page-wrapper.e-page.e-content.co-bg #miniContent .pics, .page-wrapper.e-page.e-content.co-bg .page-wrapper.e-content.e-page.m-page.w-bg #miniContent .pics, .page-wrapper.e-content.e-page.m-page.c-bg .page-wrapper.e-page.e-content.co-bg #miniContent .pics, .page-wrapper.e-page.e-content.co-bg .page-wrapper.e-content.e-page.m-page.c-bg #miniContent .pics, .page-wrapper.e-content.e-page.m-page.co-bg #miniContent .pics, .page-wrapper.e-page.e-content.w-bg .page-wrapper.e-page.e-content.co-bg #miniContent .pics, .page-wrapper.e-page.e-content.co-bg .page-wrapper.e-page.e-content.w-bg #miniContent .pics, .page-wrapper.e-page.e-content.c-bg .page-wrapper.e-page.e-content.co-bg #miniContent .pics, .page-wrapper.e-page.e-content.co-bg .page-wrapper.e-page.e-content.c-bg #miniContent .pics, .page-wrapper.e-page.e-content.co-bg #miniContent .pics {
   text-align: center;
 }
-/* line 265, ../sass/paris.scss */
+/* line 266, ../sass/paris.scss */
 .page-wrapper.s-bg.e-page.e-content .c-content-max .pics img, .page-wrapper.s-bg.e-content.e-page.m-page .c-content-max .pics img, .page-wrapper.e-content.e-page.m-page.w-bg .c-content-max .pics img, .page-wrapper.e-content.e-page.m-page.c-bg .c-content-max .pics img, .page-wrapper.e-content.e-page.m-page.co-bg .c-content-max .pics img, .page-wrapper.e-page.e-content.w-bg .c-content-max .pics img, .page-wrapper.e-page.e-content.c-bg .c-content-max .pics img, .page-wrapper.e-page.e-content.co-bg .c-content-max .pics img, .page-wrapper.s-bg.e-page.e-content .c-content-mini .pics img, .page-wrapper.s-bg.e-content.e-page.m-page .c-content-mini .pics img, .page-wrapper.e-content.e-page.m-page.w-bg .page-wrapper.s-bg.e-page.e-content .c-content-mini .pics img, .page-wrapper.s-bg.e-page.e-content .page-wrapper.e-content.e-page.m-page.w-bg .c-content-mini .pics img, .page-wrapper.e-content.e-page.m-page.c-bg .page-wrapper.s-bg.e-page.e-content .c-content-mini .pics img, .page-wrapper.s-bg.e-page.e-content .page-wrapper.e-content.e-page.m-page.c-bg .c-content-mini .pics img, .page-wrapper.e-content.e-page.m-page.co-bg .page-wrapper.s-bg.e-page.e-content .c-content-mini .pics img, .page-wrapper.s-bg.e-page.e-content .page-wrapper.e-content.e-page.m-page.co-bg .c-content-mini .pics img, .page-wrapper.e-page.e-content.w-bg .page-wrapper.s-bg.e-page.e-content .c-content-mini .pics img, .page-wrapper.s-bg.e-page.e-content .page-wrapper.e-page.e-content.w-bg .c-content-mini .pics img, .page-wrapper.e-page.e-content.c-bg .page-wrapper.s-bg.e-page.e-content .c-content-mini .pics img, .page-wrapper.s-bg.e-page.e-content .page-wrapper.e-page.e-content.c-bg .c-content-mini .pics img, .page-wrapper.e-page.e-content.co-bg .page-wrapper.s-bg.e-page.e-content .c-content-mini .pics img, .page-wrapper.s-bg.e-page.e-content .page-wrapper.e-page.e-content.co-bg .c-content-mini .pics img, .page-wrapper.s-bg.e-page.e-content .page-wrapper.e-page.e-content.w-bg .c-content-mini .pics img, .page-wrapper.e-page.e-content.w-bg .page-wrapper.s-bg.e-page.e-content .c-content-mini .pics img, .page-wrapper.s-bg.e-content.e-page.m-page .page-wrapper.e-page.e-content.w-bg .c-content-mini .pics img, .page-wrapper.e-page.e-content.w-bg .page-wrapper.s-bg.e-content.e-page.m-page .c-content-mini .pics img, .page-wrapper.e-content.e-page.m-page.w-bg .c-content-mini .pics img, .page-wrapper.e-content.e-page.m-page.c-bg .page-wrapper.e-page.e-content.w-bg .c-content-mini .pics img, .page-wrapper.e-page.e-content.w-bg .page-wrapper.e-content.e-page.m-page.c-bg .c-content-mini .pics img, .page-wrapper.e-content.e-page.m-page.co-bg .page-wrapper.e-page.e-content.w-bg .c-content-mini .pics img, .page-wrapper.e-page.e-content.w-bg .page-wrapper.e-content.e-page.m-page.co-bg .c-content-mini .pics img, .page-wrapper.e-page.e-content.w-bg .c-content-mini .pics img, .page-wrapper.e-page.e-content.c-bg .page-wrapper.e-page.e-content.w-bg .c-content-mini .pics img, .page-wrapper.e-page.e-content.w-bg .page-wrapper.e-page.e-content.c-bg .c-content-mini .pics img, .page-wrapper.e-page.e-content.co-bg .page-wrapper.e-page.e-content.w-bg .c-content-mini .pics img, .page-wrapper.e-page.e-content.w-bg .page-wrapper.e-page.e-content.co-bg .c-content-mini .pics img, .page-wrapper.s-bg.e-page.e-content .page-wrapper.e-page.e-content.c-bg .c-content-mini .pics img, .page-wrapper.e-page.e-content.c-bg .page-wrapper.s-bg.e-page.e-content .c-content-mini .pics img, .page-wrapper.s-bg.e-content.e-page.m-page .page-wrapper.e-page.e-content.c-bg .c-content-mini .pics img, .page-wrapper.e-page.e-content.c-bg .page-wrapper.s-bg.e-content.e-page.m-page .c-content-mini .pics img, .page-wrapper.e-content.e-page.m-page.w-bg .page-wrapper.e-page.e-content.c-bg .c-content-mini .pics img, .page-wrapper.e-page.e-content.c-bg .page-wrapper.e-content.e-page.m-page.w-bg .c-content-mini .pics img, .page-wrapper.e-content.e-page.m-page.c-bg .c-content-mini .pics img, .page-wrapper.e-content.e-page.m-page.co-bg .page-wrapper.e-page.e-content.c-bg .c-content-mini .pics img, .page-wrapper.e-page.e-content.c-bg .page-wrapper.e-content.e-page.m-page.co-bg .c-content-mini .pics img, .page-wrapper.e-page.e-content.w-bg .page-wrapper.e-page.e-content.c-bg .c-content-mini .pics img, .page-wrapper.e-page.e-content.c-bg .page-wrapper.e-page.e-content.w-bg .c-content-mini .pics img, .page-wrapper.e-page.e-content.c-bg .c-content-mini .pics img, .page-wrapper.e-page.e-content.co-bg .page-wrapper.e-page.e-content.c-bg .c-content-mini .pics img, .page-wrapper.e-page.e-content.c-bg .page-wrapper.e-page.e-content.co-bg .c-content-mini .pics img, .page-wrapper.s-bg.e-page.e-content .page-wrapper.e-page.e-content.co-bg .c-content-mini .pics img, .page-wrapper.e-page.e-content.co-bg .page-wrapper.s-bg.e-page.e-content .c-content-mini .pics img, .page-wrapper.s-bg.e-content.e-page.m-page .page-wrapper.e-page.e-content.co-bg .c-content-mini .pics img, .page-wrapper.e-page.e-content.co-bg .page-wrapper.s-bg.e-content.e-page.m-page .c-content-mini .pics img, .page-wrapper.e-content.e-page.m-page.w-bg .page-wrapper.e-page.e-content.co-bg .c-content-mini .pics img, .page-wrapper.e-page.e-content.co-bg .page-wrapper.e-content.e-page.m-page.w-bg .c-content-mini .pics img, .page-wrapper.e-content.e-page.m-page.c-bg .page-wrapper.e-page.e-content.co-bg .c-content-mini .pics img, .page-wrapper.e-page.e-content.co-bg .page-wrapper.e-content.e-page.m-page.c-bg .c-content-mini .pics img, .page-wrapper.e-content.e-page.m-page.co-bg .c-content-mini .pics img, .page-wrapper.e-page.e-content.w-bg .page-wrapper.e-page.e-content.co-bg .c-content-mini .pics img, .page-wrapper.e-page.e-content.co-bg .page-wrapper.e-page.e-content.w-bg .c-content-mini .pics img, .page-wrapper.e-page.e-content.c-bg .page-wrapper.e-page.e-content.co-bg .c-content-mini .pics img, .page-wrapper.e-page.e-content.co-bg .page-wrapper.e-page.e-content.c-bg .c-content-mini .pics img, .page-wrapper.e-page.e-content.co-bg .c-content-mini .pics img, .page-wrapper.s-bg.e-page.e-content .c-content-mini-second .pics img, .page-wrapper.s-bg.e-content.e-page.m-page .c-content-mini-second .pics img, .page-wrapper.e-content.e-page.m-page.w-bg .page-wrapper.s-bg.e-page.e-content .c-content-mini-second .pics img, .page-wrapper.s-bg.e-page.e-content .page-wrapper.e-content.e-page.m-page.w-bg .c-content-mini-second .pics img, .page-wrapper.e-content.e-page.m-page.c-bg .page-wrapper.s-bg.e-page.e-content .c-content-mini-second .pics img, .page-wrapper.s-bg.e-page.e-content .page-wrapper.e-content.e-page.m-page.c-bg .c-content-mini-second .pics img, .page-wrapper.e-content.e-page.m-page.co-bg .page-wrapper.s-bg.e-page.e-content .c-content-mini-second .pics img, .page-wrapper.s-bg.e-page.e-content .page-wrapper.e-content.e-page.m-page.co-bg .c-content-mini-second .pics img, .page-wrapper.e-page.e-content.w-bg .page-wrapper.s-bg.e-page.e-content .c-content-mini-second .pics img, .page-wrapper.s-bg.e-page.e-content .page-wrapper.e-page.e-content.w-bg .c-content-mini-second .pics img, .page-wrapper.e-page.e-content.c-bg .page-wrapper.s-bg.e-page.e-content .c-content-mini-second .pics img, .page-wrapper.s-bg.e-page.e-content .page-wrapper.e-page.e-content.c-bg .c-content-mini-second .pics img, .page-wrapper.e-page.e-content.co-bg .page-wrapper.s-bg.e-page.e-content .c-content-mini-second .pics img, .page-wrapper.s-bg.e-page.e-content .page-wrapper.e-page.e-content.co-bg .c-content-mini-second .pics img, .page-wrapper.s-bg.e-page.e-content .page-wrapper.e-page.e-content.w-bg .c-content-mini-second .pics img, .page-wrapper.e-page.e-content.w-bg .page-wrapper.s-bg.e-page.e-content .c-content-mini-second .pics img, .page-wrapper.s-bg.e-content.e-page.m-page .page-wrapper.e-page.e-content.w-bg .c-content-mini-second .pics img, .page-wrapper.e-page.e-content.w-bg .page-wrapper.s-bg.e-content.e-page.m-page .c-content-mini-second .pics img, .page-wrapper.e-content.e-page.m-page.w-bg .c-content-mini-second .pics img, .page-wrapper.e-content.e-page.m-page.c-bg .page-wrapper.e-page.e-content.w-bg .c-content-mini-second .pics img, .page-wrapper.e-page.e-content.w-bg .page-wrapper.e-content.e-page.m-page.c-bg .c-content-mini-second .pics img, .page-wrapper.e-content.e-page.m-page.co-bg .page-wrapper.e-page.e-content.w-bg .c-content-mini-second .pics img, .page-wrapper.e-page.e-content.w-bg .page-wrapper.e-content.e-page.m-page.co-bg .c-content-mini-second .pics img, .page-wrapper.e-page.e-content.w-bg .c-content-mini-second .pics img, .page-wrapper.e-page.e-content.c-bg .page-wrapper.e-page.e-content.w-bg .c-content-mini-second .pics img, .page-wrapper.e-page.e-content.w-bg .page-wrapper.e-page.e-content.c-bg .c-content-mini-second .pics img, .page-wrapper.e-page.e-content.co-bg .page-wrapper.e-page.e-content.w-bg .c-content-mini-second .pics img, .page-wrapper.e-page.e-content.w-bg .page-wrapper.e-page.e-content.co-bg .c-content-mini-second .pics img, .page-wrapper.s-bg.e-page.e-content .page-wrapper.e-page.e-content.c-bg .c-content-mini-second .pics img, .page-wrapper.e-page.e-content.c-bg .page-wrapper.s-bg.e-page.e-content .c-content-mini-second .pics img, .page-wrapper.s-bg.e-content.e-page.m-page .page-wrapper.e-page.e-content.c-bg .c-content-mini-second .pics img, .page-wrapper.e-page.e-content.c-bg .page-wrapper.s-bg.e-content.e-page.m-page .c-content-mini-second .pics img, .page-wrapper.e-content.e-page.m-page.w-bg .page-wrapper.e-page.e-content.c-bg .c-content-mini-second .pics img, .page-wrapper.e-page.e-content.c-bg .page-wrapper.e-content.e-page.m-page.w-bg .c-content-mini-second .pics img, .page-wrapper.e-content.e-page.m-page.c-bg .c-content-mini-second .pics img, .page-wrapper.e-content.e-page.m-page.co-bg .page-wrapper.e-page.e-content.c-bg .c-content-mini-second .pics img, .page-wrapper.e-page.e-content.c-bg .page-wrapper.e-content.e-page.m-page.co-bg .c-content-mini-second .pics img, .page-wrapper.e-page.e-content.w-bg .page-wrapper.e-page.e-content.c-bg .c-content-mini-second .pics img, .page-wrapper.e-page.e-content.c-bg .page-wrapper.e-page.e-content.w-bg .c-content-mini-second .pics img, .page-wrapper.e-page.e-content.c-bg .c-content-mini-second .pics img, .page-wrapper.e-page.e-content.co-bg .page-wrapper.e-page.e-content.c-bg .c-content-mini-second .pics img, .page-wrapper.e-page.e-content.c-bg .page-wrapper.e-page.e-content.co-bg .c-content-mini-second .pics img, .page-wrapper.s-bg.e-page.e-content .page-wrapper.e-page.e-content.co-bg .c-content-mini-second .pics img, .page-wrapper.e-page.e-content.co-bg .page-wrapper.s-bg.e-page.e-content .c-content-mini-second .pics img, .page-wrapper.s-bg.e-content.e-page.m-page .page-wrapper.e-page.e-content.co-bg .c-content-mini-second .pics img, .page-wrapper.e-page.e-content.co-bg .page-wrapper.s-bg.e-content.e-page.m-page .c-content-mini-second .pics img, .page-wrapper.e-content.e-page.m-page.w-bg .page-wrapper.e-page.e-content.co-bg .c-content-mini-second .pics img, .page-wrapper.e-page.e-content.co-bg .page-wrapper.e-content.e-page.m-page.w-bg .c-content-mini-second .pics img, .page-wrapper.e-content.e-page.m-page.c-bg .page-wrapper.e-page.e-content.co-bg .c-content-mini-second .pics img, .page-wrapper.e-page.e-content.co-bg .page-wrapper.e-content.e-page.m-page.c-bg .c-content-mini-second .pics img, .page-wrapper.e-content.e-page.m-page.co-bg .c-content-mini-second .pics img, .page-wrapper.e-page.e-content.w-bg .page-wrapper.e-page.e-content.co-bg .c-content-mini-second .pics img, .page-wrapper.e-page.e-content.co-bg .page-wrapper.e-page.e-content.w-bg .c-content-mini-second .pics img, .page-wrapper.e-page.e-content.c-bg .page-wrapper.e-page.e-content.co-bg .c-content-mini-second .pics img, .page-wrapper.e-page.e-content.co-bg .page-wrapper.e-page.e-content.c-bg .c-content-mini-second .pics img, .page-wrapper.e-page.e-content.co-bg .c-content-mini-second .pics img, .page-wrapper.s-bg.e-page.e-content #miniContent .pics img, .page-wrapper.s-bg.e-content.e-page.m-page #miniContent .pics img, .page-wrapper.e-content.e-page.m-page.w-bg .page-wrapper.s-bg.e-page.e-content #miniContent .pics img, .page-wrapper.s-bg.e-page.e-content .page-wrapper.e-content.e-page.m-page.w-bg #miniContent .pics img, .page-wrapper.e-content.e-page.m-page.c-bg .page-wrapper.s-bg.e-page.e-content #miniContent .pics img, .page-wrapper.s-bg.e-page.e-content .page-wrapper.e-content.e-page.m-page.c-bg #miniContent .pics img, .page-wrapper.e-content.e-page.m-page.co-bg .page-wrapper.s-bg.e-page.e-content #miniContent .pics img, .page-wrapper.s-bg.e-page.e-content .page-wrapper.e-content.e-page.m-page.co-bg #miniContent .pics img, .page-wrapper.e-page.e-content.w-bg .page-wrapper.s-bg.e-page.e-content #miniContent .pics img, .page-wrapper.s-bg.e-page.e-content .page-wrapper.e-page.e-content.w-bg #miniContent .pics img, .page-wrapper.e-page.e-content.c-bg .page-wrapper.s-bg.e-page.e-content #miniContent .pics img, .page-wrapper.s-bg.e-page.e-content .page-wrapper.e-page.e-content.c-bg #miniContent .pics img, .page-wrapper.e-page.e-content.co-bg .page-wrapper.s-bg.e-page.e-content #miniContent .pics img, .page-wrapper.s-bg.e-page.e-content .page-wrapper.e-page.e-content.co-bg #miniContent .pics img, .page-wrapper.s-bg.e-page.e-content .page-wrapper.e-page.e-content.w-bg #miniContent .pics img, .page-wrapper.e-page.e-content.w-bg .page-wrapper.s-bg.e-page.e-content #miniContent .pics img, .page-wrapper.s-bg.e-content.e-page.m-page .page-wrapper.e-page.e-content.w-bg #miniContent .pics img, .page-wrapper.e-page.e-content.w-bg .page-wrapper.s-bg.e-content.e-page.m-page #miniContent .pics img, .page-wrapper.e-content.e-page.m-page.w-bg #miniContent .pics img, .page-wrapper.e-content.e-page.m-page.c-bg .page-wrapper.e-page.e-content.w-bg #miniContent .pics img, .page-wrapper.e-page.e-content.w-bg .page-wrapper.e-content.e-page.m-page.c-bg #miniContent .pics img, .page-wrapper.e-content.e-page.m-page.co-bg .page-wrapper.e-page.e-content.w-bg #miniContent .pics img, .page-wrapper.e-page.e-content.w-bg .page-wrapper.e-content.e-page.m-page.co-bg #miniContent .pics img, .page-wrapper.e-page.e-content.w-bg #miniContent .pics img, .page-wrapper.e-page.e-content.c-bg .page-wrapper.e-page.e-content.w-bg #miniContent .pics img, .page-wrapper.e-page.e-content.w-bg .page-wrapper.e-page.e-content.c-bg #miniContent .pics img, .page-wrapper.e-page.e-content.co-bg .page-wrapper.e-page.e-content.w-bg #miniContent .pics img, .page-wrapper.e-page.e-content.w-bg .page-wrapper.e-page.e-content.co-bg #miniContent .pics img, .page-wrapper.s-bg.e-page.e-content .page-wrapper.e-page.e-content.c-bg #miniContent .pics img, .page-wrapper.e-page.e-content.c-bg .page-wrapper.s-bg.e-page.e-content #miniContent .pics img, .page-wrapper.s-bg.e-content.e-page.m-page .page-wrapper.e-page.e-content.c-bg #miniContent .pics img, .page-wrapper.e-page.e-content.c-bg .page-wrapper.s-bg.e-content.e-page.m-page #miniContent .pics img, .page-wrapper.e-content.e-page.m-page.w-bg .page-wrapper.e-page.e-content.c-bg #miniContent .pics img, .page-wrapper.e-page.e-content.c-bg .page-wrapper.e-content.e-page.m-page.w-bg #miniContent .pics img, .page-wrapper.e-content.e-page.m-page.c-bg #miniContent .pics img, .page-wrapper.e-content.e-page.m-page.co-bg .page-wrapper.e-page.e-content.c-bg #miniContent .pics img, .page-wrapper.e-page.e-content.c-bg .page-wrapper.e-content.e-page.m-page.co-bg #miniContent .pics img, .page-wrapper.e-page.e-content.w-bg .page-wrapper.e-page.e-content.c-bg #miniContent .pics img, .page-wrapper.e-page.e-content.c-bg .page-wrapper.e-page.e-content.w-bg #miniContent .pics img, .page-wrapper.e-page.e-content.c-bg #miniContent .pics img, .page-wrapper.e-page.e-content.co-bg .page-wrapper.e-page.e-content.c-bg #miniContent .pics img, .page-wrapper.e-page.e-content.c-bg .page-wrapper.e-page.e-content.co-bg #miniContent .pics img, .page-wrapper.s-bg.e-page.e-content .page-wrapper.e-page.e-content.co-bg #miniContent .pics img, .page-wrapper.e-page.e-content.co-bg .page-wrapper.s-bg.e-page.e-content #miniContent .pics img, .page-wrapper.s-bg.e-content.e-page.m-page .page-wrapper.e-page.e-content.co-bg #miniContent .pics img, .page-wrapper.e-page.e-content.co-bg .page-wrapper.s-bg.e-content.e-page.m-page #miniContent .pics img, .page-wrapper.e-content.e-page.m-page.w-bg .page-wrapper.e-page.e-content.co-bg #miniContent .pics img, .page-wrapper.e-page.e-content.co-bg .page-wrapper.e-content.e-page.m-page.w-bg #miniContent .pics img, .page-wrapper.e-content.e-page.m-page.c-bg .page-wrapper.e-page.e-content.co-bg #miniContent .pics img, .page-wrapper.e-page.e-content.co-bg .page-wrapper.e-content.e-page.m-page.c-bg #miniContent .pics img, .page-wrapper.e-content.e-page.m-page.co-bg #miniContent .pics img, .page-wrapper.e-page.e-content.w-bg .page-wrapper.e-page.e-content.co-bg #miniContent .pics img, .page-wrapper.e-page.e-content.co-bg .page-wrapper.e-page.e-content.w-bg #miniContent .pics img, .page-wrapper.e-page.e-content.c-bg .page-wrapper.e-page.e-content.co-bg #miniContent .pics img, .page-wrapper.e-page.e-content.co-bg .page-wrapper.e-page.e-content.c-bg #miniContent .pics img, .page-wrapper.e-page.e-content.co-bg #miniContent .pics img {
   width: 237px;
   border-radius: 100%;
   display: inline-block;
   border: 2px solid #fff;
 }
-/* line 271, ../sass/paris.scss */
+/* line 272, ../sass/paris.scss */
 .page-wrapper.s-bg.e-page.e-content .c-content-max .pics .c-title, .page-wrapper.s-bg.e-content.e-page.m-page .c-content-max .pics .c-title, .page-wrapper.e-content.e-page.m-page.w-bg .c-content-max .pics .c-title, .page-wrapper.e-content.e-page.m-page.c-bg .c-content-max .pics .c-title, .page-wrapper.e-content.e-page.m-page.co-bg .c-content-max .pics .c-title, .page-wrapper.e-page.e-content.w-bg .c-content-max .pics .c-title, .page-wrapper.e-page.e-content.c-bg .c-content-max .pics .c-title, .page-wrapper.e-page.e-content.co-bg .c-content-max .pics .c-title, .page-wrapper.s-bg.e-page.e-content .c-content-mini .pics .c-title, .page-wrapper.s-bg.e-content.e-page.m-page .c-content-mini .pics .c-title, .page-wrapper.e-content.e-page.m-page.w-bg .page-wrapper.s-bg.e-page.e-content .c-content-mini .pics .c-title, .page-wrapper.s-bg.e-page.e-content .page-wrapper.e-content.e-page.m-page.w-bg .c-content-mini .pics .c-title, .page-wrapper.e-content.e-page.m-page.c-bg .page-wrapper.s-bg.e-page.e-content .c-content-mini .pics .c-title, .page-wrapper.s-bg.e-page.e-content .page-wrapper.e-content.e-page.m-page.c-bg .c-content-mini .pics .c-title, .page-wrapper.e-content.e-page.m-page.co-bg .page-wrapper.s-bg.e-page.e-content .c-content-mini .pics .c-title, .page-wrapper.s-bg.e-page.e-content .page-wrapper.e-content.e-page.m-page.co-bg .c-content-mini .pics .c-title, .page-wrapper.e-page.e-content.w-bg .page-wrapper.s-bg.e-page.e-content .c-content-mini .pics .c-title, .page-wrapper.s-bg.e-page.e-content .page-wrapper.e-page.e-content.w-bg .c-content-mini .pics .c-title, .page-wrapper.e-page.e-content.c-bg .page-wrapper.s-bg.e-page.e-content .c-content-mini .pics .c-title, .page-wrapper.s-bg.e-page.e-content .page-wrapper.e-page.e-content.c-bg .c-content-mini .pics .c-title, .page-wrapper.e-page.e-content.co-bg .page-wrapper.s-bg.e-page.e-content .c-content-mini .pics .c-title, .page-wrapper.s-bg.e-page.e-content .page-wrapper.e-page.e-content.co-bg .c-content-mini .pics .c-title, .page-wrapper.s-bg.e-page.e-content .page-wrapper.e-page.e-content.w-bg .c-content-mini .pics .c-title, .page-wrapper.e-page.e-content.w-bg .page-wrapper.s-bg.e-page.e-content .c-content-mini .pics .c-title, .page-wrapper.s-bg.e-content.e-page.m-page .page-wrapper.e-page.e-content.w-bg .c-content-mini .pics .c-title, .page-wrapper.e-page.e-content.w-bg .page-wrapper.s-bg.e-content.e-page.m-page .c-content-mini .pics .c-title, .page-wrapper.e-content.e-page.m-page.w-bg .c-content-mini .pics .c-title, .page-wrapper.e-content.e-page.m-page.c-bg .page-wrapper.e-page.e-content.w-bg .c-content-mini .pics .c-title, .page-wrapper.e-page.e-content.w-bg .page-wrapper.e-content.e-page.m-page.c-bg .c-content-mini .pics .c-title, .page-wrapper.e-content.e-page.m-page.co-bg .page-wrapper.e-page.e-content.w-bg .c-content-mini .pics .c-title, .page-wrapper.e-page.e-content.w-bg .page-wrapper.e-content.e-page.m-page.co-bg .c-content-mini .pics .c-title, .page-wrapper.e-page.e-content.w-bg .c-content-mini .pics .c-title, .page-wrapper.e-page.e-content.c-bg .page-wrapper.e-page.e-content.w-bg .c-content-mini .pics .c-title, .page-wrapper.e-page.e-content.w-bg .page-wrapper.e-page.e-content.c-bg .c-content-mini .pics .c-title, .page-wrapper.e-page.e-content.co-bg .page-wrapper.e-page.e-content.w-bg .c-content-mini .pics .c-title, .page-wrapper.e-page.e-content.w-bg .page-wrapper.e-page.e-content.co-bg .c-content-mini .pics .c-title, .page-wrapper.s-bg.e-page.e-content .page-wrapper.e-page.e-content.c-bg .c-content-mini .pics .c-title, .page-wrapper.e-page.e-content.c-bg .page-wrapper.s-bg.e-page.e-content .c-content-mini .pics .c-title, .page-wrapper.s-bg.e-content.e-page.m-page .page-wrapper.e-page.e-content.c-bg .c-content-mini .pics .c-title, .page-wrapper.e-page.e-content.c-bg .page-wrapper.s-bg.e-content.e-page.m-page .c-content-mini .pics .c-title, .page-wrapper.e-content.e-page.m-page.w-bg .page-wrapper.e-page.e-content.c-bg .c-content-mini .pics .c-title, .page-wrapper.e-page.e-content.c-bg .page-wrapper.e-content.e-page.m-page.w-bg .c-content-mini .pics .c-title, .page-wrapper.e-content.e-page.m-page.c-bg .c-content-mini .pics .c-title, .page-wrapper.e-content.e-page.m-page.co-bg .page-wrapper.e-page.e-content.c-bg .c-content-mini .pics .c-title, .page-wrapper.e-page.e-content.c-bg .page-wrapper.e-content.e-page.m-page.co-bg .c-content-mini .pics .c-title, .page-wrapper.e-page.e-content.w-bg .page-wrapper.e-page.e-content.c-bg .c-content-mini .pics .c-title, .page-wrapper.e-page.e-content.c-bg .page-wrapper.e-page.e-content.w-bg .c-content-mini .pics .c-title, .page-wrapper.e-page.e-content.c-bg .c-content-mini .pics .c-title, .page-wrapper.e-page.e-content.co-bg .page-wrapper.e-page.e-content.c-bg .c-content-mini .pics .c-title, .page-wrapper.e-page.e-content.c-bg .page-wrapper.e-page.e-content.co-bg .c-content-mini .pics .c-title, .page-wrapper.s-bg.e-page.e-content .page-wrapper.e-page.e-content.co-bg .c-content-mini .pics .c-title, .page-wrapper.e-page.e-content.co-bg .page-wrapper.s-bg.e-page.e-content .c-content-mini .pics .c-title, .page-wrapper.s-bg.e-content.e-page.m-page .page-wrapper.e-page.e-content.co-bg .c-content-mini .pics .c-title, .page-wrapper.e-page.e-content.co-bg .page-wrapper.s-bg.e-content.e-page.m-page .c-content-mini .pics .c-title, .page-wrapper.e-content.e-page.m-page.w-bg .page-wrapper.e-page.e-content.co-bg .c-content-mini .pics .c-title, .page-wrapper.e-page.e-content.co-bg .page-wrapper.e-content.e-page.m-page.w-bg .c-content-mini .pics .c-title, .page-wrapper.e-content.e-page.m-page.c-bg .page-wrapper.e-page.e-content.co-bg .c-content-mini .pics .c-title, .page-wrapper.e-page.e-content.co-bg .page-wrapper.e-content.e-page.m-page.c-bg .c-content-mini .pics .c-title, .page-wrapper.e-content.e-page.m-page.co-bg .c-content-mini .pics .c-title, .page-wrapper.e-page.e-content.w-bg .page-wrapper.e-page.e-content.co-bg .c-content-mini .pics .c-title, .page-wrapper.e-page.e-content.co-bg .page-wrapper.e-page.e-content.w-bg .c-content-mini .pics .c-title, .page-wrapper.e-page.e-content.c-bg .page-wrapper.e-page.e-content.co-bg .c-content-mini .pics .c-title, .page-wrapper.e-page.e-content.co-bg .page-wrapper.e-page.e-content.c-bg .c-content-mini .pics .c-title, .page-wrapper.e-page.e-content.co-bg .c-content-mini .pics .c-title, .page-wrapper.s-bg.e-page.e-content .c-content-mini-second .pics .c-title, .page-wrapper.s-bg.e-content.e-page.m-page .c-content-mini-second .pics .c-title, .page-wrapper.e-content.e-page.m-page.w-bg .page-wrapper.s-bg.e-page.e-content .c-content-mini-second .pics .c-title, .page-wrapper.s-bg.e-page.e-content .page-wrapper.e-content.e-page.m-page.w-bg .c-content-mini-second .pics .c-title, .page-wrapper.e-content.e-page.m-page.c-bg .page-wrapper.s-bg.e-page.e-content .c-content-mini-second .pics .c-title, .page-wrapper.s-bg.e-page.e-content .page-wrapper.e-content.e-page.m-page.c-bg .c-content-mini-second .pics .c-title, .page-wrapper.e-content.e-page.m-page.co-bg .page-wrapper.s-bg.e-page.e-content .c-content-mini-second .pics .c-title, .page-wrapper.s-bg.e-page.e-content .page-wrapper.e-content.e-page.m-page.co-bg .c-content-mini-second .pics .c-title, .page-wrapper.e-page.e-content.w-bg .page-wrapper.s-bg.e-page.e-content .c-content-mini-second .pics .c-title, .page-wrapper.s-bg.e-page.e-content .page-wrapper.e-page.e-content.w-bg .c-content-mini-second .pics .c-title, .page-wrapper.e-page.e-content.c-bg .page-wrapper.s-bg.e-page.e-content .c-content-mini-second .pics .c-title, .page-wrapper.s-bg.e-page.e-content .page-wrapper.e-page.e-content.c-bg .c-content-mini-second .pics .c-title, .page-wrapper.e-page.e-content.co-bg .page-wrapper.s-bg.e-page.e-content .c-content-mini-second .pics .c-title, .page-wrapper.s-bg.e-page.e-content .page-wrapper.e-page.e-content.co-bg .c-content-mini-second .pics .c-title, .page-wrapper.s-bg.e-page.e-content .page-wrapper.e-page.e-content.w-bg .c-content-mini-second .pics .c-title, .page-wrapper.e-page.e-content.w-bg .page-wrapper.s-bg.e-page.e-content .c-content-mini-second .pics .c-title, .page-wrapper.s-bg.e-content.e-page.m-page .page-wrapper.e-page.e-content.w-bg .c-content-mini-second .pics .c-title, .page-wrapper.e-page.e-content.w-bg .page-wrapper.s-bg.e-content.e-page.m-page .c-content-mini-second .pics .c-title, .page-wrapper.e-content.e-page.m-page.w-bg .c-content-mini-second .pics .c-title, .page-wrapper.e-content.e-page.m-page.c-bg .page-wrapper.e-page.e-content.w-bg .c-content-mini-second .pics .c-title, .page-wrapper.e-page.e-content.w-bg .page-wrapper.e-content.e-page.m-page.c-bg .c-content-mini-second .pics .c-title, .page-wrapper.e-content.e-page.m-page.co-bg .page-wrapper.e-page.e-content.w-bg .c-content-mini-second .pics .c-title, .page-wrapper.e-page.e-content.w-bg .page-wrapper.e-content.e-page.m-page.co-bg .c-content-mini-second .pics .c-title, .page-wrapper.e-page.e-content.w-bg .c-content-mini-second .pics .c-title, .page-wrapper.e-page.e-content.c-bg .page-wrapper.e-page.e-content.w-bg .c-content-mini-second .pics .c-title, .page-wrapper.e-page.e-content.w-bg .page-wrapper.e-page.e-content.c-bg .c-content-mini-second .pics .c-title, .page-wrapper.e-page.e-content.co-bg .page-wrapper.e-page.e-content.w-bg .c-content-mini-second .pics .c-title, .page-wrapper.e-page.e-content.w-bg .page-wrapper.e-page.e-content.co-bg .c-content-mini-second .pics .c-title, .page-wrapper.s-bg.e-page.e-content .page-wrapper.e-page.e-content.c-bg .c-content-mini-second .pics .c-title, .page-wrapper.e-page.e-content.c-bg .page-wrapper.s-bg.e-page.e-content .c-content-mini-second .pics .c-title, .page-wrapper.s-bg.e-content.e-page.m-page .page-wrapper.e-page.e-content.c-bg .c-content-mini-second .pics .c-title, .page-wrapper.e-page.e-content.c-bg .page-wrapper.s-bg.e-content.e-page.m-page .c-content-mini-second .pics .c-title, .page-wrapper.e-content.e-page.m-page.w-bg .page-wrapper.e-page.e-content.c-bg .c-content-mini-second .pics .c-title, .page-wrapper.e-page.e-content.c-bg .page-wrapper.e-content.e-page.m-page.w-bg .c-content-mini-second .pics .c-title, .page-wrapper.e-content.e-page.m-page.c-bg .c-content-mini-second .pics .c-title, .page-wrapper.e-content.e-page.m-page.co-bg .page-wrapper.e-page.e-content.c-bg .c-content-mini-second .pics .c-title, .page-wrapper.e-page.e-content.c-bg .page-wrapper.e-content.e-page.m-page.co-bg .c-content-mini-second .pics .c-title, .page-wrapper.e-page.e-content.w-bg .page-wrapper.e-page.e-content.c-bg .c-content-mini-second .pics .c-title, .page-wrapper.e-page.e-content.c-bg .page-wrapper.e-page.e-content.w-bg .c-content-mini-second .pics .c-title, .page-wrapper.e-page.e-content.c-bg .c-content-mini-second .pics .c-title, .page-wrapper.e-page.e-content.co-bg .page-wrapper.e-page.e-content.c-bg .c-content-mini-second .pics .c-title, .page-wrapper.e-page.e-content.c-bg .page-wrapper.e-page.e-content.co-bg .c-content-mini-second .pics .c-title, .page-wrapper.s-bg.e-page.e-content .page-wrapper.e-page.e-content.co-bg .c-content-mini-second .pics .c-title, .page-wrapper.e-page.e-content.co-bg .page-wrapper.s-bg.e-page.e-content .c-content-mini-second .pics .c-title, .page-wrapper.s-bg.e-content.e-page.m-page .page-wrapper.e-page.e-content.co-bg .c-content-mini-second .pics .c-title, .page-wrapper.e-page.e-content.co-bg .page-wrapper.s-bg.e-content.e-page.m-page .c-content-mini-second .pics .c-title, .page-wrapper.e-content.e-page.m-page.w-bg .page-wrapper.e-page.e-content.co-bg .c-content-mini-second .pics .c-title, .page-wrapper.e-page.e-content.co-bg .page-wrapper.e-content.e-page.m-page.w-bg .c-content-mini-second .pics .c-title, .page-wrapper.e-content.e-page.m-page.c-bg .page-wrapper.e-page.e-content.co-bg .c-content-mini-second .pics .c-title, .page-wrapper.e-page.e-content.co-bg .page-wrapper.e-content.e-page.m-page.c-bg .c-content-mini-second .pics .c-title, .page-wrapper.e-content.e-page.m-page.co-bg .c-content-mini-second .pics .c-title, .page-wrapper.e-page.e-content.w-bg .page-wrapper.e-page.e-content.co-bg .c-content-mini-second .pics .c-title, .page-wrapper.e-page.e-content.co-bg .page-wrapper.e-page.e-content.w-bg .c-content-mini-second .pics .c-title, .page-wrapper.e-page.e-content.c-bg .page-wrapper.e-page.e-content.co-bg .c-content-mini-second .pics .c-title, .page-wrapper.e-page.e-content.co-bg .page-wrapper.e-page.e-content.c-bg .c-content-mini-second .pics .c-title, .page-wrapper.e-page.e-content.co-bg .c-content-mini-second .pics .c-title, .page-wrapper.s-bg.e-page.e-content #miniContent .pics .c-title, .page-wrapper.s-bg.e-content.e-page.m-page #miniContent .pics .c-title, .page-wrapper.e-content.e-page.m-page.w-bg .page-wrapper.s-bg.e-page.e-content #miniContent .pics .c-title, .page-wrapper.s-bg.e-page.e-content .page-wrapper.e-content.e-page.m-page.w-bg #miniContent .pics .c-title, .page-wrapper.e-content.e-page.m-page.c-bg .page-wrapper.s-bg.e-page.e-content #miniContent .pics .c-title, .page-wrapper.s-bg.e-page.e-content .page-wrapper.e-content.e-page.m-page.c-bg #miniContent .pics .c-title, .page-wrapper.e-content.e-page.m-page.co-bg .page-wrapper.s-bg.e-page.e-content #miniContent .pics .c-title, .page-wrapper.s-bg.e-page.e-content .page-wrapper.e-content.e-page.m-page.co-bg #miniContent .pics .c-title, .page-wrapper.e-page.e-content.w-bg .page-wrapper.s-bg.e-page.e-content #miniContent .pics .c-title, .page-wrapper.s-bg.e-page.e-content .page-wrapper.e-page.e-content.w-bg #miniContent .pics .c-title, .page-wrapper.e-page.e-content.c-bg .page-wrapper.s-bg.e-page.e-content #miniContent .pics .c-title, .page-wrapper.s-bg.e-page.e-content .page-wrapper.e-page.e-content.c-bg #miniContent .pics .c-title, .page-wrapper.e-page.e-content.co-bg .page-wrapper.s-bg.e-page.e-content #miniContent .pics .c-title, .page-wrapper.s-bg.e-page.e-content .page-wrapper.e-page.e-content.co-bg #miniContent .pics .c-title, .page-wrapper.s-bg.e-page.e-content .page-wrapper.e-page.e-content.w-bg #miniContent .pics .c-title, .page-wrapper.e-page.e-content.w-bg .page-wrapper.s-bg.e-page.e-content #miniContent .pics .c-title, .page-wrapper.s-bg.e-content.e-page.m-page .page-wrapper.e-page.e-content.w-bg #miniContent .pics .c-title, .page-wrapper.e-page.e-content.w-bg .page-wrapper.s-bg.e-content.e-page.m-page #miniContent .pics .c-title, .page-wrapper.e-content.e-page.m-page.w-bg #miniContent .pics .c-title, .page-wrapper.e-content.e-page.m-page.c-bg .page-wrapper.e-page.e-content.w-bg #miniContent .pics .c-title, .page-wrapper.e-page.e-content.w-bg .page-wrapper.e-content.e-page.m-page.c-bg #miniContent .pics .c-title, .page-wrapper.e-content.e-page.m-page.co-bg .page-wrapper.e-page.e-content.w-bg #miniContent .pics .c-title, .page-wrapper.e-page.e-content.w-bg .page-wrapper.e-content.e-page.m-page.co-bg #miniContent .pics .c-title, .page-wrapper.e-page.e-content.w-bg #miniContent .pics .c-title, .page-wrapper.e-page.e-content.c-bg .page-wrapper.e-page.e-content.w-bg #miniContent .pics .c-title, .page-wrapper.e-page.e-content.w-bg .page-wrapper.e-page.e-content.c-bg #miniContent .pics .c-title, .page-wrapper.e-page.e-content.co-bg .page-wrapper.e-page.e-content.w-bg #miniContent .pics .c-title, .page-wrapper.e-page.e-content.w-bg .page-wrapper.e-page.e-content.co-bg #miniContent .pics .c-title, .page-wrapper.s-bg.e-page.e-content .page-wrapper.e-page.e-content.c-bg #miniContent .pics .c-title, .page-wrapper.e-page.e-content.c-bg .page-wrapper.s-bg.e-page.e-content #miniContent .pics .c-title, .page-wrapper.s-bg.e-content.e-page.m-page .page-wrapper.e-page.e-content.c-bg #miniContent .pics .c-title, .page-wrapper.e-page.e-content.c-bg .page-wrapper.s-bg.e-content.e-page.m-page #miniContent .pics .c-title, .page-wrapper.e-content.e-page.m-page.w-bg .page-wrapper.e-page.e-content.c-bg #miniContent .pics .c-title, .page-wrapper.e-page.e-content.c-bg .page-wrapper.e-content.e-page.m-page.w-bg #miniContent .pics .c-title, .page-wrapper.e-content.e-page.m-page.c-bg #miniContent .pics .c-title, .page-wrapper.e-content.e-page.m-page.co-bg .page-wrapper.e-page.e-content.c-bg #miniContent .pics .c-title, .page-wrapper.e-page.e-content.c-bg .page-wrapper.e-content.e-page.m-page.co-bg #miniContent .pics .c-title, .page-wrapper.e-page.e-content.w-bg .page-wrapper.e-page.e-content.c-bg #miniContent .pics .c-title, .page-wrapper.e-page.e-content.c-bg .page-wrapper.e-page.e-content.w-bg #miniContent .pics .c-title, .page-wrapper.e-page.e-content.c-bg #miniContent .pics .c-title, .page-wrapper.e-page.e-content.co-bg .page-wrapper.e-page.e-content.c-bg #miniContent .pics .c-title, .page-wrapper.e-page.e-content.c-bg .page-wrapper.e-page.e-content.co-bg #miniContent .pics .c-title, .page-wrapper.s-bg.e-page.e-content .page-wrapper.e-page.e-content.co-bg #miniContent .pics .c-title, .page-wrapper.e-page.e-content.co-bg .page-wrapper.s-bg.e-page.e-content #miniContent .pics .c-title, .page-wrapper.s-bg.e-content.e-page.m-page .page-wrapper.e-page.e-content.co-bg #miniContent .pics .c-title, .page-wrapper.e-page.e-content.co-bg .page-wrapper.s-bg.e-content.e-page.m-page #miniContent .pics .c-title, .page-wrapper.e-content.e-page.m-page.w-bg .page-wrapper.e-page.e-content.co-bg #miniContent .pics .c-title, .page-wrapper.e-page.e-content.co-bg .page-wrapper.e-content.e-page.m-page.w-bg #miniContent .pics .c-title, .page-wrapper.e-content.e-page.m-page.c-bg .page-wrapper.e-page.e-content.co-bg #miniContent .pics .c-title, .page-wrapper.e-page.e-content.co-bg .page-wrapper.e-content.e-page.m-page.c-bg #miniContent .pics .c-title, .page-wrapper.e-content.e-page.m-page.co-bg #miniContent .pics .c-title, .page-wrapper.e-page.e-content.w-bg .page-wrapper.e-page.e-content.co-bg #miniContent .pics .c-title, .page-wrapper.e-page.e-content.co-bg .page-wrapper.e-page.e-content.w-bg #miniContent .pics .c-title, .page-wrapper.e-page.e-content.c-bg .page-wrapper.e-page.e-content.co-bg #miniContent .pics .c-title, .page-wrapper.e-page.e-content.co-bg .page-wrapper.e-page.e-content.c-bg #miniContent .pics .c-title, .page-wrapper.e-page.e-content.co-bg #miniContent .pics .c-title {
   text-align: center;
   display: block;
   margin: 12px 0;
 }
-/* line 275, ../sass/paris.scss */
+/* line 276, ../sass/paris.scss */
 .page-wrapper.s-bg.e-page.e-content .c-content-max .pics .c-title h1, .page-wrapper.s-bg.e-content.e-page.m-page .c-content-max .pics .c-title h1, .page-wrapper.e-content.e-page.m-page.w-bg .c-content-max .pics .c-title h1, .page-wrapper.e-content.e-page.m-page.c-bg .c-content-max .pics .c-title h1, .page-wrapper.e-content.e-page.m-page.co-bg .c-content-max .pics .c-title h1, .page-wrapper.e-page.e-content.w-bg .c-content-max .pics .c-title h1, .page-wrapper.e-page.e-content.c-bg .c-content-max .pics .c-title h1, .page-wrapper.e-page.e-content.co-bg .c-content-max .pics .c-title h1, .page-wrapper.s-bg.e-page.e-content .c-content-mini .pics .c-title h1, .page-wrapper.s-bg.e-content.e-page.m-page .c-content-mini .pics .c-title h1, .page-wrapper.e-content.e-page.m-page.w-bg .page-wrapper.s-bg.e-page.e-content .c-content-mini .pics .c-title h1, .page-wrapper.s-bg.e-page.e-content .page-wrapper.e-content.e-page.m-page.w-bg .c-content-mini .pics .c-title h1, .page-wrapper.e-content.e-page.m-page.c-bg .page-wrapper.s-bg.e-page.e-content .c-content-mini .pics .c-title h1, .page-wrapper.s-bg.e-page.e-content .page-wrapper.e-content.e-page.m-page.c-bg .c-content-mini .pics .c-title h1, .page-wrapper.e-content.e-page.m-page.co-bg .page-wrapper.s-bg.e-page.e-content .c-content-mini .pics .c-title h1, .page-wrapper.s-bg.e-page.e-content .page-wrapper.e-content.e-page.m-page.co-bg .c-content-mini .pics .c-title h1, .page-wrapper.e-page.e-content.w-bg .page-wrapper.s-bg.e-page.e-content .c-content-mini .pics .c-title h1, .page-wrapper.s-bg.e-page.e-content .page-wrapper.e-page.e-content.w-bg .c-content-mini .pics .c-title h1, .page-wrapper.e-page.e-content.c-bg .page-wrapper.s-bg.e-page.e-content .c-content-mini .pics .c-title h1, .page-wrapper.s-bg.e-page.e-content .page-wrapper.e-page.e-content.c-bg .c-content-mini .pics .c-title h1, .page-wrapper.e-page.e-content.co-bg .page-wrapper.s-bg.e-page.e-content .c-content-mini .pics .c-title h1, .page-wrapper.s-bg.e-page.e-content .page-wrapper.e-page.e-content.co-bg .c-content-mini .pics .c-title h1, .page-wrapper.s-bg.e-page.e-content .page-wrapper.e-page.e-content.w-bg .c-content-mini .pics .c-title h1, .page-wrapper.e-page.e-content.w-bg .page-wrapper.s-bg.e-page.e-content .c-content-mini .pics .c-title h1, .page-wrapper.s-bg.e-content.e-page.m-page .page-wrapper.e-page.e-content.w-bg .c-content-mini .pics .c-title h1, .page-wrapper.e-page.e-content.w-bg .page-wrapper.s-bg.e-content.e-page.m-page .c-content-mini .pics .c-title h1, .page-wrapper.e-content.e-page.m-page.w-bg .c-content-mini .pics .c-title h1, .page-wrapper.e-content.e-page.m-page.c-bg .page-wrapper.e-page.e-content.w-bg .c-content-mini .pics .c-title h1, .page-wrapper.e-page.e-content.w-bg .page-wrapper.e-content.e-page.m-page.c-bg .c-content-mini .pics .c-title h1, .page-wrapper.e-content.e-page.m-page.co-bg .page-wrapper.e-page.e-content.w-bg .c-content-mini .pics .c-title h1, .page-wrapper.e-page.e-content.w-bg .page-wrapper.e-content.e-page.m-page.co-bg .c-content-mini .pics .c-title h1, .page-wrapper.e-page.e-content.w-bg .c-content-mini .pics .c-title h1, .page-wrapper.e-page.e-content.c-bg .page-wrapper.e-page.e-content.w-bg .c-content-mini .pics .c-title h1, .page-wrapper.e-page.e-content.w-bg .page-wrapper.e-page.e-content.c-bg .c-content-mini .pics .c-title h1, .page-wrapper.e-page.e-content.co-bg .page-wrapper.e-page.e-content.w-bg .c-content-mini .pics .c-title h1, .page-wrapper.e-page.e-content.w-bg .page-wrapper.e-page.e-content.co-bg .c-content-mini .pics .c-title h1, .page-wrapper.s-bg.e-page.e-content .page-wrapper.e-page.e-content.c-bg .c-content-mini .pics .c-title h1, .page-wrapper.e-page.e-content.c-bg .page-wrapper.s-bg.e-page.e-content .c-content-mini .pics .c-title h1, .page-wrapper.s-bg.e-content.e-page.m-page .page-wrapper.e-page.e-content.c-bg .c-content-mini .pics .c-title h1, .page-wrapper.e-page.e-content.c-bg .page-wrapper.s-bg.e-content.e-page.m-page .c-content-mini .pics .c-title h1, .page-wrapper.e-content.e-page.m-page.w-bg .page-wrapper.e-page.e-content.c-bg .c-content-mini .pics .c-title h1, .page-wrapper.e-page.e-content.c-bg .page-wrapper.e-content.e-page.m-page.w-bg .c-content-mini .pics .c-title h1, .page-wrapper.e-content.e-page.m-page.c-bg .c-content-mini .pics .c-title h1, .page-wrapper.e-content.e-page.m-page.co-bg .page-wrapper.e-page.e-content.c-bg .c-content-mini .pics .c-title h1, .page-wrapper.e-page.e-content.c-bg .page-wrapper.e-content.e-page.m-page.co-bg .c-content-mini .pics .c-title h1, .page-wrapper.e-page.e-content.w-bg .page-wrapper.e-page.e-content.c-bg .c-content-mini .pics .c-title h1, .page-wrapper.e-page.e-content.c-bg .page-wrapper.e-page.e-content.w-bg .c-content-mini .pics .c-title h1, .page-wrapper.e-page.e-content.c-bg .c-content-mini .pics .c-title h1, .page-wrapper.e-page.e-content.co-bg .page-wrapper.e-page.e-content.c-bg .c-content-mini .pics .c-title h1, .page-wrapper.e-page.e-content.c-bg .page-wrapper.e-page.e-content.co-bg .c-content-mini .pics .c-title h1, .page-wrapper.s-bg.e-page.e-content .page-wrapper.e-page.e-content.co-bg .c-content-mini .pics .c-title h1, .page-wrapper.e-page.e-content.co-bg .page-wrapper.s-bg.e-page.e-content .c-content-mini .pics .c-title h1, .page-wrapper.s-bg.e-content.e-page.m-page .page-wrapper.e-page.e-content.co-bg .c-content-mini .pics .c-title h1, .page-wrapper.e-page.e-content.co-bg .page-wrapper.s-bg.e-content.e-page.m-page .c-content-mini .pics .c-title h1, .page-wrapper.e-content.e-page.m-page.w-bg .page-wrapper.e-page.e-content.co-bg .c-content-mini .pics .c-title h1, .page-wrapper.e-page.e-content.co-bg .page-wrapper.e-content.e-page.m-page.w-bg .c-content-mini .pics .c-title h1, .page-wrapper.e-content.e-page.m-page.c-bg .page-wrapper.e-page.e-content.co-bg .c-content-mini .pics .c-title h1, .page-wrapper.e-page.e-content.co-bg .page-wrapper.e-content.e-page.m-page.c-bg .c-content-mini .pics .c-title h1, .page-wrapper.e-content.e-page.m-page.co-bg .c-content-mini .pics .c-title h1, .page-wrapper.e-page.e-content.w-bg .page-wrapper.e-page.e-content.co-bg .c-content-mini .pics .c-title h1, .page-wrapper.e-page.e-content.co-bg .page-wrapper.e-page.e-content.w-bg .c-content-mini .pics .c-title h1, .page-wrapper.e-page.e-content.c-bg .page-wrapper.e-page.e-content.co-bg .c-content-mini .pics .c-title h1, .page-wrapper.e-page.e-content.co-bg .page-wrapper.e-page.e-content.c-bg .c-content-mini .pics .c-title h1, .page-wrapper.e-page.e-content.co-bg .c-content-mini .pics .c-title h1, .page-wrapper.s-bg.e-page.e-content .c-content-mini-second .pics .c-title h1, .page-wrapper.s-bg.e-content.e-page.m-page .c-content-mini-second .pics .c-title h1, .page-wrapper.e-content.e-page.m-page.w-bg .page-wrapper.s-bg.e-page.e-content .c-content-mini-second .pics .c-title h1, .page-wrapper.s-bg.e-page.e-content .page-wrapper.e-content.e-page.m-page.w-bg .c-content-mini-second .pics .c-title h1, .page-wrapper.e-content.e-page.m-page.c-bg .page-wrapper.s-bg.e-page.e-content .c-content-mini-second .pics .c-title h1, .page-wrapper.s-bg.e-page.e-content .page-wrapper.e-content.e-page.m-page.c-bg .c-content-mini-second .pics .c-title h1, .page-wrapper.e-content.e-page.m-page.co-bg .page-wrapper.s-bg.e-page.e-content .c-content-mini-second .pics .c-title h1, .page-wrapper.s-bg.e-page.e-content .page-wrapper.e-content.e-page.m-page.co-bg .c-content-mini-second .pics .c-title h1, .page-wrapper.e-page.e-content.w-bg .page-wrapper.s-bg.e-page.e-content .c-content-mini-second .pics .c-title h1, .page-wrapper.s-bg.e-page.e-content .page-wrapper.e-page.e-content.w-bg .c-content-mini-second .pics .c-title h1, .page-wrapper.e-page.e-content.c-bg .page-wrapper.s-bg.e-page.e-content .c-content-mini-second .pics .c-title h1, .page-wrapper.s-bg.e-page.e-content .page-wrapper.e-page.e-content.c-bg .c-content-mini-second .pics .c-title h1, .page-wrapper.e-page.e-content.co-bg .page-wrapper.s-bg.e-page.e-content .c-content-mini-second .pics .c-title h1, .page-wrapper.s-bg.e-page.e-content .page-wrapper.e-page.e-content.co-bg .c-content-mini-second .pics .c-title h1, .page-wrapper.s-bg.e-page.e-content .page-wrapper.e-page.e-content.w-bg .c-content-mini-second .pics .c-title h1, .page-wrapper.e-page.e-content.w-bg .page-wrapper.s-bg.e-page.e-content .c-content-mini-second .pics .c-title h1, .page-wrapper.s-bg.e-content.e-page.m-page .page-wrapper.e-page.e-content.w-bg .c-content-mini-second .pics .c-title h1, .page-wrapper.e-page.e-content.w-bg .page-wrapper.s-bg.e-content.e-page.m-page .c-content-mini-second .pics .c-title h1, .page-wrapper.e-content.e-page.m-page.w-bg .c-content-mini-second .pics .c-title h1, .page-wrapper.e-content.e-page.m-page.c-bg .page-wrapper.e-page.e-content.w-bg .c-content-mini-second .pics .c-title h1, .page-wrapper.e-page.e-content.w-bg .page-wrapper.e-content.e-page.m-page.c-bg .c-content-mini-second .pics .c-title h1, .page-wrapper.e-content.e-page.m-page.co-bg .page-wrapper.e-page.e-content.w-bg .c-content-mini-second .pics .c-title h1, .page-wrapper.e-page.e-content.w-bg .page-wrapper.e-content.e-page.m-page.co-bg .c-content-mini-second .pics .c-title h1, .page-wrapper.e-page.e-content.w-bg .c-content-mini-second .pics .c-title h1, .page-wrapper.e-page.e-content.c-bg .page-wrapper.e-page.e-content.w-bg .c-content-mini-second .pics .c-title h1, .page-wrapper.e-page.e-content.w-bg .page-wrapper.e-page.e-content.c-bg .c-content-mini-second .pics .c-title h1, .page-wrapper.e-page.e-content.co-bg .page-wrapper.e-page.e-content.w-bg .c-content-mini-second .pics .c-title h1, .page-wrapper.e-page.e-content.w-bg .page-wrapper.e-page.e-content.co-bg .c-content-mini-second .pics .c-title h1, .page-wrapper.s-bg.e-page.e-content .page-wrapper.e-page.e-content.c-bg .c-content-mini-second .pics .c-title h1, .page-wrapper.e-page.e-content.c-bg .page-wrapper.s-bg.e-page.e-content .c-content-mini-second .pics .c-title h1, .page-wrapper.s-bg.e-content.e-page.m-page .page-wrapper.e-page.e-content.c-bg .c-content-mini-second .pics .c-title h1, .page-wrapper.e-page.e-content.c-bg .page-wrapper.s-bg.e-content.e-page.m-page .c-content-mini-second .pics .c-title h1, .page-wrapper.e-content.e-page.m-page.w-bg .page-wrapper.e-page.e-content.c-bg .c-content-mini-second .pics .c-title h1, .page-wrapper.e-page.e-content.c-bg .page-wrapper.e-content.e-page.m-page.w-bg .c-content-mini-second .pics .c-title h1, .page-wrapper.e-content.e-page.m-page.c-bg .c-content-mini-second .pics .c-title h1, .page-wrapper.e-content.e-page.m-page.co-bg .page-wrapper.e-page.e-content.c-bg .c-content-mini-second .pics .c-title h1, .page-wrapper.e-page.e-content.c-bg .page-wrapper.e-content.e-page.m-page.co-bg .c-content-mini-second .pics .c-title h1, .page-wrapper.e-page.e-content.w-bg .page-wrapper.e-page.e-content.c-bg .c-content-mini-second .pics .c-title h1, .page-wrapper.e-page.e-content.c-bg .page-wrapper.e-page.e-content.w-bg .c-content-mini-second .pics .c-title h1, .page-wrapper.e-page.e-content.c-bg .c-content-mini-second .pics .c-title h1, .page-wrapper.e-page.e-content.co-bg .page-wrapper.e-page.e-content.c-bg .c-content-mini-second .pics .c-title h1, .page-wrapper.e-page.e-content.c-bg .page-wrapper.e-page.e-content.co-bg .c-content-mini-second .pics .c-title h1, .page-wrapper.s-bg.e-page.e-content .page-wrapper.e-page.e-content.co-bg .c-content-mini-second .pics .c-title h1, .page-wrapper.e-page.e-content.co-bg .page-wrapper.s-bg.e-page.e-content .c-content-mini-second .pics .c-title h1, .page-wrapper.s-bg.e-content.e-page.m-page .page-wrapper.e-page.e-content.co-bg .c-content-mini-second .pics .c-title h1, .page-wrapper.e-page.e-content.co-bg .page-wrapper.s-bg.e-content.e-page.m-page .c-content-mini-second .pics .c-title h1, .page-wrapper.e-content.e-page.m-page.w-bg .page-wrapper.e-page.e-content.co-bg .c-content-mini-second .pics .c-title h1, .page-wrapper.e-page.e-content.co-bg .page-wrapper.e-content.e-page.m-page.w-bg .c-content-mini-second .pics .c-title h1, .page-wrapper.e-content.e-page.m-page.c-bg .page-wrapper.e-page.e-content.co-bg .c-content-mini-second .pics .c-title h1, .page-wrapper.e-page.e-content.co-bg .page-wrapper.e-content.e-page.m-page.c-bg .c-content-mini-second .pics .c-title h1, .page-wrapper.e-content.e-page.m-page.co-bg .c-content-mini-second .pics .c-title h1, .page-wrapper.e-page.e-content.w-bg .page-wrapper.e-page.e-content.co-bg .c-content-mini-second .pics .c-title h1, .page-wrapper.e-page.e-content.co-bg .page-wrapper.e-page.e-content.w-bg .c-content-mini-second .pics .c-title h1, .page-wrapper.e-page.e-content.c-bg .page-wrapper.e-page.e-content.co-bg .c-content-mini-second .pics .c-title h1, .page-wrapper.e-page.e-content.co-bg .page-wrapper.e-page.e-content.c-bg .c-content-mini-second .pics .c-title h1, .page-wrapper.e-page.e-content.co-bg .c-content-mini-second .pics .c-title h1, .page-wrapper.s-bg.e-page.e-content #miniContent .pics .c-title h1, .page-wrapper.s-bg.e-content.e-page.m-page #miniContent .pics .c-title h1, .page-wrapper.e-content.e-page.m-page.w-bg .page-wrapper.s-bg.e-page.e-content #miniContent .pics .c-title h1, .page-wrapper.s-bg.e-page.e-content .page-wrapper.e-content.e-page.m-page.w-bg #miniContent .pics .c-title h1, .page-wrapper.e-content.e-page.m-page.c-bg .page-wrapper.s-bg.e-page.e-content #miniContent .pics .c-title h1, .page-wrapper.s-bg.e-page.e-content .page-wrapper.e-content.e-page.m-page.c-bg #miniContent .pics .c-title h1, .page-wrapper.e-content.e-page.m-page.co-bg .page-wrapper.s-bg.e-page.e-content #miniContent .pics .c-title h1, .page-wrapper.s-bg.e-page.e-content .page-wrapper.e-content.e-page.m-page.co-bg #miniContent .pics .c-title h1, .page-wrapper.e-page.e-content.w-bg .page-wrapper.s-bg.e-page.e-content #miniContent .pics .c-title h1, .page-wrapper.s-bg.e-page.e-content .page-wrapper.e-page.e-content.w-bg #miniContent .pics .c-title h1, .page-wrapper.e-page.e-content.c-bg .page-wrapper.s-bg.e-page.e-content #miniContent .pics .c-title h1, .page-wrapper.s-bg.e-page.e-content .page-wrapper.e-page.e-content.c-bg #miniContent .pics .c-title h1, .page-wrapper.e-page.e-content.co-bg .page-wrapper.s-bg.e-page.e-content #miniContent .pics .c-title h1, .page-wrapper.s-bg.e-page.e-content .page-wrapper.e-page.e-content.co-bg #miniContent .pics .c-title h1, .page-wrapper.s-bg.e-page.e-content .page-wrapper.e-page.e-content.w-bg #miniContent .pics .c-title h1, .page-wrapper.e-page.e-content.w-bg .page-wrapper.s-bg.e-page.e-content #miniContent .pics .c-title h1, .page-wrapper.s-bg.e-content.e-page.m-page .page-wrapper.e-page.e-content.w-bg #miniContent .pics .c-title h1, .page-wrapper.e-page.e-content.w-bg .page-wrapper.s-bg.e-content.e-page.m-page #miniContent .pics .c-title h1, .page-wrapper.e-content.e-page.m-page.w-bg #miniContent .pics .c-title h1, .page-wrapper.e-content.e-page.m-page.c-bg .page-wrapper.e-page.e-content.w-bg #miniContent .pics .c-title h1, .page-wrapper.e-page.e-content.w-bg .page-wrapper.e-content.e-page.m-page.c-bg #miniContent .pics .c-title h1, .page-wrapper.e-content.e-page.m-page.co-bg .page-wrapper.e-page.e-content.w-bg #miniContent .pics .c-title h1, .page-wrapper.e-page.e-content.w-bg .page-wrapper.e-content.e-page.m-page.co-bg #miniContent .pics .c-title h1, .page-wrapper.e-page.e-content.w-bg #miniContent .pics .c-title h1, .page-wrapper.e-page.e-content.c-bg .page-wrapper.e-page.e-content.w-bg #miniContent .pics .c-title h1, .page-wrapper.e-page.e-content.w-bg .page-wrapper.e-page.e-content.c-bg #miniContent .pics .c-title h1, .page-wrapper.e-page.e-content.co-bg .page-wrapper.e-page.e-content.w-bg #miniContent .pics .c-title h1, .page-wrapper.e-page.e-content.w-bg .page-wrapper.e-page.e-content.co-bg #miniContent .pics .c-title h1, .page-wrapper.s-bg.e-page.e-content .page-wrapper.e-page.e-content.c-bg #miniContent .pics .c-title h1, .page-wrapper.e-page.e-content.c-bg .page-wrapper.s-bg.e-page.e-content #miniContent .pics .c-title h1, .page-wrapper.s-bg.e-content.e-page.m-page .page-wrapper.e-page.e-content.c-bg #miniContent .pics .c-title h1, .page-wrapper.e-page.e-content.c-bg .page-wrapper.s-bg.e-content.e-page.m-page #miniContent .pics .c-title h1, .page-wrapper.e-content.e-page.m-page.w-bg .page-wrapper.e-page.e-content.c-bg #miniContent .pics .c-title h1, .page-wrapper.e-page.e-content.c-bg .page-wrapper.e-content.e-page.m-page.w-bg #miniContent .pics .c-title h1, .page-wrapper.e-content.e-page.m-page.c-bg #miniContent .pics .c-title h1, .page-wrapper.e-content.e-page.m-page.co-bg .page-wrapper.e-page.e-content.c-bg #miniContent .pics .c-title h1, .page-wrapper.e-page.e-content.c-bg .page-wrapper.e-content.e-page.m-page.co-bg #miniContent .pics .c-title h1, .page-wrapper.e-page.e-content.w-bg .page-wrapper.e-page.e-content.c-bg #miniContent .pics .c-title h1, .page-wrapper.e-page.e-content.c-bg .page-wrapper.e-page.e-content.w-bg #miniContent .pics .c-title h1, .page-wrapper.e-page.e-content.c-bg #miniContent .pics .c-title h1, .page-wrapper.e-page.e-content.co-bg .page-wrapper.e-page.e-content.c-bg #miniContent .pics .c-title h1, .page-wrapper.e-page.e-content.c-bg .page-wrapper.e-page.e-content.co-bg #miniContent .pics .c-title h1, .page-wrapper.s-bg.e-page.e-content .page-wrapper.e-page.e-content.co-bg #miniContent .pics .c-title h1, .page-wrapper.e-page.e-content.co-bg .page-wrapper.s-bg.e-page.e-content #miniContent .pics .c-title h1, .page-wrapper.s-bg.e-content.e-page.m-page .page-wrapper.e-page.e-content.co-bg #miniContent .pics .c-title h1, .page-wrapper.e-page.e-content.co-bg .page-wrapper.s-bg.e-content.e-page.m-page #miniContent .pics .c-title h1, .page-wrapper.e-content.e-page.m-page.w-bg .page-wrapper.e-page.e-content.co-bg #miniContent .pics .c-title h1, .page-wrapper.e-page.e-content.co-bg .page-wrapper.e-content.e-page.m-page.w-bg #miniContent .pics .c-title h1, .page-wrapper.e-content.e-page.m-page.c-bg .page-wrapper.e-page.e-content.co-bg #miniContent .pics .c-title h1, .page-wrapper.e-page.e-content.co-bg .page-wrapper.e-content.e-page.m-page.c-bg #miniContent .pics .c-title h1, .page-wrapper.e-content.e-page.m-page.co-bg #miniContent .pics .c-title h1, .page-wrapper.e-page.e-content.w-bg .page-wrapper.e-page.e-content.co-bg #miniContent .pics .c-title h1, .page-wrapper.e-page.e-content.co-bg .page-wrapper.e-page.e-content.w-bg #miniContent .pics .c-title h1, .page-wrapper.e-page.e-content.c-bg .page-wrapper.e-page.e-content.co-bg #miniContent .pics .c-title h1, .page-wrapper.e-page.e-content.co-bg .page-wrapper.e-page.e-content.c-bg #miniContent .pics .c-title h1, .page-wrapper.e-page.e-content.co-bg #miniContent .pics .c-title h1 {
   color: #fff;
   font-family: "montserrat";
@@ -305,19 +305,19 @@ h1, h2, h3, h4, h5, h6, ul {
   margin-left: 50%;
   transform: translateX(-50%);
 }
-/* line 292, ../sass/paris.scss */
+/* line 293, ../sass/paris.scss */
 .page-wrapper.s-bg.e-page.e-content #fstMax, .page-wrapper.e-page.e-content.w-bg #fstMax, .page-wrapper.e-page.e-content.c-bg #fstMax, .page-wrapper.e-page.e-content.co-bg #fstMax {
   /*#### display: none;*/
   position: relative;
   margin-top: 60px;
 }
-/* line 296, ../sass/paris.scss */
+/* line 297, ../sass/paris.scss */
 .page-wrapper.s-bg.e-page.e-content #fstMax .pics, .page-wrapper.e-page.e-content.w-bg #fstMax .pics, .page-wrapper.e-page.e-content.c-bg #fstMax .pics, .page-wrapper.e-page.e-content.co-bg #fstMax .pics {
   position: absolute;
   left: 400px;
   top: 0;
 }
-/* line 300, ../sass/paris.scss */
+/* line 301, ../sass/paris.scss */
 .page-wrapper.s-bg.e-page.e-content #fstMax .pics.animate, .page-wrapper.e-page.e-content.w-bg #fstMax .pics.animate, .page-wrapper.e-page.e-content.c-bg #fstMax .pics.animate, .page-wrapper.e-page.e-content.co-bg #fstMax .pics.animate {
   -webkit-animation: mobileUx;
   -webkit-animation-duration: 7s;
@@ -348,11 +348,11 @@ h1, h2, h3, h4, h5, h6, ul {
     left: 0;
   }
 }
-/* line 332, ../sass/paris.scss */
+/* line 333, ../sass/paris.scss */
 .page-wrapper.s-bg.e-page.e-content #fstMax .pics.pics2, .page-wrapper.e-page.e-content.w-bg #fstMax .pics.pics2, .page-wrapper.e-page.e-content.c-bg #fstMax .pics.pics2, .page-wrapper.e-page.e-content.co-bg #fstMax .pics.pics2 {
   right: 400px;
 }
-/* line 334, ../sass/paris.scss */
+/* line 335, ../sass/paris.scss */
 .page-wrapper.s-bg.e-page.e-content #fstMax .pics.pics2.animate, .page-wrapper.e-page.e-content.w-bg #fstMax .pics.pics2.animate, .page-wrapper.e-page.e-content.c-bg #fstMax .pics.pics2.animate, .page-wrapper.e-page.e-content.co-bg #fstMax .pics.pics2.animate {
   -webkit-animation: motionGraphic;
   -webkit-animation-duration: 7s;
@@ -383,110 +383,110 @@ h1, h2, h3, h4, h5, h6, ul {
     right: -150px;
   }
 }
-/* line 369, ../sass/paris.scss */
+/* line 370, ../sass/paris.scss */
 .page-wrapper.s-bg.e-page.e-content .c-content-mini, .page-wrapper.e-page.e-content.w-bg .c-content-mini, .page-wrapper.e-page.e-content.c-bg .c-content-mini, .page-wrapper.e-page.e-content.co-bg .c-content-mini, .page-wrapper.s-bg.e-page.e-content .c-content-mini-second, .page-wrapper.e-page.e-content.w-bg .c-content-mini-second, .page-wrapper.e-page.e-content.c-bg .c-content-mini-second, .page-wrapper.e-page.e-content.co-bg .c-content-mini-second {
   margin-top: 20px;
 }
-/* line 373, ../sass/paris.scss */
+/* line 374, ../sass/paris.scss */
 .page-wrapper.s-bg.e-page.e-content .c-content-mini .pics img, .page-wrapper.e-page.e-content.w-bg .c-content-mini .pics img, .page-wrapper.e-page.e-content.c-bg .c-content-mini .pics img, .page-wrapper.e-page.e-content.co-bg .c-content-mini .pics img, .page-wrapper.s-bg.e-page.e-content .c-content-mini-second .pics img, .page-wrapper.e-page.e-content.w-bg .c-content-mini-second .pics img, .page-wrapper.e-page.e-content.c-bg .c-content-mini-second .pics img, .page-wrapper.e-page.e-content.co-bg .c-content-mini-second .pics img {
   width: 18%;
 }
-/* line 376, ../sass/paris.scss */
+/* line 377, ../sass/paris.scss */
 .page-wrapper.s-bg.e-page.e-content .c-content-mini .pics .c-title, .page-wrapper.e-page.e-content.w-bg .c-content-mini .pics .c-title, .page-wrapper.e-page.e-content.c-bg .c-content-mini .pics .c-title, .page-wrapper.e-page.e-content.co-bg .c-content-mini .pics .c-title, .page-wrapper.s-bg.e-page.e-content .c-content-mini-second .pics .c-title, .page-wrapper.e-page.e-content.w-bg .c-content-mini-second .pics .c-title, .page-wrapper.e-page.e-content.c-bg .c-content-mini-second .pics .c-title, .page-wrapper.e-page.e-content.co-bg .c-content-mini-second .pics .c-title {
   text-align: center;
   margin: 10px 0;
 }
-/* line 379, ../sass/paris.scss */
+/* line 380, ../sass/paris.scss */
 .page-wrapper.s-bg.e-page.e-content .c-content-mini .pics .c-title h1, .page-wrapper.e-page.e-content.w-bg .c-content-mini .pics .c-title h1, .page-wrapper.e-page.e-content.c-bg .c-content-mini .pics .c-title h1, .page-wrapper.e-page.e-content.co-bg .c-content-mini .pics .c-title h1, .page-wrapper.s-bg.e-page.e-content .c-content-mini-second .pics .c-title h1, .page-wrapper.e-page.e-content.w-bg .c-content-mini-second .pics .c-title h1, .page-wrapper.e-page.e-content.c-bg .c-content-mini-second .pics .c-title h1, .page-wrapper.e-page.e-content.co-bg .c-content-mini-second .pics .c-title h1 {
   font-size: 20px;
 }
-/* line 386, ../sass/paris.scss */
+/* line 387, ../sass/paris.scss */
 .page-wrapper.s-bg.e-page.e-content #miniContent, .page-wrapper.e-page.e-content.w-bg #miniContent, .page-wrapper.e-page.e-content.c-bg #miniContent, .page-wrapper.e-page.e-content.co-bg #miniContent {
   /*#### display: none;*/
 }
-/* line 389, ../sass/paris.scss */
+/* line 390, ../sass/paris.scss */
 .page-wrapper.s-bg.e-page.e-content #miniContent .pics, .page-wrapper.e-page.e-content.w-bg #miniContent .pics, .page-wrapper.e-page.e-content.c-bg #miniContent .pics, .page-wrapper.e-page.e-content.co-bg #miniContent .pics {
   text-align: center;
 }
-/* line 391, ../sass/paris.scss */
+/* line 392, ../sass/paris.scss */
 .page-wrapper.s-bg.e-page.e-content #miniContent .pics img, .page-wrapper.e-page.e-content.w-bg #miniContent .pics img, .page-wrapper.e-page.e-content.c-bg #miniContent .pics img, .page-wrapper.e-page.e-content.co-bg #miniContent .pics img {
   width: 16%;
 }
-/* line 394, ../sass/paris.scss */
+/* line 395, ../sass/paris.scss */
 .page-wrapper.s-bg.e-page.e-content #miniContent .pics .c-title, .page-wrapper.e-page.e-content.w-bg #miniContent .pics .c-title, .page-wrapper.e-page.e-content.c-bg #miniContent .pics .c-title, .page-wrapper.e-page.e-content.co-bg #miniContent .pics .c-title {
   text-align: center;
   margin-top: 5px;
 }
-/* line 397, ../sass/paris.scss */
+/* line 398, ../sass/paris.scss */
 .page-wrapper.s-bg.e-page.e-content #miniContent .pics .c-title h1, .page-wrapper.e-page.e-content.w-bg #miniContent .pics .c-title h1, .page-wrapper.e-page.e-content.c-bg #miniContent .pics .c-title h1, .page-wrapper.e-page.e-content.co-bg #miniContent .pics .c-title h1 {
   font-size: 12px;
 }
-/* line 404, ../sass/paris.scss */
+/* line 405, ../sass/paris.scss */
 .page-wrapper.s-bg.e-page.e-content #lst-mini, .page-wrapper.e-page.e-content.w-bg #lst-mini, .page-wrapper.e-page.e-content.c-bg #lst-mini, .page-wrapper.e-page.e-content.co-bg #lst-mini {
   /*#### display: none;*/
 }
-/* line 406, ../sass/paris.scss */
+/* line 407, ../sass/paris.scss */
 .page-wrapper.s-bg.e-page.e-content #lst-mini .pics, .page-wrapper.e-page.e-content.w-bg #lst-mini .pics, .page-wrapper.e-page.e-content.c-bg #lst-mini .pics, .page-wrapper.e-page.e-content.co-bg #lst-mini .pics {
   margin: 22px 0;
 }
-/* line 408, ../sass/paris.scss */
+/* line 409, ../sass/paris.scss */
 .page-wrapper.s-bg.e-page.e-content #lst-mini .pics img, .page-wrapper.e-page.e-content.w-bg #lst-mini .pics img, .page-wrapper.e-page.e-content.c-bg #lst-mini .pics img, .page-wrapper.e-page.e-content.co-bg #lst-mini .pics img {
   width: 26%;
 }
-/* line 412, ../sass/paris.scss */
+/* line 413, ../sass/paris.scss */
 .page-wrapper.s-bg.e-page.e-content #lst-mini .pics .c-title h1, .page-wrapper.e-page.e-content.w-bg #lst-mini .pics .c-title h1, .page-wrapper.e-page.e-content.c-bg #lst-mini .pics .c-title h1, .page-wrapper.e-page.e-content.co-bg #lst-mini .pics .c-title h1 {
   font-size: 19px;
 }
-/* line 423, ../sass/paris.scss */
+/* line 424, ../sass/paris.scss */
 .page-wrapper.s-bg.e-page.m-page, .page-wrapper.m-page.e-page.w-bg, .page-wrapper.m-page.e-page.c-bg, .page-wrapper.m-page.e-page.co-bg {
   background: url(../img/mobile-dev.jpg) no-repeat;
   background-size: cover;
   height: 100%;
   width: 100%;
 }
-/* line 429, ../sass/paris.scss */
+/* line 430, ../sass/paris.scss */
 .page-wrapper.s-bg.e-page.m-page.e-content, .page-wrapper.m-page.e-content.e-page.w-bg, .page-wrapper.m-page.e-content.e-page.c-bg, .page-wrapper.m-page.e-content.e-page.co-bg {
   background: url(../img/mac-andr.jpg) no-repeat;
   background-size: cover;
   height: 100%;
   width: 100%;
 }
-/* line 435, ../sass/paris.scss */
+/* line 436, ../sass/paris.scss */
 .page-wrapper.s-bg.e-page.m-page.e-content .pics img, .page-wrapper.m-page.e-content.e-page.w-bg .pics img, .page-wrapper.m-page.e-content.e-page.c-bg .pics img, .page-wrapper.m-page.e-content.e-page.co-bg .pics img {
   padding: 20px;
 }
-/* line 441, ../sass/paris.scss */
+/* line 442, ../sass/paris.scss */
 .page-wrapper.s-bg.e-page.m-page.e-content #lst-mini .pics, .page-wrapper.m-page.e-content.e-page.w-bg #lst-mini .pics, .page-wrapper.m-page.e-content.e-page.c-bg #lst-mini .pics, .page-wrapper.m-page.e-content.e-page.co-bg #lst-mini .pics {
   margin: 136px 0;
 }
-/* line 443, ../sass/paris.scss */
+/* line 444, ../sass/paris.scss */
 .page-wrapper.s-bg.e-page.m-page.e-content #lst-mini .pics img, .page-wrapper.m-page.e-content.e-page.w-bg #lst-mini .pics img, .page-wrapper.m-page.e-content.e-page.c-bg #lst-mini .pics img, .page-wrapper.m-page.e-content.e-page.co-bg #lst-mini .pics img {
   width: 35%;
 }
-/* line 447, ../sass/paris.scss */
+/* line 448, ../sass/paris.scss */
 .page-wrapper.s-bg.e-page.m-page.e-content #lst-mini .pics .c-title h1, .page-wrapper.m-page.e-content.e-page.w-bg #lst-mini .pics .c-title h1, .page-wrapper.m-page.e-content.e-page.c-bg #lst-mini .pics .c-title h1, .page-wrapper.m-page.e-content.e-page.co-bg #lst-mini .pics .c-title h1 {
   font-size: 30px;
 }
 
-/* line 466, ../sass/paris.scss */
+/* line 467, ../sass/paris.scss */
 .page-wrapper.w-bg.e-page.e-content #lst-mini .pics {
   margin: 20px 0;
 }
-/* line 470, ../sass/paris.scss */
+/* line 471, ../sass/paris.scss */
 .page-wrapper.w-bg.e-page.e-content .click-btn {
   text-align: center;
   margin-top: 100px;
 }
-/* line 473, ../sass/paris.scss */
+/* line 474, ../sass/paris.scss */
 .page-wrapper.w-bg.e-page.e-content .click-btn.re-btn {
   margin-top: 200px;
 }
-/* line 477, ../sass/paris.scss */
+/* line 478, ../sass/paris.scss */
 .page-wrapper.w-bg.e-page.e-content .project-name {
   text-align: center;
   margin-top: 113px;
 }
-/* line 480, ../sass/paris.scss */
+/* line 481, ../sass/paris.scss */
 .page-wrapper.w-bg.e-page.e-content .project-name h1 {
   font-family: "montserrat";
   font-size: 30px;
@@ -494,7 +494,7 @@ h1, h2, h3, h4, h5, h6, ul {
   font-weight: 700;
   text-transform: capitalize;
 }
-/* line 487, ../sass/paris.scss */
+/* line 488, ../sass/paris.scss */
 .page-wrapper.w-bg.e-page.e-content .project-name p {
   font-family: 'montserrat';
   font-size: 20px;
@@ -503,11 +503,11 @@ h1, h2, h3, h4, h5, h6, ul {
   margin-left: 50%;
   transform: translateX(-50%);
 }
-/* line 502, ../sass/paris.scss */
+/* line 503, ../sass/paris.scss */
 .page-wrapper.c-bg .c-logo-part {
   text-align: center;
 }
-/* line 504, ../sass/paris.scss */
+/* line 505, ../sass/paris.scss */
 .page-wrapper.c-bg .c-logo-part .logo-wrapper {
   text-align: center;
   border: 4px solid #fff;
@@ -517,11 +517,11 @@ h1, h2, h3, h4, h5, h6, ul {
   margin-left: 50%;
   transform: translateX(-50%);
 }
-/* line 512, ../sass/paris.scss */
+/* line 513, ../sass/paris.scss */
 .page-wrapper.c-bg .c-logo-part .logo-wrapper img {
   width: 39%;
 }
-/* line 515, ../sass/paris.scss */
+/* line 516, ../sass/paris.scss */
 .page-wrapper.c-bg .c-logo-part .logo-wrapper h1, .page-wrapper.c-bg .c-logo-part .logo-wrapper p {
   color: #fff;
   font-family: "montserrat";
@@ -530,22 +530,22 @@ h1, h2, h3, h4, h5, h6, ul {
   text-transform: capitalize;
   margin-top: 112px;
 }
-/* line 524, ../sass/paris.scss */
+/* line 525, ../sass/paris.scss */
 .page-wrapper.c-bg .c-logo-part .logo-wrapper p {
   font-size: 20px;
   /*#### display: none;*/
 }
-/* line 531, ../sass/paris.scss */
+/* line 532, ../sass/paris.scss */
 .page-wrapper.co-bg {
   background: url(../img/map.jpg) no-repeat;
   background-size: cover;
 }
-/* line 535, ../sass/paris.scss */
+/* line 536, ../sass/paris.scss */
 .page-wrapper.co-bg.e-page, .page-wrapper.co-bg.e-page.m-page {
   background: url(../img/map.jpg) no-repeat;
   background-size: cover;
 }
-/* line 540, ../sass/paris.scss */
+/* line 541, ../sass/paris.scss */
 .page-wrapper.co-bg .t-area {
   margin-top: 20px;
   position: relative;
@@ -553,7 +553,7 @@ h1, h2, h3, h4, h5, h6, ul {
   margin-left: 50%;
   transform: translateX(-50%);
 }
-/* line 546, ../sass/paris.scss */
+/* line 547, ../sass/paris.scss */
 .page-wrapper.co-bg .t-area textarea {
   width: 100%;
   height: 289px;
@@ -562,20 +562,20 @@ h1, h2, h3, h4, h5, h6, ul {
   display: block;
   resize: none;
 }
-/* line 556, ../sass/paris.scss */
+/* line 557, ../sass/paris.scss */
 .page-wrapper.co-bg .click-btn {
   text-align: center;
   margin: 27px 0;
 }
-/* line 559, ../sass/paris.scss */
+/* line 560, ../sass/paris.scss */
 .page-wrapper.co-bg .click-btn .btn-default {
   padding: 10px 22px;
 }
-/* line 563, ../sass/paris.scss */
+/* line 564, ../sass/paris.scss */
 .page-wrapper.co-bg #Email {
   /*#### display: none;*/
 }
-/* line 565, ../sass/paris.scss */
+/* line 566, ../sass/paris.scss */
 .page-wrapper.co-bg #Email .form-control {
   width: 26%;
   border-radius: 0;
@@ -585,21 +585,21 @@ h1, h2, h3, h4, h5, h6, ul {
   font-family: "montserrat";
   font-size: 14px;
 }
-/* line 574, ../sass/paris.scss */
+/* line 575, ../sass/paris.scss */
 .page-wrapper.co-bg #Email .click-btn {
   margin: 20px 0;
 }
-/* line 578, ../sass/paris.scss */
+/* line 579, ../sass/paris.scss */
 .page-wrapper.co-bg #footer {
   bottom: 0px;
   padding: 0;
   background: transparent;
 }
-/* line 584, ../sass/paris.scss */
+/* line 585, ../sass/paris.scss */
 .page-wrapper.co-bg #footer #nav-bar ul li, .page-wrapper.co-bg #footer #header ul li {
   padding: 0 10px;
 }
-/* line 589, ../sass/paris.scss */
+/* line 590, ../sass/paris.scss */
 .page-wrapper.co-bg #footer span {
   display: inline-block;
   font-family: 'montserrat';
@@ -609,59 +609,85 @@ h1, h2, h3, h4, h5, h6, ul {
 }
 
 /*jquery start*/
-/* line 601, ../sass/paris.scss */
+/* line 602, ../sass/paris.scss */
 .fixed-header {
   position: fixed !important;
   top: 0 !important;
 }
 
-/* line 608, ../sass/paris.scss */
+/* line 609, ../sass/paris.scss */
 .drag-to-side .pics {
   text-align: center !important;
 }
-/* line 610, ../sass/paris.scss */
+/* line 611, ../sass/paris.scss */
 .drag-to-side .pics img {
   width: 16% !important;
 }
-/* line 613, ../sass/paris.scss */
+/* line 614, ../sass/paris.scss */
 .drag-to-side .pics .c-title {
   text-align: center !important;
   margin-top: 5px !important;
 }
-/* line 616, ../sass/paris.scss */
+/* line 617, ../sass/paris.scss */
 .drag-to-side .pics .c-title h1 {
   font-size: 20px !important;
 }
 
 /*.page-wrapper{display: none}*/
-/* line 627, ../sass/paris.scss */
+/* line 628, ../sass/paris.scss */
 .pg {
-  position: relative;
+  position: absolute;
   display: inline-block;
+  display: none;
+  /*@extend .anim;*/
 }
 
-/* line 634, ../sass/paris.scss */
+/* line 636, ../sass/paris.scss */
 .page-wrap {
   width: 100%;
   height: 100%;
 }
 
-/* line 638, ../sass/paris.scss */
+/* line 640, ../sass/paris.scss */
 .mask {
   width: 100%;
   height: 100%;
   overflow: hidden;
 }
 
-/* line 644, ../sass/paris.scss */
-.arrow-left, .arrow-right {
-  background: #F00;
+/* line 646, ../sass/paris.scss */
+.pg-arrow {
+  font-size: 32px;
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
 }
-
 /* line 651, ../sass/paris.scss */
+.pg-arrow a {
+  color: #FFF;
+}
+/* line 652, ../sass/paris.scss */
+.pg-arrow a:hover {
+  text-decoration: none;
+}
+
+/* line 659, ../sass/paris.scss */
 .arrow-right {
   right: 0;
+}
+
+/* line 664, ../sass/paris.scss */
+.the-second-arrow, .pg-arrow.arrow-left i:nth-child(2), .pg-arrow.arrow-right i:nth-child(1) {
+  display: none;
+  opacity: 0.5;
+}
+
+/* line 669, ../sass/paris.scss */
+.pg-arrow {
+  margin: 20px;
+  cursor: pointer;
+}
+/* line 684, ../sass/paris.scss */
+.pg-arrow:hover .the-second-arrow, .pg-arrow:hover .pg-arrow.arrow-left i:nth-child(2), .pg-arrow.arrow-left .pg-arrow:hover i:nth-child(2), .pg-arrow:hover .pg-arrow.arrow-right i:nth-child(1), .pg-arrow.arrow-right .pg-arrow:hover i:nth-child(1) {
+  display: inline-block;
 }
