@@ -801,38 +801,39 @@ h1, h2, h3, h4, h5, h6, ul {
 }
 /* line 792, ../sass/paris.scss */
 .pg .title.small h1 {
+  margin: 5px;
   font-size: 24px !important;
   display: inline-block !important;
 }
 
-/* line 802, ../sass/paris.scss */
+/* line 803, ../sass/paris.scss */
 .pg-products .s-design p, .pg-products .s-design .s-header, .pg-products .s-app p, .pg-products .s-app .s-header {
   text-align: center !important;
 }
 
-/* line 811, ../sass/paris.scss */
+/* line 812, ../sass/paris.scss */
 .col-sm-3.s-list.s-app0 {
   left: 0 !important;
 }
 
-/* line 815, ../sass/paris.scss */
+/* line 816, ../sass/paris.scss */
 .col-sm-3.s-list.s-app25 {
   left: 25% !important;
 }
 
-/* line 818, ../sass/paris.scss */
+/* line 819, ../sass/paris.scss */
 .col-sm-3.s-list.s-app75 {
   right: 25% !important;
 }
 
-/* line 821, ../sass/paris.scss */
+/* line 822, ../sass/paris.scss */
 .col-sm-3.s-list.s-app200 {
   left: 0 !important;
   top: 0 !important;
   width: 100% !important;
 }
 
-/* line 831, ../sass/paris.scss */
+/* line 832, ../sass/paris.scss */
 .pg-works .service-list .s-list .s-header {
   text-align: center !important;
   font-size: 30px;
@@ -841,22 +842,52 @@ h1, h2, h3, h4, h5, h6, ul {
   font-family: Pacifico, serif !important;
   text-transform: capitalize !important;
 }
-/* line 841, ../sass/paris.scss */
+/* line 842, ../sass/paris.scss */
 .pg-works .service-list .s-list p {
   text-align: center !important;
   font-family: Montserrat, sans-serif !important;
 }
-/* line 845, ../sass/paris.scss */
+/* line 846, ../sass/paris.scss */
 .pg-works .service-list .s-list p strong {
   font-family: Montserrat, sans-serif !important;
 }
 
-/* line 855, ../sass/paris.scss */
+/* line 856, ../sass/paris.scss */
 .w-list {
   cursor: pointer;
   box-shadow: 0 0 3px #000;
 }
-/* line 859, ../sass/paris.scss */
+/* line 860, ../sass/paris.scss */
 .w-list:hover {
   background: rgba(0, 0, 0, 0.4);
+}
+
+/* line 867, ../sass/paris.scss */
+.pg-contact #light-color {
+  padding: 0 !important;
+}
+/* line 869, ../sass/paris.scss */
+.pg-contact .contact-container {
+  display: none;
+  text-align: center;
+  color: #FFF;
+}
+/* line 871, ../sass/paris.scss */
+.pg-contact .contact-container h1 {
+  /*text-align: right !important;*/
+  font-size: 90px;
+  margin-bottom: 37px;
+  margin-top: 130px;
+  font-family: Pacifico, serif !important;
+  text-transform: capitalize !important;
+}
+/* line 879, ../sass/paris.scss */
+.pg-contact .contact-container p {
+  font-family: Montserrat, sans-serif;
+  font-size: 19px;
+}
+/* line 882, ../sass/paris.scss */
+.pg-contact .contact-container p a {
+  color: #FFF;
+  text-decoration: underline;
 }

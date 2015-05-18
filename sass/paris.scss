@@ -790,6 +790,7 @@ padding:20px;
   padding-right: 30px;
   top: 30px;
 	h1{
+		margin: 5px;
 		font-size: 24px !important;
 		display: inline-block !important;
 	}
@@ -858,6 +859,33 @@ padding:20px;
 
 	&:hover{
 		background:rgba(0,0,0,.4);
+	}
+
+}
+
+.pg-contact{
+	#light-color{padding:0 !important;}
+
+	.contact-container{display:none;
+text-align: center; color:#FFF;
+	h1{
+/*text-align: right !important;*/
+  font-size: 90px;
+  margin-bottom: 37px;
+  margin-top: 130px;
+  font-family: Pacifico, serif !important;
+  text-transform: capitalize !important;
+	}
+	p{
+	font-family: Montserrat, sans-serif;
+	font-size: 19px;
+	a{
+		color: #FFF;
+		text-decoration: underline;
+	}
+
+	}
+
 	}
 
 }
