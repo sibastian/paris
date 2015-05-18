@@ -741,23 +741,30 @@ h1, h2, h3, h4, h5, h6, ul {
 }
 /* line 745, ../sass/paris.scss */
 .service-list .s-list.s-app {
-  background-color: rgba(255, 0, 0, 0.3);
+  /*background-color: rgba(255,0,0,.3);*/
+  background: url(../img/paris-mobile.png) no-repeat;
+  background-size: cover;
   right: 0 !important;
 }
-/* line 748, ../sass/paris.scss */
+/* line 750, ../sass/paris.scss */
 .service-list .s-list.s-app .s-header {
   text-align: left !important;
 }
-/* line 752, ../sass/paris.scss */
+/* line 754, ../sass/paris.scss */
 .service-list .s-list.s-app p {
   text-align: left !important;
 }
-/* line 756, ../sass/paris.scss */
+/* line 758, ../sass/paris.scss */
 .service-list .s-list.s-app .click-btn {
   text-align: left !important;
 }
+/* line 761, ../sass/paris.scss */
+.service-list .s-list.s-app.c-apps {
+  background: url(../img/crisisdesktop.jpg) no-repeat;
+  background-size: cover;
+}
 
-/* line 763, ../sass/paris.scss */
+/* line 769, ../sass/paris.scss */
 .s-title {
   position: absolute;
   top: 50%;
@@ -766,30 +773,30 @@ h1, h2, h3, h4, h5, h6, ul {
   transform: translate(-50%, -50%);
   /*strong{display: block !important}*/
 }
-/* line 770, ../sass/paris.scss */
+/* line 776, ../sass/paris.scss */
 .s-title .title {
   text-align: center !important;
   font-size: 62px !important;
 }
-/* line 772, ../sass/paris.scss */
+/* line 778, ../sass/paris.scss */
 .s-title h1 {
   display: block !important;
 }
-/* line 773, ../sass/paris.scss */
+/* line 779, ../sass/paris.scss */
 .s-title h2 {
   display: block !important;
 }
 
 /*Post Animation */
-/* line 778, ../sass/paris.scss */
+/* line 784, ../sass/paris.scss */
 .pg .s-list {
   display: none;
 }
-/* line 781, ../sass/paris.scss */
+/* line 787, ../sass/paris.scss */
 .pg .s-page {
   display: none;
 }
-/* line 784, ../sass/paris.scss */
+/* line 790, ../sass/paris.scss */
 .pg .title.small {
   display: none;
   z-index: 2002;
@@ -799,40 +806,40 @@ h1, h2, h3, h4, h5, h6, ul {
   padding-right: 30px;
   top: 30px;
 }
-/* line 792, ../sass/paris.scss */
+/* line 798, ../sass/paris.scss */
 .pg .title.small h1 {
   font-size: 24px !important;
   display: inline-block !important;
 }
 
-/* line 802, ../sass/paris.scss */
+/* line 808, ../sass/paris.scss */
 .pg-products .s-design p, .pg-products .s-design .s-header, .pg-products .s-app p, .pg-products .s-app .s-header {
   text-align: center !important;
 }
 
-/* line 811, ../sass/paris.scss */
+/* line 817, ../sass/paris.scss */
 .col-sm-3.s-list.s-app0 {
   left: 0 !important;
 }
 
-/* line 815, ../sass/paris.scss */
+/* line 821, ../sass/paris.scss */
 .col-sm-3.s-list.s-app25 {
   left: 25% !important;
 }
 
-/* line 818, ../sass/paris.scss */
+/* line 824, ../sass/paris.scss */
 .col-sm-3.s-list.s-app75 {
   right: 25% !important;
 }
 
-/* line 821, ../sass/paris.scss */
+/* line 827, ../sass/paris.scss */
 .col-sm-3.s-list.s-app200 {
   left: 0 !important;
   top: 0 !important;
   width: 100% !important;
 }
 
-/* line 831, ../sass/paris.scss */
+/* line 837, ../sass/paris.scss */
 .pg-works .service-list .s-list .s-header {
   text-align: center !important;
   font-size: 30px;
@@ -841,22 +848,22 @@ h1, h2, h3, h4, h5, h6, ul {
   font-family: Pacifico, serif !important;
   text-transform: capitalize !important;
 }
-/* line 841, ../sass/paris.scss */
+/* line 847, ../sass/paris.scss */
 .pg-works .service-list .s-list p {
   text-align: center !important;
   font-family: Montserrat, sans-serif !important;
 }
-/* line 845, ../sass/paris.scss */
+/* line 851, ../sass/paris.scss */
 .pg-works .service-list .s-list p strong {
   font-family: Montserrat, sans-serif !important;
 }
 
-/* line 855, ../sass/paris.scss */
+/* line 861, ../sass/paris.scss */
 .w-list {
   cursor: pointer;
   box-shadow: 0 0 3px #000;
 }
-/* line 859, ../sass/paris.scss */
+/* line 865, ../sass/paris.scss */
 .w-list:hover {
   background: rgba(0, 0, 0, 0.4);
 }

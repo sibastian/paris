@@ -743,7 +743,9 @@ padding:20px;
 		}
 		}
 		&.s-app{
-			background-color: rgba(255,0,0,.3);
+			/*background-color: rgba(255,0,0,.3);*/
+			background: url(../img/paris-mobile.png) no-repeat;
+			background-size: cover;
 			right: 0 !important;
 			.s-header{
 			text-align: left !important;
@@ -755,6 +757,10 @@ padding:20px;
 			}
 			.click-btn{
 				text-align: left !important;
+			}
+			&.c-apps{
+			background: url(../img/crisisdesktop.jpg) no-repeat;
+			background-size: cover;
 			}
 		}
 	}
