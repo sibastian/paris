@@ -148,7 +148,7 @@ border-radius: 0;
     	@extend #nav-bar;
     }
     &.pg-start{
-    	background:url(../img/main-bg.jpg) no-repeat;
+    	background:url(../img/landing.jpg) no-repeat;
     	background-size: cover;
     	width: 100%;
     	height: 100%;
@@ -190,8 +190,8 @@ border-radius: 0;
 			}
 		}
 		&.s-bg{
-		background: url(../img/bg-inner-first.jpg) no-repeat;
-		background-size: cover;
+			background: url(../img/bg-ux.jpg)no-repeat;
+			background-size: cover;
 		width: 100%;
 		height: 100%;
 		#header{
@@ -717,7 +717,9 @@ padding:20px;
   padding: 60px;
   line-height: 22px;
   height: 100%;
-  background: rgba(0,0,255,.3);
+  /*background: rgba(0,0,255,.3);*/
+	background: url(../img/bg-design.jpg) no-repeat;
+	background-size: cover;
 				
 				.s-header{
 			text-align: right !important;
@@ -843,10 +845,12 @@ padding:20px;
 	left:25% !important;
 }
 .col-sm-3.s-list.s-app75{
+	background: url(../img/grepsr.png) no-repeat;
+	background-size: cover;
 	right: 25% !important;
 }
 .col-sm-3.s-list.s-app100{
-	background: url(../img/miscdes.png) no-repeat;
+	background: url(../img/miscdes.jpg) no-repeat;
 	background-size: cover;
 }
 .col-sm-3.s-list.s-app200{
@@ -927,6 +931,10 @@ text-align: center; color:#FFF;
 	top:0;
 	left: 0;
 	  padding: 50px;
-  background-color: rgba(0,0,0,.4);
+  background-color: rgba(0,0,0,.7);
+  &:hover{
+  background-color: rgba(0,0,0,.5);
+  }
 }
+
 
