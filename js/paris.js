@@ -92,13 +92,17 @@ function initLayout() {
     $('.page-wrap').width(numPages * ww)
         // for each
 
+
+        $("body").css("background","#333")
 }
 
 function showPage(no, att) {
 
 // onOff = -1;
-console.log(att)
+console.log(att);
 
+
+if((currentPage) != (no+1))
     switch (att) {
         case 'prev': 
       	no--;
@@ -195,6 +199,9 @@ break;
             console.error("Att error : Pg" + pageNo + " : Attr : " + att);
 
     }
+
+    else
+    	console.log('same page idiot!')
 
    
 
