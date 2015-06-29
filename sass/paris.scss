@@ -531,14 +531,13 @@ margin-top: 112px;
 }
 p{
 	font-size: 20px;
-	/*#### display: none;*/
 }
 			}
 		}
 	}
 &.co-bg{
 	@extend .s-bg;
-	background: url(../img/coffee.jpg) no-repeat;
+	background: url(../img/contact.jpg) no-repeat;
 	background-size: cover;
 	&.e-page{
 
